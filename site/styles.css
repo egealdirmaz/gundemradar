@@ -12,3 +12,7 @@
 .detail-link{display:block;font-size:12px;color:#536b57;line-height:1.6;margin:9px 0;text-decoration:underline;text-decoration-color:#c4d0c3;text-underline-offset:3px}.detail-link:hover{color:var(--orange)}
 .history-area svg{width:100%;max-width:290px;height:88px;overflow:visible}.history-caption,.history-empty{font-size:11px;color:#909a90;line-height:1.5;margin-top:8px}
 @media(max-width:700px){.person-details{padding:19px 15px}.detail-layout{grid-template-columns:1fr;gap:22px}.person-expand{white-space:normal;text-overflow:initial}}
+
+[hidden] {
+  display: none !important;
+}
