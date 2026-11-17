@@ -147,7 +147,6 @@ def gdelt_articles(person: dict, limit: int = 10) -> list[dict]:
 
 def google_person(person: dict, now: dt.datetime) -> dict:
     phrase = person.get('googleQuery') or person['name']
-    # Tek kelimelik isimlerde (Hadise, Sefo, Tarkan) cins isimlerle karışmaması için kategori ekle
     if len(phrase.split()) == 1 and not person.get('googleQuery'):
         cat = person.get('category', '')
         query_str = f'"{phrase}" ({cat} OR şarkıcı OR konser OR klip OR ünlü) when:2d'
@@ -176,7 +175,6 @@ def google_person(person: dict, now: dt.datetime) -> dict:
         title = (item.findtext('title') or '').strip()
         url = (item.findtext('link') or '').strip()
 
-        # KRİTİK FİLTRE: Ünlünün adı haber başlığında geçmiyorsa alakasız yan menü haberidir, atla.
         if wanted_name not in tr_lower(title):
             continue
 
@@ -207,7 +205,6 @@ def google_person(person: dict, now: dt.datetime) -> dict:
 
 
 def fetch_trends() -> list[dict]:
-    """Google Trends Turkey RSS with related headlines; approximate traffic is not a universal search counter."""
     try:
         feed = ET.fromstring(get_url(TRENDS_RSS, timeout=12, max_attempts=1))
         trends = []
@@ -228,7 +225,6 @@ def normalize_person_name(name: str) -> str:
 
 
 def name_candidates(titles: list[str]) -> list[str]:
-    """Build 2-3 word proper-name candidates; external verification is still mandatory."""
     appearance = {}
     pattern = r'(?<![\w])[A-ZÇĞİÖŞÜ][a-zçğıöşü]+(?:\s+[A-ZÇĞİÖŞÜ][a-zçğıöşü]+)*'
     excluded = {
@@ -251,7 +247,6 @@ def name_candidates(titles: list[str]) -> list[str]:
 
 
 def wikidata_human(name: str) -> bool:
-    """A name is accepted only if an exact label/alias points to a Wikidata human (P31=Q5)."""
     if not WIKIMEDIA_CONTACT:
         raise RuntimeError('Wikidata erişimi için GUNDEMRADAR_CONTACT (e-posta / URL) gerekli')
     params = urllib.parse.urlencode({
@@ -281,7 +276,6 @@ def wikidata_human(name: str) -> bool:
 
 
 def discover_people(trends: list[dict], headlines: list[str], known: list[dict], limit: int = 8) -> list[dict]:
-    """Discover new names without a paid LLM; failures leave static monitored names intact."""
     if not WIKIMEDIA_CONTACT:
         print('Wikidata kişi keşfi atlandı: GUNDEMRADAR_CONTACT tanımlayın (GitHub Actions otomatik repo adresi kullanır).', file=sys.stderr)
         return []
@@ -317,7 +311,6 @@ def discover_people(trends: list[dict], headlines: list[str], known: list[dict],
 
 
 def calc_score(current: int, previous: int, trending: bool = False) -> float:
-    """Conversation VOLUME dominates; growth can add at most 20%, Trends adds 5%."""
     if current <= 0:
         return 0.0
     ratio = (current + 5) / (previous + 5)
@@ -326,7 +319,6 @@ def calc_score(current: int, previous: int, trending: bool = False) -> float:
 
 
 def build_history(previous_payload: dict, items: list[dict], now: dt.datetime) -> None:
-    """Keep up to 10 successful snapshots for a lightweight inline chart."""
     old = {normalize_person_name(p['name']): p for p in previous_payload.get('items', [])}
     timestamp = now.isoformat(timespec='seconds').replace('+00:00', 'Z')
     for item in items:
@@ -434,6 +426,10 @@ def main(argv=None) -> int:
 
     comparison_base = previous_payload if previous_payload.get('rosterMode') == 'fixed_50_turkish_people' else {}
     items = finalize(items, trends, comparison_base, now)
+
+    # SADECE AKTİF KONUŞULANLARI GÖSTER (count24h > 0 olanlar)
+    active_items = [item for item in items if item['count24h'] > 0]
+
     payload = {
         'status': 'ok',
         'updatedAt': now.isoformat(timespec='seconds').replace('+00:00', 'Z'),
@@ -446,12 +442,12 @@ def main(argv=None) -> int:
             if source.startswith('gdelt') else
             'Google News RSS yedek veri; sonuçlar sınırlı olabilir, tam haber sayısı değildir.'
         ),
-        'countedPeople': len(items),
+        'countedPeople': len(active_items),
         'rankingMethod': 'volume_plus_capped_growth',
         'discovery': 'disabled_fixed_turkish_roster',
         'rosterMode': 'fixed_50_turkish_people',
         'rosterSize': 50,
-        'items': items,
+        'items': active_items,
     }
     if args.dry_run:
         print(json.dumps(payload, ensure_ascii=False, indent=2)[:1800])
@@ -460,7 +456,7 @@ def main(argv=None) -> int:
     tmp = OUTPUT.with_suffix('.tmp')
     tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     tmp.replace(OUTPUT)
-    print(f'Kaydedildi: {OUTPUT} ({source}, {len(items)} isim)')
+    print(f'Kaydedildi: {OUTPUT} ({source}, {len(active_items)} aktif isim)')
     return 0
 
 
