@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f8f9f6" />
+  <meta name="description" content="Türkiye'de hangi isim daha çok konuşuluyor? Türkçe haberlerde son 24 saatteki anılma sayılarına göre altı saatte bir yenilenen sıralama." />
+  <title>GündemRadar — Türkiye'nin gündemindeki isimler</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./app.js" defer></script>
+</head>
+<body>
+<div class="page-shell">
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="GündemRadar ana sayfa">
+      <span class="brand-mark" aria-hidden="true"><span class="brand-core"></span></span>
+      <span>gündem<span class="brand-heavy">radar</span><span class="brand-dot">.</span></span>
+    </a>
+    <div class="header-right">
+      <span class="country"><span class="country-dot"></span> Türkiye gündemi</span>
+      <span class="header-rule"></span>
+      <span class="header-clock" id="headerClock">—</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="pageTitle">
+      <div class="intro-main">
+        <div class="eyebrow"><span class="eyebrow-line"></span> GÜNDEMİN NABZI · 01</div>
+        <h1 id="pageTitle">Şu anda en çok<br /><span>kim konuşuluyor<span class="question-mark">?</span></span></h1>
+        <p class="intro-desc">Türkiye'deki popüler isimlerin haberlerde ne kadar yer aldığını takip ediyoruz. Sıralama her <strong>6 saatte bir</strong> yenileniyor.</p>
+        <div class="intro-chips">
+          <span class="chip"><span class="small-dot orange"></span> Son 24 saatin verileri</span>
+          <span class="chip"><span class="small-dot green"></span> Otomatik sıralama</span>
+          <span class="chip chip-demo" id="demoChip" hidden>ÖRNEK VERİ</span>
+        </div>
+      </div>
+
+      <aside class="update-card" aria-label="Güncelleme bilgisi">
+        <div class="update-heading"><span class="radar-mini"><span></span></span> GÜNCELLEME TAKVİMİ</div>
+        <p class="update-label">Bir sonraki planlanan taramaya</p>
+        <div class="countdown" id="countdown" role="timer" aria-label="Bir sonraki planlanan taramaya kalan süre">--:--:--</div>
+        <div class="update-rule"></div>
+        <div class="update-meta"><span>Son veri</span><strong id="updatedAt">Henüz yok</strong></div>
+        <div class="update-meta"><span>Sonraki tarama</span><strong id="nextRun">—</strong></div>
+        <div class="update-status" id="runStatus"><span class="status-dot"></span> Güncelleme bekleniyor</div>
+      </aside>
+    </section>
+
+    <section class="board" aria-labelledby="boardTitle">
+      <div class="board-head">
+        <div>
+          <div class="eyebrow eyebrow-small">SIRALAMA / TÜRKİYE</div>
+          <h2 id="boardTitle">En çok konuşulan isimler</h2>
+        </div>
+        <div class="board-side"><span class="board-period"><span class="small-dot orange"></span> SON 24 SAAT</span><span id="personCount">— kişi</span></div>
+      </div>
+      <div class="board-columns" aria-hidden="true"><span>SIRA / İSİM</span><span>GÜNDEME GELME NEDENİ</span><span>HABER SAYISI</span><span>SIRA DEĞİŞİMİ</span></div>
+      <div id="rankingList" class="ranking-list" aria-live="polite"><div class="loading-state"><span class="loading-ring"></span> Veriler yükleniyor...</div></div>
+      <div class="board-bottom"><span><span class="source-marker">i</span> <span id="methodShort">Haberlerde anılma sayıları temel alınır; sosyal medya gönderi sayısı değildir.</span></span><button class="text-button" id="aboutButton" type="button" aria-expanded="false" aria-controls="methodPanel">Nasıl hesaplıyoruz? <span aria-hidden="true">↗</span></button></div>
+      <div id="methodPanel" class="method-panel" hidden>
+        <h3>Bu liste neyi ölçüyor?</h3>
+        <p>Birinci ölçüt <strong>son 24 saatteki Türkçe haber eşleşmelerinin sayısıdır</strong>. Önceki 24 saate göre artış en fazla %20, Google Trends gündem eşleşmesi en fazla %5 ek etki yapar. Böylece az sayıda haberi olan biri yalnızca büyük yüzde artışıyla listeyi ele geçiremez. Eşleşmeler sayılıp puana göre sıralanır; endeks puanı lider 100 olacak biçimde ölçeklenir. Bu rakam tam sosyal medya gönderi sayısı değildir.</p>
+        <p>Bu bir <strong>sosyal medya paylaşım sayacı değildir</strong>. X, Instagram ve TikTok gönderilerinin tamamı ölçülmüyor. GDELT kapsamı, aynı haberin farklı mecralarda yayınlanması ve isim eşleşmeleri sonucu etkileyebilir. İlk 26 kişiye ek olarak Google Trends ve haber başlıklarından bulunan yeni isimler, Wikidata’da insan olduğu doğrulanırsa geçici olarak izlemeye eklenir; bu yöntem tüm kişileri yakalamaz.</p>
+        <p>Kaynaklar: <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener noreferrer">GDELT</a> ve <a href="https://trends.google.com/trending?geo=TR" target="_blank" rel="noopener noreferrer">Google Trends</a>. Veriler 6 saatte bir planlanan aralıklarla taranır; geri sayım planlanan taramayı gösterir, gerçek sonuç gecikebilir.</p>
+      </div>
+    </section>
+
+    <section class="lower-note" aria-label="Açıklama">
+      <div class="lower-symbol" aria-hidden="true">✳</div>
+      <p>Gündem değişir. Liste de onunla birlikte.</p>
+      <span>Az veri. Net sıralama.</span>
+    </section>
+  </main>
+  <footer class="footer"><span>© <span id="year">2026</span> gündemradar<span class="brand-dot">.</span></span><span>Türkçe haber görünürlüğünü veriyle takip et.</span><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Veriler hakkında</a></footer>
+</div>
+</body>
+</html>

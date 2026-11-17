@@ -1,0 +1,9 @@
+{
+  "status": "awaiting_first_update",
+  "updatedAt": null,
+  "periodHours": 24,
+  "refreshHours": 6,
+  "source": "GDELT DOC 2.0 TimelineVolRaw (Turkish-language news)",
+  "items": [],
+  "note": "İlk gerçek veri taraması henüz çalıştırılmadı. Örnek arayüz için ?demo=1 kullanabilirsiniz."
+}
