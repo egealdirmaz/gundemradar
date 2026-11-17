@@ -10,11 +10,10 @@ import argparse
 import datetime as dt
 import email.utils
 import json
-import os
 import math
-import re
-import unicodedata
+import os
 from pathlib import Path
+import re
 import sys
 import time
 import urllib.error
@@ -37,13 +36,17 @@ HTTP_HEADERS = {
 }
 
 
+def tr_lower(text: str) -> str:
+    """Türkçe karakter duyarlı küçük harfe çevirme (İ->i, I->ı)."""
+    return text.replace('İ', 'i').replace('I', 'ı').lower()
+
+
 def wikimedia_contact(env=None) -> str:
     """A public project URL or contact email for Wikimedia API identification."""
     env = os.environ if env is None else env
     explicit = env.get('GUNDEMRADAR_CONTACT', '').strip()
     if re.fullmatch(r'https?://\S+|[^@\s]+@[^@\s]+\.[^@\s]+', explicit):
         return explicit
-    # GitHub Actions provides this automatically, e.g. 'owner/gundemradar'.
     repo = env.get('GITHUB_REPOSITORY', '').strip()
     if re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', repo):
         return f'https://github.com/{repo}'
@@ -76,7 +79,6 @@ def get_url(url: str, *, timeout: int = 18, max_attempts: int = 2, headers: dict
 
 
 def parse_gdelt_date(value: str) -> dt.datetime:
-    # Examples: 20261117T120000Z or 2026-11-17T12:00:00Z
     if len(value) == 16 and value.endswith('Z'):
         return dt.datetime.strptime(value, '%Y%m%dT%H%M%SZ').replace(tzinfo=UTC)
     return dt.datetime.fromisoformat(value.replace('Z', '+00:00')).astimezone(UTC)
@@ -92,7 +94,6 @@ def sum_timeline(payload: dict, now: dt.datetime) -> tuple[int, int]:
         for point in series.get('data', []):
             at = parse_gdelt_date(str(point['date']))
             amount = max(0, int(round(float(point['value']))))
-            # Buckets start at their given datetime; 48-hour window boundaries approximate.
             if divider <= at <= now:
                 current += amount
             elif start <= at < divider:
@@ -101,7 +102,6 @@ def sum_timeline(payload: dict, now: dt.datetime) -> tuple[int, int]:
 
 
 def gdelt_person(person: dict, now: dt.datetime) -> dict:
-    # GDELT translates indexed article text; proper names are searched as exact phrases.
     query = f'"{person["name"]}" sourcelang:turkish'
     params = urllib.parse.urlencode({
         'query': query, 'mode': 'timelinevolraw', 'timespan': '2d', 'format': 'json'
@@ -112,8 +112,16 @@ def gdelt_person(person: dict, now: dt.datetime) -> dict:
     except json.JSONDecodeError as exc:
         raise ValueError('GDELT JSON olmayan yanıt verdi (erişim limiti veya hata olabilir)') from exc
     current, previous = sum_timeline(parsed, now)
-    return {'name': person['name'], 'category': person['category'], 'count24h': current,
-            'previous24h': previous, 'headline': None, 'headlineUrl': None, 'articles': [], 'discovered': bool(person.get('discovered', False))}
+    return {
+        'name': person['name'],
+        'category': person['category'],
+        'count24h': current,
+        'previous24h': previous,
+        'headline': None,
+        'headlineUrl': None,
+        'articles': [],
+        'discovered': bool(person.get('discovered', False)),
+    }
 
 
 def gdelt_articles(person: dict, limit: int = 10) -> list[dict]:
@@ -124,28 +132,42 @@ def gdelt_articles(person: dict, limit: int = 10) -> list[dict]:
     })
     parsed = json.loads(get_url(GDELT_API + '?' + params))
     articles, seen = [], set()
+    wanted_name = tr_lower(person['name'])
     for article in parsed.get('articles', []):
         title = (article.get('title') or '').strip()
         url = (article.get('url') or '').strip()
-        if title and url.startswith(('https://', 'http://')) and url not in seen:
-            articles.append({'title': title[:180], 'url': url})
-            seen.add(url)
+        if not title or not url.startswith(('https://', 'http://')) or url in seen:
+            continue
+        if wanted_name not in tr_lower(title):
+            continue
+        articles.append({'title': title[:180], 'url': url})
+        seen.add(url)
     return articles
 
 
 def google_person(person: dict, now: dt.datetime) -> dict:
     phrase = person.get('googleQuery') or person['name']
-    params = urllib.parse.urlencode({'q': f'"{phrase}" when:2d', 'hl': 'tr', 'gl': 'TR', 'ceid': 'TR:tr'})
+    # Tek kelimelik isimlerde (Hadise, Sefo, Tarkan) cins isimlerle karışmaması için kategori ekle
+    if len(phrase.split()) == 1 and not person.get('googleQuery'):
+        cat = person.get('category', '')
+        query_str = f'"{phrase}" ({cat} OR şarkıcı OR konser OR klip OR ünlü) when:2d'
+    else:
+        query_str = f'"{phrase}" when:2d'
+
+    params = urllib.parse.urlencode({'q': query_str, 'hl': 'tr', 'gl': 'TR', 'ceid': 'TR:tr'})
     data = get_url(GOOGLE_RSS + '?' + params, timeout=20)
     root = ET.fromstring(data)
     if root.find('channel') is None:
         raise ValueError('Google News RSS kanal yanıtı bulunamadı')
+
     current = previous = 0
     newest_title = newest_url = None
     articles = []
     lower_limit = now - dt.timedelta(hours=48)
     mid = now - dt.timedelta(hours=24)
     seen = set()
+    wanted_name = tr_lower(person['name'])
+
     for item in root.findall('./channel/item'):
         published = item.findtext('pubDate')
         if not published:
@@ -153,10 +175,16 @@ def google_person(person: dict, now: dt.datetime) -> dict:
         at = email.utils.parsedate_to_datetime(published).astimezone(UTC)
         title = (item.findtext('title') or '').strip()
         url = (item.findtext('link') or '').strip()
-        unique = (title.casefold(), url)
+
+        # KRİTİK FİLTRE: Ünlünün adı haber başlığında geçmiyorsa alakasız yan menü haberidir, atla.
+        if wanted_name not in tr_lower(title):
+            continue
+
+        unique = (tr_lower(title), url)
         if unique in seen:
             continue
         seen.add(unique)
+
         if mid <= at <= now:
             current += 1
             if title and url.startswith(('https://', 'http://')):
@@ -165,8 +193,17 @@ def google_person(person: dict, now: dt.datetime) -> dict:
                 newest_title, newest_url = title[:180], url
         elif lower_limit <= at < mid:
             previous += 1
-    return {'name': person['name'], 'category': person['category'], 'count24h': current,
-            'previous24h': previous, 'headline': newest_title, 'headlineUrl': newest_url, 'articles': articles[:3], 'discovered': bool(person.get('discovered', False))}
+
+    return {
+        'name': person['name'],
+        'category': person['category'],
+        'count24h': current,
+        'previous24h': previous,
+        'headline': newest_title,
+        'headlineUrl': newest_url,
+        'articles': articles[:3],
+        'discovered': bool(person.get('discovered', False)),
+    }
 
 
 def fetch_trends() -> list[dict]:
@@ -187,15 +224,18 @@ def fetch_trends() -> list[dict]:
 
 
 def normalize_person_name(name: str) -> str:
-    return ' '.join(name.casefold().split())
+    return ' '.join(tr_lower(name).split())
 
 
 def name_candidates(titles: list[str]) -> list[str]:
     """Build 2-3 word proper-name candidates; external verification is still mandatory."""
     appearance = {}
     pattern = r'(?<![\w])[A-ZÇĞİÖŞÜ][a-zçğıöşü]+(?:\s+[A-ZÇĞİÖŞÜ][a-zçğıöşü]+)*'
-    excluded = {'Son Dakika', 'Türk Sineması', 'Türkiye Sineması', 'Yeni Yıl', 'Sosyal Medya',
-                'Google Trends', 'Ekşi Sözlük', 'Real Madrid', 'Fenerbahçe Spor', 'Milli Takım'}
+    excluded = {
+        'Son Dakika', 'Türk Sineması', 'Türkiye Sineması', 'Yeni Yıl', 'Sosyal Medya',
+        'Google Trends', 'Ekşi Sözlük', 'Real Madrid', 'Fenerbahçe Spor', 'Milli Takım',
+        'Hava Durumu', 'Canlı Yayın', 'Süper Lig', 'Anadolu Ajansı', 'Cumhuriyet Bayramı'
+    }
     for text in titles:
         seen = set()
         for match in re.finditer(pattern, text):
@@ -214,9 +254,11 @@ def wikidata_human(name: str) -> bool:
     """A name is accepted only if an exact label/alias points to a Wikidata human (P31=Q5)."""
     if not WIKIMEDIA_CONTACT:
         raise RuntimeError('Wikidata erişimi için GUNDEMRADAR_CONTACT (e-posta / URL) gerekli')
-    params = urllib.parse.urlencode({'action': 'wbsearchentities', 'search': name,
-                                      'language': 'tr', 'uselang': 'tr', 'type': 'item',
-                                      'limit': 5, 'format': 'json'})
+    params = urllib.parse.urlencode({
+        'action': 'wbsearchentities', 'search': name,
+        'language': 'tr', 'uselang': 'tr', 'type': 'item',
+        'limit': 5, 'format': 'json'
+    })
     found = json.loads(get_url(WIKIDATA_API + '?' + params, timeout=12, max_attempts=1, headers=WIKIMEDIA_HEADERS))
     wanted = normalize_person_name(name)
     ids = []
@@ -226,8 +268,10 @@ def wikidata_human(name: str) -> bool:
             ids.append(hit['id'])
     if not ids:
         return False
-    query = urllib.parse.urlencode({'action': 'wbgetentities', 'ids': '|'.join(ids[:3]),
-                                     'props': 'claims', 'format': 'json'})
+    query = urllib.parse.urlencode({
+        'action': 'wbgetentities', 'ids': '|'.join(ids[:3]),
+        'props': 'claims', 'format': 'json'
+    })
     entities = json.loads(get_url(WIKIDATA_API + '?' + query, timeout=12, max_attempts=1, headers=WIKIMEDIA_HEADERS)).get('entities', {})
     for entity in entities.values():
         claims = entity.get('claims', {}).get('P31', [])
@@ -237,25 +281,18 @@ def wikidata_human(name: str) -> bool:
 
 
 def discover_people(trends: list[dict], headlines: list[str], known: list[dict], limit: int = 8) -> list[dict]:
-    """Discover new names without a paid LLM; failures leave static monitored names intact.
-
-    Trend title candidates come first. Repeated names from related/news headlines are second.
-    This does not imply all rising celebrities can be discovered.
-    """
+    """Discover new names without a paid LLM; failures leave static monitored names intact."""
     if not WIKIMEDIA_CONTACT:
         print('Wikidata kişi keşfi atlandı: GUNDEMRADAR_CONTACT tanımlayın (GitHub Actions otomatik repo adresi kullanır).', file=sys.stderr)
         return []
     trend_names = name_candidates([t['title'] for t in trends])
-    # Trending query phrases are often in lowercase; consider only short phrases
-    # as full-name hypotheses, then require verification that they are a human.
     for trend in trends:
         title = trend['title'].strip()
         if title and title.islower() and len(title.split()) in (2, 3) and all(w.isalpha() for w in title.split()):
             words = []
             for word in title.split():
-                words.append({'i': 'İ', 'ı': 'I'}.get(word[0],word[0].upper()) + word[1:])
+                words.append({'i': 'İ', 'ı': 'I'}.get(word[0], word[0].upper()) + word[1:])
             trend_names.append(' '.join(words))
-    # Names appearing in >=2 independent trend/news titles earn a second chance.
     counts = {}
     for title in headlines + [h for t in trends for h in t['newsTitles']]:
         for candidate in set(name_candidates([title])):
@@ -300,9 +337,9 @@ def build_history(previous_payload: dict, items: list[dict], now: dt.datetime) -
 
 
 def finalize(items: list[dict], trends: list[dict], previous_payload: dict, now: dt.datetime) -> list[dict]:
-    trending = [t['title'].casefold() for t in trends]
+    trending = [tr_lower(t['title']) for t in trends]
     for item in items:
-        name = item['name'].casefold()
+        name = tr_lower(item['name'])
         item['googleTrending'] = any(name in t for t in trending)
         item['score'] = calc_score(item['count24h'], item['previous24h'], item['googleTrending'])
         if item.get('articles') and not item.get('headline'):
@@ -332,7 +369,7 @@ def fetch_all(people: list[dict], now: dt.datetime, mode: str, delay: float) -> 
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument('--source', choices=['auto','gdelt','google'], default='auto',
+    ap.add_argument('--source', choices=['auto', 'gdelt', 'google'], default='auto',
                     help='auto: GDELT hata verirse tüm liste için Google News RSS')
     ap.add_argument('--dry-run', action='store_true', help='JSON yazma')
     ap.add_argument('--delay', type=float, default=5.5,
@@ -346,14 +383,14 @@ def main(argv=None) -> int:
             previous_payload = json.loads(OUTPUT.read_text(encoding='utf-8'))
         except (ValueError, OSError):
             pass
-    # 50 Türk kişilik pilotta geçmişte keşfedilen isimleri listeye geri alma.
-    # Deneme süresince yalnızca scripts/people.json içindeki sabit 50 isim ölçülür.
+
     if len(people) != 50 or len({normalize_person_name(p['name']) for p in people}) != 50:
         print('Sabit test listesi tam 50 benzersiz kişi içermeli.', file=sys.stderr)
         return 1
     if any(p.get('discovered') for p in people):
         print('Sabit test listesinde otomatik keşif açık olmamalı.', file=sys.stderr)
         return 1
+
     source = 'gdelt'
     delay = max(0, args.delay)
     if args.source == 'google':
@@ -374,12 +411,11 @@ def main(argv=None) -> int:
             except (RuntimeError, ValueError, KeyError, ET.ParseError) as exc2:
                 print(f'Yedek kaynak da başarısız. Eski veriyi koruyoruz: {exc2}', file=sys.stderr)
                 return 1
+
     if not items or all(x['count24h'] == 0 and x['previous24h'] == 0 for x in items):
         print('Bütün isimlerin 48 saatlik verisi sıfır; güvenilmez tarama, eski dosyayı koruyoruz.', file=sys.stderr)
         return 1
 
-    # İlk 50 Türk kişilik testte otomatik keşif KAPALI.
-    # Haber başlıkları yalnızca mevcut 50 kişinin detayları için toplanır.
     items.sort(key=lambda x: -x['count24h'])
     if source == 'gdelt_timelinevolraw':
         for item in items[:8]:
@@ -392,24 +428,30 @@ def main(argv=None) -> int:
             except (RuntimeError, ValueError, KeyError) as exc:
                 print(f'Manşet bulunamadı ({item["name"]}): {exc}', file=sys.stderr)
 
-    trends = fetch_trends()  # Skor katkısı için; yeni isim üretmez.
+    trends = fetch_trends()
     for item in items:
         item.pop('_discovery_titles', None)
-    # Yeni 50 kişilik listeye geçerken eski dinamik listenin sıra ve grafiklerini
-    # karşılaştırma amacıyla kullanma (yalancı sıra değişimi göstermesin).
+
     comparison_base = previous_payload if previous_payload.get('rosterMode') == 'fixed_50_turkish_people' else {}
     items = finalize(items, trends, comparison_base, now)
     payload = {
-        'status': 'ok', 'updatedAt': now.isoformat(timespec='seconds').replace('+00:00','Z'),
-        'periodHours': 24, 'refreshHours': 6,
+        'status': 'ok',
+        'updatedAt': now.isoformat(timespec='seconds').replace('+00:00', 'Z'),
+        'periodHours': 24,
+        'refreshHours': 6,
         'source': source,
         'coverage': 'turkish_news',
-        'sourceCaveat': ('GDELT Türkçe haber verileri; tüm medya veya sosyal ağları kapsamaz.'
-                         if source.startswith('gdelt') else
-                         'Google News RSS yedek veri; sonuçlar sınırlı olabilir, tam haber sayısı değildir.'),
-        'countedPeople': len(items), 'rankingMethod': 'volume_plus_capped_growth',
-        'discovery': 'disabled_fixed_turkish_roster', 'rosterMode': 'fixed_50_turkish_people',
-        'rosterSize': 50, 'items': items,
+        'sourceCaveat': (
+            'GDELT Türkçe haber verileri; tüm medya veya sosyal ağları kapsamaz.'
+            if source.startswith('gdelt') else
+            'Google News RSS yedek veri; sonuçlar sınırlı olabilir, tam haber sayısı değildir.'
+        ),
+        'countedPeople': len(items),
+        'rankingMethod': 'volume_plus_capped_growth',
+        'discovery': 'disabled_fixed_turkish_roster',
+        'rosterMode': 'fixed_50_turkish_people',
+        'rosterSize': 50,
+        'items': items,
     }
     if args.dry_run:
         print(json.dumps(payload, ensure_ascii=False, indent=2)[:1800])
