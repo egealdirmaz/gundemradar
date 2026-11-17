@@ -54,3 +54,34 @@ class WikimediaContactTests(unittest.TestCase):
         self.assertEqual(collect.wikimedia_contact(env), 'contact@example.org')
     def test_no_fake_contact_when_missing(self):
         self.assertEqual(collect.wikimedia_contact({}), '')
+
+class TurkishRosterTests(unittest.TestCase):
+    def test_exact_50_unique_people(self):
+        import json
+        people = json.loads(collect.PEOPLE.read_text(encoding='utf-8'))
+        self.assertEqual(len(people), 50)
+        self.assertEqual(len({collect.normalize_person_name(p['name']) for p in people}), 50)
+        self.assertFalse(any(p.get('discovered') for p in people))
+        self.assertNotIn('James Bond', {p['name'] for p in people})
+        self.assertNotIn('Mauro Icardi', {p['name'] for p in people})
+
+    def test_fixed_mode_prevents_extra_discoveries(self):
+        from unittest.mock import patch
+        import json
+        import tempfile
+        from pathlib import Path
+        import datetime as dt
+        people = json.loads(collect.PEOPLE.read_text(encoding='utf-8'))
+        now=dt.datetime(2026, 11, 17, 19, tzinfo=dt.timezone.utc)
+        fake_items=[dict(name=p['name'],category=p['category'],count24h=i+1,previous24h=i,articles=[]) for i,p in enumerate(people)]
+        with tempfile.TemporaryDirectory() as d:
+            out=Path(d)/'rankings.json'
+            out.write_text(json.dumps({'updatedAt':'2026-11-17T17:00:00Z', 'items':[{'name':'James Bond','discovered':True,'count24h':90}]}),encoding='utf-8')
+            with patch.object(collect, 'OUTPUT', out), patch.object(collect,'fetch_all',return_value=fake_items), patch.object(collect,'fetch_trends',return_value=[]), patch.object(collect,'discover_people',side_effect=AssertionError('Discovery must not run')):
+                with patch('sys.argv', ['collect.py','--source','google']):
+                    self.assertEqual(collect.main(),0)
+            output=json.loads(out.read_text(encoding='utf-8'))
+            self.assertEqual(len(output['items']),50)
+            self.assertEqual(output['rosterMode'],'fixed_50_turkish_people')
+            self.assertNotIn('James Bond',[v['name'] for v in output['items']])
+            self.assertTrue(all(v['previousRank'] is None for v in output['items']))

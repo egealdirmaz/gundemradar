@@ -1,28 +1,202 @@
 [
-  {"name":"Haluk Bilginer","category":"Oyuncu"},
-  {"name":"Hande Erçel","category":"Oyuncu"},
-  {"name":"Arda Güler","category":"Futbolcu"},
-  {"name":"Kenan Yıldız","category":"Futbolcu"},
-  {"name":"Serenay Sarıkaya","category":"Oyuncu"},
-  {"name":"Demet Özdemir","category":"Oyuncu"},
-  {"name":"Kıvanç Tatlıtuğ","category":"Oyuncu"},
-  {"name":"Burak Özçivit","category":"Oyuncu"},
-  {"name":"Afra Saraçoğlu","category":"Oyuncu"},
-  {"name":"Mert Ramazan Demir","category":"Oyuncu"},
-  {"name":"Ezgi Mola","category":"Oyuncu"},
-  {"name":"Uraz Kaygılaroğlu","category":"Oyuncu"},
-  {"name":"Cem Yılmaz","category":"Komedyen"},
-  {"name":"Acun Ilıcalı","category":"Televizyoncu"},
-  {"name":"Zeynep Bastık","category":"Şarkıcı"},
-  {"name":"Edis Görgülü","category":"Şarkıcı"},
-  {"name":"Simge Sağın","category":"Şarkıcı"},
-  {"name":"Oğuzhan Koç","category":"Şarkıcı"},
-  {"name":"Ajda Pekkan","category":"Şarkıcı"},
-  {"name":"İbrahim Tatlıses","category":"Şarkıcı"},
-  {"name":"Hakan Çalhanoğlu","category":"Futbolcu"},
-  {"name":"Kerem Aktürkoğlu","category":"Futbolcu"},
-  {"name":"Barış Alper Yılmaz","category":"Futbolcu"},
-  {"name":"Mauro Icardi","category":"Futbolcu"},
-  {"name":"Eda Erdem","category":"Voleybolcu"},
-  {"name":"Danla Bilic","category":"İçerik üreticisi"}
+  {
+    "name": "Haluk Bilginer",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Hande Erçel",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Serenay Sarıkaya",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Demet Özdemir",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Kıvanç Tatlıtuğ",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Burak Özçivit",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Afra Saraçoğlu",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Mert Ramazan Demir",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Ezgi Mola",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Uraz Kaygılaroğlu",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Çağatay Ulusoy",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Aras Bulut İynemli",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Melis Sezen",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Yılmaz Erdoğan",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Türkan Şoray",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Şevket Çoruh",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Özcan Deniz",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Çağan Efe Ak",
+    "category": "Oyuncu"
+  },
+  {
+    "name": "Zeynep Bastık",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Edis Görgülü",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Simge Sağın",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Oğuzhan Koç",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Ajda Pekkan",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "İbrahim Tatlıses",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Hadise",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Mabel Matiz",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Tarkan",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Aleyna Tilki",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Derya Uluğ",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Mustafa Sandal",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Sefo",
+    "category": "Müzisyen"
+  },
+  {
+    "name": "Arda Güler",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Kenan Yıldız",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Hakan Çalhanoğlu",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Kerem Aktürkoğlu",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Barış Alper Yılmaz",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Eda Erdem",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Berke Özer",
+    "category": "Sporcu"
+  },
+  {
+    "name": "İrfan Can Kahveci",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Uğurcan Çakır",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Alperen Şengün",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Yusuf Dikeç",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Mete Gazoz",
+    "category": "Sporcu"
+  },
+  {
+    "name": "Cem Yılmaz",
+    "category": "Komedyen"
+  },
+  {
+    "name": "Acun Ilıcalı",
+    "category": "Televizyoncu"
+  },
+  {
+    "name": "Danla Bilic",
+    "category": "İçerik üreticisi"
+  },
+  {
+    "name": "Enes Batur",
+    "category": "İçerik üreticisi"
+  },
+  {
+    "name": "Cüneyt Özdemir",
+    "category": "Gazeteci"
+  },
+  {
+    "name": "Berkcan Güven",
+    "category": "İçerik üreticisi"
+  },
+  {
+    "name": "Orkun Işıtmak",
+    "category": "İçerik üreticisi"
+  }
 ]

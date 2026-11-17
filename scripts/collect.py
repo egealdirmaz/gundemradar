@@ -346,21 +346,14 @@ def main(argv=None) -> int:
             previous_payload = json.loads(OUTPUT.read_text(encoding='utf-8'))
         except (ValueError, OSError):
             pass
-    # Carry verified discoveries for two days; otherwise a trend disappearing from
-    # Google's current RSS would immediately remove yesterday's leader.
-    prev_stamp = previous_payload.get('updatedAt')
-    try:
-        prev_age = (now - dt.datetime.fromisoformat(prev_stamp.replace('Z', '+00:00'))).total_seconds() if prev_stamp else float('inf')
-    except (ValueError, AttributeError):
-        prev_age = float('inf')
-    known = {normalize_person_name(p['name']) for p in people}
-    if prev_age < 48 * 3600:
-        for old in previous_payload.get('items', []):
-            if old.get('discovered') and old.get('count24h', 0) >= 2 and len(people) < 48:
-                name = old.get('name', '')
-                if normalize_person_name(name) not in known:
-                    people.append({'name': name, 'category': 'Gündemdeki isim', 'discovered': True})
-                    known.add(normalize_person_name(name))
+    # 50 Türk kişilik pilotta geçmişte keşfedilen isimleri listeye geri alma.
+    # Deneme süresince yalnızca scripts/people.json içindeki sabit 50 isim ölçülür.
+    if len(people) != 50 or len({normalize_person_name(p['name']) for p in people}) != 50:
+        print('Sabit test listesi tam 50 benzersiz kişi içermeli.', file=sys.stderr)
+        return 1
+    if any(p.get('discovered') for p in people):
+        print('Sabit test listesinde otomatik keşif açık olmamalı.', file=sys.stderr)
+        return 1
     source = 'gdelt'
     delay = max(0, args.delay)
     if args.source == 'google':
@@ -385,7 +378,8 @@ def main(argv=None) -> int:
         print('Bütün isimlerin 48 saatlik verisi sıfır; güvenilmez tarama, eski dosyayı koruyoruz.', file=sys.stderr)
         return 1
 
-    # Capture context for people already trending, then explore new persons.
+    # İlk 50 Türk kişilik testte otomatik keşif KAPALI.
+    # Haber başlıkları yalnızca mevcut 50 kişinin detayları için toplanır.
     items.sort(key=lambda x: -x['count24h'])
     if source == 'gdelt_timelinevolraw':
         for item in items[:8]:
@@ -395,29 +389,16 @@ def main(argv=None) -> int:
                 item['articles'] = articles[:3]
                 item['headline'] = articles[0]['title'] if articles else None
                 item['headlineUrl'] = articles[0]['url'] if articles else None
-                item['_discovery_titles'] = [a['title'] for a in articles]
             except (RuntimeError, ValueError, KeyError) as exc:
                 print(f'Manşet bulunamadı ({item["name"]}): {exc}', file=sys.stderr)
 
-    trends = fetch_trends()
-    context_titles = [t for item in items for t in item.get('_discovery_titles', [])]
-    candidates = discover_people(trends, context_titles, people)
-    if candidates:
-        print('Yeni doğrulanmış isimler:', ', '.join(p['name'] for p in candidates))
-        for person in candidates:
-            try:
-                time.sleep(delay if source.startswith('gdelt') else 1.0)
-                fresh = gdelt_person(person, now) if source.startswith('gdelt') else google_person(person, now)
-                # A single mention is not enough to displace the curated roster.
-                if fresh['count24h'] >= 2:
-                    fresh['discovered'] = True
-                    items.append(fresh)
-            except (RuntimeError, ValueError, KeyError, ET.ParseError) as exc:
-                print(f'Keşfedilen isim için veri alınamadı: {person["name"]}: {exc}', file=sys.stderr)
-
+    trends = fetch_trends()  # Skor katkısı için; yeni isim üretmez.
     for item in items:
         item.pop('_discovery_titles', None)
-    items = finalize(items, trends, previous_payload, now)
+    # Yeni 50 kişilik listeye geçerken eski dinamik listenin sıra ve grafiklerini
+    # karşılaştırma amacıyla kullanma (yalancı sıra değişimi göstermesin).
+    comparison_base = previous_payload if previous_payload.get('rosterMode') == 'fixed_50_turkish_people' else {}
+    items = finalize(items, trends, comparison_base, now)
     payload = {
         'status': 'ok', 'updatedAt': now.isoformat(timespec='seconds').replace('+00:00','Z'),
         'periodHours': 24, 'refreshHours': 6,
@@ -427,7 +408,8 @@ def main(argv=None) -> int:
                          if source.startswith('gdelt') else
                          'Google News RSS yedek veri; sonuçlar sınırlı olabilir, tam haber sayısı değildir.'),
         'countedPeople': len(items), 'rankingMethod': 'volume_plus_capped_growth',
-        'discovery': 'Google Trends RSS + Wikidata person validation', 'items': items,
+        'discovery': 'disabled_fixed_turkish_roster', 'rosterMode': 'fixed_50_turkish_people',
+        'rosterSize': 50, 'items': items,
     }
     if args.dry_run:
         print(json.dumps(payload, ensure_ascii=False, indent=2)[:1800])
