@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-17T17:53:25Z",
+  "updatedAt": "2026-11-17T18:08:38Z",
   "periodHours": 24,
   "refreshHours": 6,
   "source": "google_news_rss",
   "coverage": "turkish_news",
   "sourceCaveat": "Google News RSS yedek veri; sonuçlar sınırlı olabilir, tam haber sayısı değildir.",
-  "countedPeople": 50,
+  "countedPeople": 24,
   "rankingMethod": "volume_plus_capped_growth",
   "discovery": "disabled_fixed_turkish_roster",
   "rosterMode": "fixed_50_turkish_people",
@@ -15,7 +15,7 @@
     {
       "name": "Arda Güler",
       "category": "Sporcu",
-      "count24h": 67,
+      "count24h": 66,
       "previous24h": 23,
       "headline": "Arda Güler, Ballon d'Or'a göz kırpıyor! Barcelona'nın yıldızına büyük fark attı - Hürriyet",
       "headlineUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSXpBM1AzMmI1Y1VDM1hhdlg3T1o5TV9hdFVZM3hjajJ4NGhfWDJybW9sbURTVHdreko0Z3Q1eXJyMWk2b0NDOVBucHVLXzdmRnFPRzllLTJjdG95bzFWODFMYWgyVW9mcWtDUC0xRWRuQWdzSHAyR1ptc0l3NzlHYjFNdE41WFVfUjdlTS1pUmh1R0R0dHNzZlhHRU9sZ2hmQm5TdkREWWtCeHpmbzhraTFxbTQ1aWJFSUZTRWFn?oc=5",
@@ -35,7 +35,7 @@
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 73.09,
+      "score": 71.91,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -44,16 +44,20 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 67
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 66
         }
       ],
-      "previousRank": 2,
+      "previousRank": 1,
       "rank": 1,
       "indexScore": 100.0
     },
     {
       "name": "Mustafa Sandal",
       "category": "Müzisyen",
-      "count24h": 50,
+      "count24h": 52,
       "previous24h": 2,
       "headline": "Mustafa Sandal'ın eşinden 4,3 milyar liralık iade - Odatv",
       "headlineUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSWhrbHRHM2JRSEhYNXVCX3ExMjJoS1UtdDZCSEluMnpPNG5aSWd2ZVBLc2sxSDZOZVpibXJoUzU4eTlJRDhYdDh1aFQyT0o1VUgwemMtOTh6Y0tscTljOEhlYjk2WDEtZnZUUlNhdS05cnhTVEx0NXBTTVhBa3d6b0lzLUk3VDJaVTMtVlFCVGo?oc=5",
@@ -67,13 +71,13 @@
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM2NaWnVucEs4VEt3aGoxZ0N6T1lhVkJqYVV3VjN2Zkt6bVhDNlhMc1NMenl6MGV5RzI3QjNkN00wNXVlNmV3R2pUVWZuUnJwR2lnX1oxSEFPYkVkbWJhOENFRXMya2xJUGVMQmxxVHdtTTlaVW83R0dISU9SYUxzTDBObTViOWpvUHktRlJwams4XzlsRXJMVnFR?oc=5"
         },
         {
-          "title": "Mustafa Sandal’ın eşi Melis Sandal’dan 4,3 milyar TL’lik 'gönüllü iade' - Evrensel.net",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNlFCcHY3WktDQ3l6bzducUZaSUtMUEpKX1JpN052eVU1N08tS0JYS3BBZzZ5bl9FU3ZKT3V2aktXS1BDdUhSb1ZkVXBaS29tYjNEY2dJZEVDQ3BxUnhkc0NieEN5U19QRnJxQzREWHBweGUya1dPWkxiTGh2bHV1ckotZjVRYWt4YmtacHlfeHBKTkhja2g1VnF2VFRtVzBzeEdHbVIxNnpiNm8?oc=5"
+          "title": "Fon soruşturması! Mustafa Sandal'ın eşi Melis Sandal iade ettiği parayı açıkladı! - CNN Türk",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM1FlaHZnMGlqUy12ZkVramtIcjB3NDQzWUFGN21GRU4tWEZ3dG9jQXNGMHcwWXo2NWszdDNtMkNJS0ZCVnVMVUVtQVFpdG5JRFNYY2ZPaE9SNHRJN0laZjBUZmhSNUtJZWZ1b2VTMVpYalV0QlVFT2ttZzA4Tl9VcWdyQlpZMjhXQnk4ZmZ6OHFGbUQ5Vk5LWC1UeHpEdUJYY0x6VXpHejZkWEJETnJUQzJHYVZwT2lmaUttcmx1VmROd2M?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 59.91,
+      "score": 62.4,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -82,11 +86,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 50
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 52
         }
       ],
-      "previousRank": 1,
+      "previousRank": 2,
       "rank": 2,
-      "indexScore": 82.0
+      "indexScore": 86.8
     },
     {
       "name": "Ezgi Mola",
@@ -120,11 +128,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 50
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 50
         }
       ],
       "previousRank": 3,
       "rank": 3,
-      "indexScore": 81.1
+      "indexScore": 82.4
     },
     {
       "name": "Türkan Şoray",
@@ -158,17 +170,21 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 39
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 39
         }
       ],
       "previousRank": 4,
       "rank": 4,
-      "indexScore": 63.6
+      "indexScore": 64.6
     },
     {
       "name": "Uğurcan Çakır",
       "category": "Sporcu",
       "count24h": 36,
-      "previous24h": 57,
+      "previous24h": 58,
       "headline": "Uğurcan Çakır'ın dönüş maçı belli oldu! Kaleye 22'lik eldiven geçecek - Hürriyet",
       "headlineUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVGxjX1NGcFdQSmxLSFpDSm1hakluREticDFRRmxkcDBETEZNSXRNMzl3S2FGU1pBMHVnVWRZTkROSTZJSVQ2OWp5LXE2cmhIdWFxYmZuR0swMUxCZGZRTTFaeTA2NFZRc2JyX3UtN3RORF81dHNIUDF2ZlQ1bXNyTzcySEdwQ1NyVXJDM0lzWGZicDNCalgwZ0d5eWdQVmJVSllIb1V3Nk5KcmpmV0l5V1o1TGk?oc=5",
       "articles": [
@@ -196,20 +212,28 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 36
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 36
         }
       ],
-      "previousRank": 7,
+      "previousRank": 5,
       "rank": 5,
-      "indexScore": 49.3
+      "indexScore": 50.1
     },
     {
       "name": "Kenan Yıldız",
       "category": "Sporcu",
-      "count24h": 32,
-      "previous24h": 18,
-      "headline": "Milli futbolcu Kenan Yıldız sakatlık sonrası antrenmanlara başladı - DHA | Demirören Haber Ajansı",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSEpUUGpJSFppcVRuRUdsRkxHWEY3dFZYZG9iRzhQVlVTRmJUOGZIRGtka0k2c2x4endRMHJUek1aYVd3eFpvUjk1dGVXWVRYTUNNbHZkYzdodGZ4YkdmTURHWEp6QjBqbi1RQzd2TC1vWVltUXFMRHZnRFNpQlB3c0t2N0NMN1Ztc0NnckV2aTBpal95NEx5cGJiR0ZYbWQ3UWN0NEU0eG9udnk5?oc=5",
+      "count24h": 31,
+      "previous24h": 17,
+      "headline": "Kenan Yıldız sakatlıktan döndü mü? Juventus'tan açıklama - A Haber",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaW5zOUt3dmRxa1lLMFpjMWp1Qjdfemc4RFBsSFN4eUIwMHNBVDRQdXpvNTl1Skp0d1RkS3RNOEdZWkNDSmVuVlVnbkpUX1lRNGVvVkh0VUZLWk1KNk41ZjEwUnMxVGliNl9lOUk0b0NlaFJzZ2JqR2VUQ1F5NENxR1JHQ3ltNXl4?oc=5",
       "articles": [
+        {
+          "title": "Kenan Yıldız sakatlıktan döndü mü? Juventus'tan açıklama - A Haber",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaW5zOUt3dmRxa1lLMFpjMWp1Qjdfemc4RFBsSFN4eUIwMHNBVDRQdXpvNTl1Skp0d1RkS3RNOEdZWkNDSmVuVlVnbkpUX1lRNGVvVkh0VUZLWk1KNk41ZjEwUnMxVGliNl9lOUk0b0NlaFJzZ2JqR2VUQ1F5NENxR1JHQ3ltNXl4?oc=5"
+        },
         {
           "title": "Milli futbolcu Kenan Yıldız sakatlık sonrası antrenmanlara başladı - DHA | Demirören Haber Ajansı",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSEpUUGpJSFppcVRuRUdsRkxHWEY3dFZYZG9iRzhQVlVTRmJUOGZIRGtka0k2c2x4endRMHJUek1aYVd3eFpvUjk1dGVXWVRYTUNNbHZkYzdodGZ4YkdmTURHWEp6QjBqbi1RQzd2TC1vWVltUXFMRHZnRFNpQlB3c0t2N0NMN1Ztc0NnckV2aTBpal95NEx5cGJiR0ZYbWQ3UWN0NEU0eG9udnk5?oc=5"
@@ -217,15 +241,11 @@
         {
           "title": "Juventus'ta Kenan Yıldız sevinci: Sahalara dönüş için geri sayıma geçti - NTVSpor",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUG9HX2RoU09wVEltZlFqTVp3aWhHanlBVk9mdm9ZWnJKVm5MbHA0VFY3UVBQTlFpRnF6dm5VMjI4U3NGN0ZUdHRPS29Lek9kaFVsTi1BMXl1dEQ1NTdZNjV4THlqVGlfR2poVmZQRk9aZEZVa0ZoaTUwQ085WFRLcWMzejZjX2VzOFVxRF9OR3BmVUFwRjhMMlE0Rk1vaDJyS1JCQ1U5WVVVWUN1a09IU3E0RnXSAboBQVVfeXFMTi1waUlyYjVuUzJpWEdueTlycFNWSXhKZUl5MWYyeVlQcWVSMFlNNlUzb3ZXSzVBem9meTdzRDZMc09Bb0t6WWhBNzIya2xKQi1sVFdSUlp3RGdlN3hZaE1FQWFqblVXMUxaVHRFZWdkVC1iOXJ6Y2lIcE9ZbENFQm9SVV9IdTN0a0t5OUhnN2VrNXQ4SHV5eGFBYjR0VFZZMFBhRnAyeFpjLWJzTF9yc2pzbzdaaHhVSUdR?oc=5"
-        },
-        {
-          "title": "Kenan Yıldız sakatlıktan döndü mü? Juventus'tan açıklama - A Haber",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaW5zOUt3dmRxa1lLMFpjMWp1Qjdfemc4RFBsSFN4eUIwMHNBVDRQdXpvNTl1Skp0d1RkS3RNOEdZWkNDSmVuVlVnbkpUX1lRNGVvVkh0VUZLWk1KNk41ZjEwUnMxVGliNl9lOUk0b0NlaFJzZ2JqR2VUQ1F5NENxR1JHQ3ltNXl4?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 33.46,
+      "score": 32.47,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -234,11 +254,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 32
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 31
         }
       ],
-      "previousRank": 8,
+      "previousRank": 6,
       "rank": 6,
-      "indexScore": 45.8
+      "indexScore": 45.2
     },
     {
       "name": "Alperen Şengün",
@@ -272,16 +296,20 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 30
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 30
         }
       ],
-      "previousRank": 5,
+      "previousRank": 7,
       "rank": 7,
-      "indexScore": 41.0
+      "indexScore": 41.7
     },
     {
       "name": "Berke Özer",
       "category": "Sporcu",
-      "count24h": 24,
+      "count24h": 25,
       "previous24h": 52,
       "headline": "Fenerbahçe'den Berke Özer planı! Bonservis maddesinden dev kar - Hürriyet",
       "headlineUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcmYtSlFqanhGclJmZ0hUd0tYV3FTaEZ0UGRoMUtHYUY3cWdNWUJPcXJOdHRlUXdBclpNNmZRZm5zbVZKWXZNSmNSVGZZblNVQlhTdGF5SUEtM1JnaTZlTnhTRzgtN3A5eU5nSTlUeHJVcW1EZjl5UG95dGEzNWJvZmE0WlBLaVlCRmtWaXJEUXRrLXNabXZnZldWdnBXUnNVT0ZyelZ4T2xUUk1Z?oc=5",
@@ -301,7 +329,7 @@
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 24.0,
+      "score": 25.0,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -310,16 +338,20 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 24
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 25
         }
       ],
-      "previousRank": 6,
+      "previousRank": 8,
       "rank": 8,
-      "indexScore": 32.8
+      "indexScore": 34.8
     },
     {
       "name": "Kerem Aktürkoğlu",
       "category": "Sporcu",
-      "count24h": 17,
+      "count24h": 19,
       "previous24h": 10,
       "headline": "Fenerbahçe'de Emre Belözoğlu'ndan yeni taktik! Guendouzi ve Kerem Aktürkoğlu'nun rolleri değişiyor - Milliyet",
       "headlineUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWklDdjljaGFKUmlDN0RtUEl4MS1KbXRkb2VEaDAwWlNJTF9kcy1JZVNKUUNsVFlCTGktNkFlTTJGd1hFVVZnYmlJazZsVHJoYlg5dW1LdERnYjJtVjhaaGU0UkJwbTRxTzRJYzFnTUhjbllidWFiQm5EcUVrWDBoNkpFa3Q4V0wyeC1NTlAtZW1VS1VHYWhxWkF5T3lQV2dHbExIM1ZZY3VPdzI4d011VmY3MmV3a1V6bXlLNmF3QUs0WjZBMFY1WjFxZjJCM2Q1VWhZ?oc=5",
@@ -329,17 +361,17 @@
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWklDdjljaGFKUmlDN0RtUEl4MS1KbXRkb2VEaDAwWlNJTF9kcy1JZVNKUUNsVFlCTGktNkFlTTJGd1hFVVZnYmlJazZsVHJoYlg5dW1LdERnYjJtVjhaaGU0UkJwbTRxTzRJYzFnTUhjbllidWFiQm5EcUVrWDBoNkpFa3Q4V0wyeC1NTlAtZW1VS1VHYWhxWkF5T3lQV2dHbExIM1ZZY3VPdzI4d011VmY3MmV3a1V6bXlLNmF3QUs0WjZBMFY1WjFxZjJCM2Q1VWhZ?oc=5"
         },
         {
-          "title": "Emre Belözoğlu, Kerem Aktürkoğlu ile özel görüştü! 'Çok kafana takıyorsun' - Fanatik",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdXFLMXFKSjBWVmxSMmVHSWxaaHBuYXVBRXQycUs4cGhyS2ZGR204ZGwteFU1OGppYlc4WDZHb1R1RGJ6YXpVWWg4QXlwbmp2WHRBRll1UWkyM0tZMUc2bHZEWFBEeUZocVh5dkI4R21uWjdoTWQxOGNxUzNUNzNNRjJMbm1zVWRtd1lOVTdxZm9xd2Q4aEdISTJ4RVVveTg2M29CZ3otQlFrVE5wV01NZzBoMU1YUmFreG1lUFNBYW4?oc=5"
+          "title": "Lazio'dan sonra Marsilya: Kerem Aktürkoğlu'na hücum - Fotospor",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUkZmaWZ6Y09DNlRIdV81WmlXWUl2UEI2eUJ5TW81RmdmNTBYNzFMdzRlbGlUTzdZWThaek5fUEFyQmlRaWZfY3d4RGt2Y0F6WHpZMUhqdmRNMTRzeG1HQm92WWMzSS1RT0puc1ItX0Z5RkR0NW9WdFMtdjVCU2huSC1GOEI0NUZyMjRXbnRFRUFFbV9wV2JJa1h3?oc=5"
         },
         {
-          "title": "Emre Belözoğlu had a private meeting with Kerem Aktürkoğlu! 'You think about it too much' - Fanatik",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZzZJU2FoRnBCcHBBVVp5clhrUy1ZUTZaSUlXLUkxaDZNUWtQWW9mN2UtRkw1cXlONWl1MURiaWZxa25acEZ2MGZxUjlOMEFuRU1yeVRqTWxPRHZSaHpob3dXckQ4ZXo3cS1IcXpIVmdJcGFtRFpkSU80V3FLSFlaVm9Oc25YdjZqN3gtWnFtTGN6cmtWcC1GRFp3WGZaaFFHWmh1RU9WRzgyT3lhQmtBM1NENEN1VVJmbEdkWUpKd0Nrdw?oc=5"
+          "title": "Emre Belözoğlu, Kerem Aktürkoğlu ile özel görüştü! 'Çok kafana takıyorsun' - Fanatik",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdXFLMXFKSjBWVmxSMmVHSWxaaHBuYXVBRXQycUs4cGhyS2ZGR204ZGwteFU1OGppYlc4WDZHb1R1RGJ6YXpVWWg4QXlwbmp2WHRBRll1UWkyM0tZMUc2bHZEWFBEeUZocVh5dkI4R21uWjdoTWQxOGNxUzNUNzNNRjJMbm1zVWRtd1lOVTdxZm9xd2Q4aEdISTJ4RVVveTg2M29CZ3otQlFrVE5wV01NZzBoMU1YUmFreG1lUFNBYW4?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 17.63,
+      "score": 19.86,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -348,17 +380,21 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 17
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 19
         }
       ],
-      "previousRank": 10,
+      "previousRank": 9,
       "rank": 9,
-      "indexScore": 24.1
+      "indexScore": 27.6
     },
     {
       "name": "Haluk Bilginer",
       "category": "Oyuncu",
-      "count24h": 15,
-      "previous24h": 42,
+      "count24h": 14,
+      "previous24h": 45,
       "headline": "AKP'li Yücel Arzen Hacıoğulları'ndan Haluk Bilginer'e tepki - Odatv",
       "headlineUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVHlfYmJzYXh5clBCMEdzeVJhMTN5QmRNdmY5S0FwOFlGWDlGM1lRaGhoV1NCejdnQm1GUWhxOW5mclVhQno2YUJWVXY5X3ZBdVhWa25nSGR0bkl4cEdLeGNiNEZDRWRyTG54TEI0a1B6ZVJ6dWkzS3RsMVc1Q0tXWjhWZ0U1Y2dJRHJwNEJpWTBoX2J2SmFqdnVmQQ?oc=5",
       "articles": [
@@ -367,17 +403,17 @@
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVHlfYmJzYXh5clBCMEdzeVJhMTN5QmRNdmY5S0FwOFlGWDlGM1lRaGhoV1NCejdnQm1GUWhxOW5mclVhQno2YUJWVXY5X3ZBdVhWa25nSGR0bkl4cEdLeGNiNEZDRWRyTG54TEI0a1B6ZVJ6dWkzS3RsMVc1Q0tXWjhWZ0U1Y2dJRHJwNEJpWTBoX2J2SmFqdnVmQQ?oc=5"
         },
         {
-          "title": "Haluk Bilginer'e destek: 'Linççi sürüsündekiler kompleksini ifşa etmiş oluyor' - Odatv",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbDc4bHJibGJNZC1xdU5nLTZMUFJpV1lWbFF1OHVBcGIzMDBLNHR0aTUwazFEdjM3M3Y4ZklpeTBpUklPbWlOTjRQb3hvWW9FcWdlcUNrcV9mU0wzY0x2TVhHRmxNei1iQ1V3T1VMZzdZbWtjWERlS2pxVmI4WnZKZXJsVUdHZXk2SnRzVXdCdm1SdXg0UDVWVUdHSVdBa3dhV1N1c2FZZ1BnTkhZX2x3ZnZCOGludTBPbWk0?oc=5"
+          "title": "TBMM'de klaketli Haluk Bilginer tepkisi! - Manşet Haber",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mNTdnWUJiUUxIb1h5NUNUYldNblc5LXd6TUtybXZ1d1hjaTlyRHJCeXZ6RmRSWUFnUHVEOURxRFk1bzlxcTdISzlZaDc4aWh1ZFJ5ZUhqbGFFdng4Ti04bm1OOHhSN1BwTjAxZzZVb1RmbFdqbjBuWQ?oc=5"
         },
         {
-          "title": "Haluk Bilginer'e Mustafa Altıoklar'dan destek: Hangi hakla - Odatv",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNmFKdVFKd1ZuczFvUzlncXlqU1NZbmstcmdxZmFDTlhNWWgtQjFHUXpVaExkSExxblVSOXg1UURPOUpjRkYwMlBaQXp5M1NMLVNreW84WHNQcUVPaDZOa1lUbU9qUm5Cc2RLeDk3S3BIVEpHbGxvQW5RYTB5RWhzdnE5SzE3aTVKMVdRQVJqck92ZzQ?oc=5"
+          "title": "Haluk Bilginer'e destek: 'Linççi sürüsündekiler kompleksini ifşa etmiş oluyor' - Odatv",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbDc4bHJibGJNZC1xdU5nLTZMUFJpV1lWbFF1OHVBcGIzMDBLNHR0aTUwazFEdjM3M3Y4ZklpeTBpUklPbWlOTjRQb3hvWW9FcWdlcUNrcV9mU0wzY0x2TVhHRmxNei1iQ1V3T1VMZzdZbWtjWERlS2pxVmI4WnZKZXJsVUdHZXk2SnRzVXdCdm1SdXg0UDVWVUdHSVdBa3dhV1N1c2FZZ1BnTkhZX2x3ZnZCOGludTBPbWk0?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 15.0,
+      "score": 14.0,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -386,11 +422,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 15
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 14
         }
       ],
-      "previousRank": 12,
+      "previousRank": 10,
       "rank": 10,
-      "indexScore": 20.5
+      "indexScore": 19.5
     },
     {
       "name": "Demet Özdemir",
@@ -409,8 +449,8 @@
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcDBuRHdOTVExUm1ERndkQ2lTa2ZGYkwzRzNCNjl1TTBjQWNRMFRwYldWSWtHMDZwNUFrcllOcWlJeF9YTjh6Z21fbkJHemF6U3hPSkNJbTJOazVfLXdYWjJGb1lwanFPR1ZwLVozZEE3b0w0cW8yUUV1VmNrb2NBdjJwVl9lR21NUTU2N1lXTUhHbGlySzhtVGJqMzlrcXhncDFCMmZWYw?oc=5"
         },
         {
-          "title": "Demet Özdemir'den mutfak eleştirilerine yanıt! “Soğan da doğrarım, oyunculuk da yaparım” - CNN Türk",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQmtUMGs5TFpKdzJmYXY0VkRMc1h0M0lfbkNiRG5sdmI5UFdVRi0tVEpzMTdJcEhMdVJycURSWTRFMlc0UXlUU2lBb0NQQlFXeG0yUDBIV3AwQ2tLT19zLTJ6UjNMMHpwWDNrVFhsdkRqNGdUcWNBcUcwQzBLUWk1bjdRRmt4WlJGdzV6aFlGMmNTeUNVak9DV09mWmpRb0ItZm1WM2R5Sm9yM2xRQ1ZMWmZaTGtjb0lFd0tVNFlkdnZTcUN4M0hrQWJ3?oc=5"
+          "title": "Demet Özdemir'den mutfak eleştirilerine yanıt: 'Soğan da doğrarım oyunculuk da yaparım' - Posta",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSE1GMWEzWGtjVVo5NjhWT3hNOU9BTnlWc2JzT2RzSnZhLWI2QXdqaDRsam4xclUwUi04LXRqdllHaWMxbHI2S01fVVl1UGdrTDNXdjJDR2ZkVzhWdllEWnBqb2RxUThXaEhXQWRtLWtmM01XQjFnanJpeTBLeWd4R2pyUVNIYzV6alZHQVAxZUtzbE5saDlHakRoQWVyVmdqdXVBOXJrY25Ma25wS1NOTTdLQ2dnb25mTF9pSGR2bE8?oc=5"
         }
       ],
       "discovered": false,
@@ -424,11 +464,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 12
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 12
         }
       ],
       "previousRank": 11,
       "rank": 11,
-      "indexScore": 16.4
+      "indexScore": 16.7
     },
     {
       "name": "Çağatay Ulusoy",
@@ -462,11 +506,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 8
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 8
         }
       ],
-      "previousRank": 9,
+      "previousRank": 12,
       "rank": 12,
-      "indexScore": 11.5
+      "indexScore": 11.6
     },
     {
       "name": "Acun Ilıcalı",
@@ -500,11 +548,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 6
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 6
         }
       ],
-      "previousRank": 14,
+      "previousRank": 13,
       "rank": 13,
-      "indexScore": 8.6
+      "indexScore": 8.7
     },
     {
       "name": "Mert Ramazan Demir",
@@ -538,11 +590,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 6
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 6
         }
       ],
-      "previousRank": 23,
+      "previousRank": 14,
       "rank": 14,
-      "indexScore": 8.5
+      "indexScore": 8.6
     },
     {
       "name": "Hakan Çalhanoğlu",
@@ -576,11 +632,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 6
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 6
         }
       ],
-      "previousRank": 13,
+      "previousRank": 15,
       "rank": 15,
-      "indexScore": 8.2
+      "indexScore": 8.3
     },
     {
       "name": "Tarkan",
@@ -614,11 +674,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 3
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 3
         }
       ],
-      "previousRank": 18,
+      "previousRank": 16,
       "rank": 16,
-      "indexScore": 4.3
+      "indexScore": 4.4
     },
     {
       "name": "İbrahim Tatlıses",
@@ -652,45 +716,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 3
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 3
         }
       ],
-      "previousRank": 24,
+      "previousRank": 17,
       "rank": 17,
-      "indexScore": 4.1
-    },
-    {
-      "name": "İrfan Can Kahveci",
-      "category": "Sporcu",
-      "count24h": 2,
-      "previous24h": 0,
-      "headline": "Almanların İrfan Can Kahveci Raporu Belli Oldu! | Canlı Yayında Raporun Detaylarını Böyle Açıkladı! - Aspor - A Spor",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR0tUeUt2eXc3TFZWNFg4aGM4MEEwQXVqZ3RIamFaWW5qUXlsQjZFSDhEOWJ1TFNsblZwV01IVG1HXzBBVDJFb2luNzIwT0haclZ2UTdfM0kyUllnczktRFhzZVhxSF9xYWZvbFRZeFdwd3JWV3pQcklvbVpVSEpkWmJyTU5mRUltdERXV19vemw5b0Z1UzRmOExXUjA3RE1ySTUtVXdPUE1LblowR1dDOEJGZlcyZXFZRlpkcTlTNkpBb09vRkJ1clZmV09XNVZORDdGdW8zY9IB3AFBVV95cUxQeDFJczlCdjRZZXhuTUxteTRvRzNwS2tUSlBFYmlVMGMtRU5lblpWS2prWE43NzhfZG43dTI2VEdqMDhyTTNBTncxdVNhTFFJUU04dmhPR0R4ZUpTczhCUTVVeXFUaEtrVWFWTlpqRDY1Tl9kNVYzNndRYnlLUTFBaGNkTWtPSk90YV9IU0lDNTQtaGo5WGFrSFpVWDN1bnFVYXdkOGJwN0RWX1RvVmZfTlpnYzdSMVUzWDJKOXozNFNJdWRwYlRDWUE2dDhtVXBEcXFWeENoeTEyS0lD?oc=5",
-      "articles": [
-        {
-          "title": "Almanların İrfan Can Kahveci Raporu Belli Oldu! | Canlı Yayında Raporun Detaylarını Böyle Açıkladı! - Aspor - A Spor",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR0tUeUt2eXc3TFZWNFg4aGM4MEEwQXVqZ3RIamFaWW5qUXlsQjZFSDhEOWJ1TFNsblZwV01IVG1HXzBBVDJFb2luNzIwT0haclZ2UTdfM0kyUllnczktRFhzZVhxSF9xYWZvbFRZeFdwd3JWV3pQcklvbVpVSEpkWmJyTU5mRUltdERXV19vemw5b0Z1UzRmOExXUjA3RE1ySTUtVXdPUE1LblowR1dDOEJGZlcyZXFZRlpkcTlTNkpBb09vRkJ1clZmV09XNVZORDdGdW8zY9IB3AFBVV95cUxQeDFJczlCdjRZZXhuTUxteTRvRzNwS2tUSlBFYmlVMGMtRU5lblpWS2prWE43NzhfZG43dTI2VEdqMDhyTTNBTncxdVNhTFFJUU04dmhPR0R4ZUpTczhCUTVVeXFUaEtrVWFWTlpqRDY1Tl9kNVYzNndRYnlLUTFBaGNkTWtPSk90YV9IU0lDNTQtaGo5WGFrSFpVWDN1bnFVYXdkOGJwN0RWX1RvVmZfTlpnYzdSMVUzWDJKOXozNFNJdWRwYlRDWUE2dDhtVXBEcXFWeENoeTEyS0lD?oc=5"
-        },
-        {
-          "title": "Emre Belözoğlu'ndan Kerem Aktürkoğlu ile İrfan Can Kahveci kararı - Ensonhaber",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmtKRTI0dFdPWUY4RjR4cklyeXpzNjJTOS00OHdxNjdZRUo4OVkyX0JKOHlfc3g0Wndsc1BuNjNETmwwZkhNTlRMNHpqUjZzbXVUbndXUldsSF9WZDRyb19IZzBiakVkREZIZW5VRmVHV0liaHVKb3RYdVpfNVZ6NHBjcm03dVFoVG1tcWFRMnVMbzJGQVhIel9yWkl2SS0yR0E?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 2.06,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 6
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 2
-        }
-      ],
-      "previousRank": 21,
-      "rank": 18,
-      "indexScore": 2.8
+      "indexScore": 4.2
     },
     {
       "name": "Özcan Deniz",
@@ -720,11 +754,15 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 2
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 2
         }
       ],
-      "previousRank": 27,
-      "rank": 19,
-      "indexScore": 2.7
+      "previousRank": 19,
+      "rank": 18,
+      "indexScore": 2.8
     },
     {
       "name": "Aras Bulut İynemli",
@@ -750,10 +788,14 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 1
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 1
         }
       ],
-      "previousRank": 19,
-      "rank": 20,
+      "previousRank": 20,
+      "rank": 19,
       "indexScore": 1.4
     },
     {
@@ -780,10 +822,14 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 1
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 1
         }
       ],
-      "previousRank": 22,
-      "rank": 21,
+      "previousRank": 21,
+      "rank": 20,
       "indexScore": 1.4
     },
     {
@@ -810,10 +856,14 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 1
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 1
         }
       ],
-      "previousRank": 30,
-      "rank": 22,
+      "previousRank": 22,
+      "rank": 21,
       "indexScore": 1.4
     },
     {
@@ -840,10 +890,14 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 1
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 1
         }
       ],
-      "previousRank": 20,
-      "rank": 23,
+      "previousRank": 23,
+      "rank": 22,
       "indexScore": 1.4
     },
     {
@@ -870,661 +924,49 @@
         {
           "at": "2026-11-17T17:53:25Z",
           "count": 1
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 1
         }
       ],
-      "previousRank": 15,
-      "rank": 24,
+      "previousRank": 24,
+      "rank": 23,
       "indexScore": 1.4
     },
     {
-      "name": "Afra Saraçoğlu",
-      "category": "Oyuncu",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 8
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 16,
-      "rank": 25,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Aleyna Tilki",
-      "category": "Müzisyen",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 8
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 17,
-      "rank": 26,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Barış Alper Yılmaz",
+      "name": "İrfan Can Kahveci",
       "category": "Sporcu",
-      "count24h": 0,
-      "previous24h": 7,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 4
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 28,
-      "rank": 27,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Berkcan Güven",
-      "category": "İçerik üreticisi",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 0
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 42,
-      "rank": 28,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Burak Özçivit",
-      "category": "Oyuncu",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 0
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 43,
-      "rank": 29,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Cem Yılmaz",
-      "category": "Komedyen",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 2
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 34,
-      "rank": 30,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Cüneyt Özdemir",
-      "category": "Gazeteci",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 3
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 32,
-      "rank": 31,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Danla Bilic",
-      "category": "İçerik üreticisi",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 0
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 44,
-      "rank": 32,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Derya Uluğ",
-      "category": "Müzisyen",
-      "count24h": 0,
+      "count24h": 1,
       "previous24h": 1,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
+      "headline": "Emre Belözoğlu'ndan Kerem Aktürkoğlu ile İrfan Can Kahveci kararı - Ensonhaber",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmtKRTI0dFdPWUY4RjR4cklyeXpzNjJTOS00OHdxNjdZRUo4OVkyX0JKOHlfc3g0Wndsc1BuNjNETmwwZkhNTlRMNHpqUjZzbXVUbndXUldsSF9WZDRyb19IZzBiakVkREZIZW5VRmVHV0liaHVKb3RYdVpfNVZ6NHBjcm03dVFoVG1tcWFRMnVMbzJGQVhIel9yWkl2SS0yR0E?oc=5",
+      "articles": [
+        {
+          "title": "Emre Belözoğlu'ndan Kerem Aktürkoğlu ile İrfan Can Kahveci kararı - Ensonhaber",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmtKRTI0dFdPWUY4RjR4cklyeXpzNjJTOS00OHdxNjdZRUo4OVkyX0JKOHlfc3g0Wndsc1BuNjNETmwwZkhNTlRMNHpqUjZzbXVUbndXUldsSF9WZDRyb19IZzBiakVkREZIZW5VRmVHV0liaHVKb3RYdVpfNVZ6NHBjcm03dVFoVG1tcWFRMnVMbzJGQVhIel9yWkl2SS0yR0E?oc=5"
+        }
+      ],
       "discovered": false,
       "googleTrending": false,
-      "score": 0.0,
+      "score": 1.0,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
-          "count": 1
+          "count": 6
         },
         {
           "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 37,
-      "rank": 33,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Edis Görgülü",
-      "category": "Müzisyen",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 0
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 45,
-      "rank": 34,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Enes Batur",
-      "category": "İçerik üreticisi",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
           "count": 2
         },
         {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 33,
-      "rank": 35,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Hadise",
-      "category": "Müzisyen",
-      "count24h": 0,
-      "previous24h": 1,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 5
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 25,
-      "rank": 36,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Hande Erçel",
-      "category": "Oyuncu",
-      "count24h": 0,
-      "previous24h": 2,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
+          "at": "2026-11-17T18:08:38Z",
           "count": 1
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
         }
       ],
-      "previousRank": 38,
-      "rank": 37,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Kıvanç Tatlıtuğ",
-      "category": "Oyuncu",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 1
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 39,
-      "rank": 38,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Mabel Matiz",
-      "category": "Müzisyen",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 3
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 31,
-      "rank": 39,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Mete Gazoz",
-      "category": "Sporcu",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 5
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 26,
-      "rank": 40,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Orkun Işıtmak",
-      "category": "İçerik üreticisi",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 0
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 46,
-      "rank": 41,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Oğuzhan Koç",
-      "category": "Müzisyen",
-      "count24h": 0,
-      "previous24h": 10,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 0
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 47,
-      "rank": 42,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Sefo",
-      "category": "Müzisyen",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 1
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 40,
-      "rank": 43,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Serenay Sarıkaya",
-      "category": "Oyuncu",
-      "count24h": 0,
-      "previous24h": 3,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 1
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 41,
-      "rank": 44,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Simge Sağın",
-      "category": "Müzisyen",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 0
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 48,
-      "rank": 45,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Uraz Kaygılaroğlu",
-      "category": "Oyuncu",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 2
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 35,
-      "rank": 46,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Yusuf Dikeç",
-      "category": "Sporcu",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 0
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 49,
-      "rank": 47,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Zeynep Bastık",
-      "category": "Müzisyen",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 0
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 50,
-      "rank": 48,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Çağan Efe Ak",
-      "category": "Oyuncu",
-      "count24h": 0,
-      "previous24h": 2,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 2
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 36,
-      "rank": 49,
-      "indexScore": 0.0
-    },
-    {
-      "name": "Şevket Çoruh",
-      "category": "Oyuncu",
-      "count24h": 0,
-      "previous24h": 0,
-      "headline": null,
-      "headlineUrl": null,
-      "articles": [],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 0.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 3
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 0
-        }
-      ],
-      "previousRank": 29,
-      "rank": 50,
-      "indexScore": 0.0
+      "previousRank": 18,
+      "rank": 24,
+      "indexScore": 1.4
     }
   ]
 }
