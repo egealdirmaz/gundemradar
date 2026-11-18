@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-18T02:55:00Z",
+  "updatedAt": "2026-11-18T11:46:10Z",
   "periodHours": 24,
   "refreshHours": 6,
   "source": "google_news_rss",
   "coverage": "turkish_news",
   "sourceCaveat": "Google News RSS yedek veri; sonuçlar sınırlı olabilir, tam haber sayısı değildir.",
-  "countedPeople": 23,
+  "countedPeople": 24,
   "rankingMethod": "volume_plus_capped_growth",
   "discovery": "disabled_fixed_turkish_roster",
   "rosterMode": "fixed_50_turkish_people",
@@ -15,27 +15,27 @@
     {
       "name": "Arda Güler",
       "category": "Sporcu",
-      "count24h": 67,
-      "previous24h": 21,
-      "headline": "Arda Güler, Ballon d'Or'a göz kırpıyor! Barcelona'nın yıldızına büyük fark attı - Hürriyet",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSXpBM1AzMmI1Y1VDM1hhdlg3T1o5TV9hdFVZM3hjajJ4NGhfWDJybW9sbURTVHdreko0Z3Q1eXJyMWk2b0NDOVBucHVLXzdmRnFPRzllLTJjdG95bzFWODFMYWgyVW9mcWtDUC0xRWRuQWdzSHAyR1ptc0l3NzlHYjFNdE41WFVfUjdlTS1pUmh1R0R0dHNzZlhHRU9sZ2hmQm5TdkREWWtCeHpmbzhraTFxbTQ1aWJFSUZTRWFn?oc=5",
+      "count24h": 62,
+      "previous24h": 32,
+      "headline": "Real Madrid'den Arda Güler'e 2032'ye kadar yeni sözleşme - Yıllık alması beklenen maaş da ortaya çı - Transfermarkt",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVGtQRXNvMnZQUGNtN2RTN0NHMUUzRE91Y0l0bDI3SGNReGQ2SmlvUEJIN1pyR3ZTV1dDNFIxTHlIOHJFOThEeFVKSW5GMzZtbHNtOWoyUV8tZVZyOEkwTFoycTJjZWoxYnRLNlJnNFJLemNVUFZhSjRLWG1ROWZIZEd4UzhpMjJVRnNseDJEYXJzS1JmNm43eFZiclB5SVcyR0p3RzF0YmVXMXh1azh0Y0JSRW1zZXZHOHgxZXEtVzhOMWsxRVBRNQ?oc=5",
       "articles": [
         {
-          "title": "Arda Güler, Ballon d'Or'a göz kırpıyor! Barcelona'nın yıldızına büyük fark attı - Hürriyet",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSXpBM1AzMmI1Y1VDM1hhdlg3T1o5TV9hdFVZM3hjajJ4NGhfWDJybW9sbURTVHdreko0Z3Q1eXJyMWk2b0NDOVBucHVLXzdmRnFPRzllLTJjdG95bzFWODFMYWgyVW9mcWtDUC0xRWRuQWdzSHAyR1ptc0l3NzlHYjFNdE41WFVfUjdlTS1pUmh1R0R0dHNzZlhHRU9sZ2hmQm5TdkREWWtCeHpmbzhraTFxbTQ1aWJFSUZTRWFn?oc=5"
+          "title": "Real Madrid'den Arda Güler'e 2032'ye kadar yeni sözleşme - Yıllık alması beklenen maaş da ortaya çı - Transfermarkt",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVGtQRXNvMnZQUGNtN2RTN0NHMUUzRE91Y0l0bDI3SGNReGQ2SmlvUEJIN1pyR3ZTV1dDNFIxTHlIOHJFOThEeFVKSW5GMzZtbHNtOWoyUV8tZVZyOEkwTFoycTJjZWoxYnRLNlJnNFJLemNVUFZhSjRLWG1ROWZIZEd4UzhpMjJVRnNseDJEYXJzS1JmNm43eFZiclB5SVcyR0p3RzF0YmVXMXh1azh0Y0JSRW1zZXZHOHgxZXEtVzhOMWsxRVBRNQ?oc=5"
         },
         {
-          "title": "Arda Güler'e PSG kapıları kapandı - CNN Türk",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS1JYN2x3dmNpTFNZM0hGVl9Va1hDOXBaYjFfVFYyVE55NnZRSENnRnpzeWM2MmJoVDhkNU5wTXZIRmQ5Wm1vS0hxdjA3clhzVHZrWFZfc1Z5aWhUNFZtLXVFd3JoWUZoaWFmUlA1MExRZDU5RzFxeWZmUGMzMVNGc0hR?oc=5"
+          "title": "Real Madrid, Arda Güler’in sözleşmesini 2032’ye kadar uzattı - BirGün Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2h4ZUxEcGpkbGxocDd6VTZ4SU9HWHRscDNheXJxQlZSSXlYZnh4M19GMnVMRzROTThNVDYzZWxLLTZDSjdDV3c2Z0J3bTB0RF9ZMkpsS0paUmluMnJ4SmVGUHpGWWFMMWJpQ2luY1FKNUxtazFYbXBlNUw0QnJLbHRJS2FhTWNMS0o0V3FpQ0k5Rk9EUDJUYg?oc=5"
         },
         {
-          "title": "Arda Güler, İspanya'da imparator ilan edildi! 'Zidane'ı bile hayrete düşürdü...' - Fanatik",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNmVENWF1bjFqMEdJZk1qUUtqYnUwWjQzZlBfbWJFeVJqb0pMbG9uN0kteVowZU9DYVdMNFdsS01YQjJQMGhlajFvWU85TWNlQXloTldGdmJnVXgycUNZTV9ndVN4b1hNWWRzZVEyazV6Mkh1ZHpjbzIwZ19BUDhuUnF4ZWVtQVRJd2hDXzdDUWtOSWhCanI1TElYNmx2S2hOSm8tYmhaZWtYbURvUjhzTlF3TXdvMnRON2l5SllvS0VYZGM?oc=5"
+          "title": "Resmen açıklandı! Arda Güler, Real Madrid'e imzayı attı - Hürriyet",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0dfVUgyRkpXODJ4cVNkQnMzNHpBMVU4VVNKUFozVlZfOTlmQXo0NGxmX2NPaU5FQ0FjN0ZUeGRwZVBQdGtZMFJTV2szWHlfUm5rQ19hRjM5X2d4MkZxbGR1UURmUUlXSUNvRUItS0tIaUVUWTA5TW9iRDY3RjI3dVhXV25lR0lJdmc0SHJadjJYUEs2ZTIyOG9UTmMzbjV0?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 73.56,
+      "score": 65.54,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -52,6 +52,10 @@
         {
           "at": "2026-11-18T02:55:00Z",
           "count": 67
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 62
         }
       ],
       "previousRank": 1,
@@ -59,213 +63,29 @@
       "indexScore": 100.0
     },
     {
-      "name": "Ezgi Mola",
-      "category": "Oyuncu",
-      "count24h": 50,
-      "previous24h": 7,
-      "headline": "Yaşar Çağlak kimdir, kaç yaşında? Ezgi Mola'nın sevgilisi Yaşar Çağlak ne iş yapıyor? - Cumhuriyet",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWmQ5ZFlTV01mSkhsSXFXQjNwcGtUdzVfdTFGeng0S1k4RzA3VFJWdDZrWE9LWi1OMlN3MWN2MVo5T2wtcURocG5XLW9PazVQZFlpSDhQVUNMV21rMXMtRklWX2ZlNE1xUk9Wc2d6SFVwbS1yblF1aTZHNnJCdGw1OTdDUkFja1RCem5VbUZ0UGFBYUVNQ2FabFo5OHdVdU0wTzU3ZU5fMDJ3TVBJVlFQZ1VpRXVTZ05NX0NROHN3VjFtcGpM?oc=5",
-      "articles": [
-        {
-          "title": "Yaşar Çağlak kimdir, kaç yaşında? Ezgi Mola'nın sevgilisi Yaşar Çağlak ne iş yapıyor? - Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWmQ5ZFlTV01mSkhsSXFXQjNwcGtUdzVfdTFGeng0S1k4RzA3VFJWdDZrWE9LWi1OMlN3MWN2MVo5T2wtcURocG5XLW9PazVQZFlpSDhQVUNMV21rMXMtRklWX2ZlNE1xUk9Wc2d6SFVwbS1yblF1aTZHNnJCdGw1OTdDUkFja1RCem5VbUZ0UGFBYUVNQ2FabFo5OHdVdU0wTzU3ZU5fMDJ3TVBJVlFQZ1VpRXVTZ05NX0NROHN3VjFtcGpM?oc=5"
-        },
-        {
-          "title": "Yaşar Çağlak kimdir, kaç yaşında? Ezgi Mola'nın sevgilisi Yaşar Çağlak hakkında bilgiler - Hürriyet",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPM0RnNjNTNXk5WFEzeWY3blVkR2hJd0xRV3Nfa2s0eGtoTkhSYjdHMTFGdVpqTWlMNFJ5WEIzSUItZ1ZHT3I1YnFPdlRWdHJmNHMxTl9vUnpQZWM1cmt3WFRXdDk1ZWxpNUhZZkl1dGkza0dzTHRVZzhpY3c5c2k3ZHlQem1CNWxZdnhZZmFUb1o5NzdZbURCWU1kaU1pSDAyYmY3X3J0QzJ1cUctVlZRd210djB6TkJNY29uUEZmT2xPOFJVSFNWaQ?oc=5"
-        },
-        {
-          "title": "Mustafa Aksakallı'dan Boşanan Ezgi Mola ile Sevgilisi Yaşar Çağlak'ın Yeni Görüntüleri Ortaya Çıktı - Onedio",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPV3NGME9xS0VlaVJzSkdBaXNKaUppbU9zT3JMV3RVNkhFTlhWWVk1NU9NZ3c4cUd1ODI1U2NKVDR6MGJEb01JRC1hX2R1NUdnbnZTZW5adEQ4VU1ndmJHUUZid0c4aFNRU3JQVVpoZ25UdWs2dnVxWWRHbFQ1RVFrVVdRd21zYWt1RDYtaE5jOHFWaE5vQXhGZUNwakgwbTVjNDJMaGtPOFJlazR1dGtVR1hMaWQ0OXNsaGUxb2FvYXdSY2JkMzdWd2dVWktjdk5kYjZIRjJmenk?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 57.32,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 52
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 50
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 50
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 50
-        }
-      ],
-      "previousRank": 3,
-      "rank": 2,
-      "indexScore": 77.9
-    },
-    {
-      "name": "Mustafa Sandal",
-      "category": "Müzisyen",
-      "count24h": 49,
-      "previous24h": 10,
-      "headline": "Mustafa Sandal'ın eşi Melis Sandal'dan 4,3 milyar TL iddiasına yanıt! İade ettiği parayı açıkladı... - Para Analiz",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ2lGMlFUS3VxdFkxWkpHYzN0dUhOSWpydWN1Q0U1ZUhITDIydTVzS2ZaYncwdkZ2dmdSU0lEeUx6VDNtc05QVFVuVTc1dXM4b2h1aXBPaUptbGlXXzFnSlRKMF9TWTZfaFRSc2dBeTJqUTNnREdET2x2anFQRFlGamJLNzFaQXJSRW5mdndrUlFTdEp0MU44V29YZHA4eE1JZmN2SEdiNm5mZXZlR0RrdUt1T0hiRUU?oc=5",
-      "articles": [
-        {
-          "title": "Mustafa Sandal'ın eşi Melis Sandal'dan 4,3 milyar TL iddiasına yanıt! İade ettiği parayı açıkladı... - Para Analiz",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ2lGMlFUS3VxdFkxWkpHYzN0dUhOSWpydWN1Q0U1ZUhITDIydTVzS2ZaYncwdkZ2dmdSU0lEeUx6VDNtc05QVFVuVTc1dXM4b2h1aXBPaUptbGlXXzFnSlRKMF9TWTZfaFRSc2dBeTJqUTNnREdET2x2anFQRFlGamJLNzFaQXJSRW5mdndrUlFTdEp0MU44V29YZHA4eE1JZmN2SEdiNm5mZXZlR0RrdUt1T0hiRUU?oc=5"
-        },
-        {
-          "title": "Mustafa Sandal'ın eşi Melis Sandal iade ettiği parayı açıkladı - Habertürk",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM2NaWnVucEs4VEt3aGoxZ0N6T1lhVkJqYVV3VjN2Zkt6bVhDNlhMc1NMenl6MGV5RzI3QjNkN00wNXVlNmV3R2pUVWZuUnJwR2lnX1oxSEFPYkVkbWJhOENFRXMya2xJUGVMQmxxVHdtTTlaVW83R0dISU9SYUxzTDBObTViOWpvUHktRlJwams4XzlsRXJMVnFR?oc=5"
-        },
-        {
-          "title": "Mustafa Sandal’ın eşi Melis Sandal’dan 4,3 milyar TL’lik 'gönüllü iade' - Evrensel.net",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNlFCcHY3WktDQ3l6bzducUZaSUtMUEpKX1JpN052eVU1N08tS0JYS3BBZzZ5bl9FU3ZKT3V2aktXS1BDdUhSb1ZkVXBaS29tYjNEY2dJZEVDQ3BxUnhkc0NieEN5U19QRnJxQzREWHBweGUya1dPWkxiTGh2bHV1ckotZjVRYWt4YmtacHlfeHBKTkhja2g1VnF2VFRtVzBzeEdHbVIxNnpiNm8?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 55.04,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 79
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 50
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 52
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 49
-        }
-      ],
-      "previousRank": 2,
-      "rank": 3,
-      "indexScore": 74.8
-    },
-    {
-      "name": "Türkan Şoray",
-      "category": "Oyuncu",
-      "count24h": 36,
-      "previous24h": 12,
-      "headline": "Türkan Şoray yıllar sonra Yeşilçam'ın perde arkasını anlattı: Arabada giyiniyorduk, 220 filmdeki kostümler bana aitti - Hürriyet",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTFQ0RVdFLTZQWFJZbjl3S1dDSkJzRkFfdFpmekJLUEYwQjgwRnhJU28yMjU1aWJ1bllfbnFyVVMxUDVXSVV1SDZWV2hXQ0l6V194X2VPaDJEaElXTGZsd0RDYzdTQURmMWJIcmc3VFRDLTRCSm52QnJMb1VXM1ozUXdUdktQWVFfb2YtUzVhX2pYMXpqWllSa3d6WVAwZkotR0NYSDQ2VG5wa0FkRHdlLWV1VWhzbmpzOHNLbndobHBUa015RkthYWNsd0lBR0E?oc=5",
-      "articles": [
-        {
-          "title": "Türkan Şoray yıllar sonra Yeşilçam'ın perde arkasını anlattı: Arabada giyiniyorduk, 220 filmdeki kostümler bana aitti - Hürriyet",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTFQ0RVdFLTZQWFJZbjl3S1dDSkJzRkFfdFpmekJLUEYwQjgwRnhJU28yMjU1aWJ1bllfbnFyVVMxUDVXSVV1SDZWV2hXQ0l6V194X2VPaDJEaElXTGZsd0RDYzdTQURmMWJIcmc3VFRDLTRCSm52QnJMb1VXM1ozUXdUdktQWVFfb2YtUzVhX2pYMXpqWllSa3d6WVAwZkotR0NYSDQ2VG5wa0FkRHdlLWV1VWhzbmpzOHNLbndobHBUa015RkthYWNsd0lBR0E?oc=5"
-        },
-        {
-          "title": "Türkan Şoray COP31'de Yeşilçam sinemasını anlattı - Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUk9lRjlPYnBtdFJvZC1faDk5TjRNeW9PY1hWVy1Od2loRU1TamRpQmFGR1Nia3U1aHJ1NXdEek40aXIxYXYtWUxHa3lJU05CNzM3eHpvSGhlNElEXzg5XzZ0UjlMbWlRenAwZHg1aHVveTNnTmdwOGhHaVNqQmVhZklMMEx1cUNFVUFZZXpYdGJkUQ?oc=5"
-        },
-        {
-          "title": "Türkan Şoray COP31’de Yeşilçam’ı anlattı - Yeni Şafak",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMUxBSkQ1ZEpkcmJBLUZvenBHMXlnbTM3cXVRLU5lZmxWS0ZPQ3dvWGstZnJJei1VM05NVEZBanFhMmgtd2h1c21CNlFQQlZDOUc1WkV6dVRnT0JSZFpaZkZUTzBkSTh2dDhOT2tvb3R4TFV2UkhTZmtUei1zN3NBVnhqeHc?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 39.05,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 44
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 39
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 39
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 36
-        }
-      ],
-      "previousRank": 4,
-      "rank": 4,
-      "indexScore": 53.1
-    },
-    {
-      "name": "Uğurcan Çakır",
-      "category": "Sporcu",
-      "count24h": 37,
-      "previous24h": 52,
-      "headline": "Uğurcan Çakır'ın dönüş maçı belli oldu! Kaleye 22'lik eldiven geçecek - Hürriyet",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVGxjX1NGcFdQSmxLSFpDSm1hakluREticDFRRmxkcDBETEZNSXRNMzl3S2FGU1pBMHVnVWRZTkROSTZJSVQ2OWp5LXE2cmhIdWFxYmZuR0swMUxCZGZRTTFaeTA2NFZRc2JyX3UtN3RORF81dHNIUDF2ZlQ1bXNyTzcySEdwQ1NyVXJDM0lzWGZicDNCalgwZ0d5eWdQVmJVSllIb1V3Nk5KcmpmV0l5V1o1TGk?oc=5",
-      "articles": [
-        {
-          "title": "Uğurcan Çakır'ın dönüş maçı belli oldu! Kaleye 22'lik eldiven geçecek - Hürriyet",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVGxjX1NGcFdQSmxLSFpDSm1hakluREticDFRRmxkcDBETEZNSXRNMzl3S2FGU1pBMHVnVWRZTkROSTZJSVQ2OWp5LXE2cmhIdWFxYmZuR0swMUxCZGZRTTFaeTA2NFZRc2JyX3UtN3RORF81dHNIUDF2ZlQ1bXNyTzcySEdwQ1NyVXJDM0lzWGZicDNCalgwZ0d5eWdQVmJVSllIb1V3Nk5KcmpmV0l5V1o1TGk?oc=5"
-        },
-        {
-          "title": "Galatasaray'da Uğurcan Çakır, Victor Osimhen ve Rafael Leao kararı - NTV Haber",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMVRZNVZRY0RROFZGNHVRZWotZnc3cnlZQ3NuT0pJVlppdWJ2SEZZOWlYSVpkUVdNa290MDNJTkx2V1FPU0FrWWxRMThxQ2VLUjN0dDVQNmM5NEJVeG1TRm1zWU51TmN1c0VONlJPQmZ5YU5VcHVBSlJrc1Vra2psWFlxMGZTR0tfc1haZVhnaWRHZ3ZzUVBVUTJnd1EzSW5VazBRUnE1SQ?oc=5"
-        },
-        {
-          "title": "Galatasaray'da Uğurcan Çakır endişesi! Dönüş maçı belli oldu - Galatasaray - Spor Haberleri - Milliyet",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQR1EzQ2VZaHNtMmZGNXpjd0RPa2FSUmdGUWVHLUlsVXY4RERIeldzMF9YeHd6OE9hMnBfeTlxV3FkRzRPNGx3WGdqNkVpYktseWZqOWczWkttOHowVTh5blMzNXpPRFA2T2RJLUVDMWNGaXJHczBFX185TEFxVEI4NnVQRElUbmx1WEo2UDUxcHM3N0tuOXg5SkVHMHItcWRWakZv?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 37.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 37
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 36
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 36
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 37
-        }
-      ],
-      "previousRank": 5,
-      "rank": 5,
-      "indexScore": 50.3
-    },
-    {
       "name": "Kenan Yıldız",
       "category": "Sporcu",
-      "count24h": 34,
-      "previous24h": 11,
-      "headline": "Juventus'tan Kenan Yıldız paylaşımı: 'Adım adım' - Cumhuriyet",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcUluUGc5RlllWWpKenNCdGNkaXEtVkFUSW5yRmtrdFNtS25rb0dSd1FxV2VSRFZ6UFRaMkF0MDlYN0dwRWIxMWRja1dBSENtTEx4S2lrSURxU09YY2xSX213ZXVHUDdOQlBHdm9sOW8wNkVwQVhGMDNYOWJaczBSVFJMSHdYdzV1amRhUzduaXp5Zw?oc=5",
+      "count24h": 47,
+      "previous24h": 7,
+      "headline": "Arda Güler ve Kenan Yıldız, 2026 Globe Soccer ‘Yılın Yükselen Oyuncusu’ ödülüne aday! - Habertürk",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbkdjS1RqTnpSczZCYi1SZEl5R3Y0dkVSTGNSVi11SjdWOXNnOURiZ2pTRkNlMHc5ZWJJWUJuUVlhMjRDYm5VamRTSXFpbVF0UTY2X3Jqc0RtMEdzLTdFNlVuMEQ1LVJ0czd5dVE3MVVGMFRTRENPY0V4bENUVE9RYkZnVXFhZlowc0YtWXdwQld6ZkxGQ1NoZ3lEQzdiOC1EM1N6ajBzbGh2NUxrczNjcnRXbXZrRjJQaDVhSw?oc=5",
       "articles": [
         {
-          "title": "Juventus'tan Kenan Yıldız paylaşımı: 'Adım adım' - Cumhuriyet",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcUluUGc5RlllWWpKenNCdGNkaXEtVkFUSW5yRmtrdFNtS25rb0dSd1FxV2VSRFZ6UFRaMkF0MDlYN0dwRWIxMWRja1dBSENtTEx4S2lrSURxU09YY2xSX213ZXVHUDdOQlBHdm9sOW8wNkVwQVhGMDNYOWJaczBSVFJMSHdYdzV1amRhUzduaXp5Zw?oc=5"
+          "title": "Arda Güler ve Kenan Yıldız, 2026 Globe Soccer ‘Yılın Yükselen Oyuncusu’ ödülüne aday! - Habertürk",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbkdjS1RqTnpSczZCYi1SZEl5R3Y0dkVSTGNSVi11SjdWOXNnOURiZ2pTRkNlMHc5ZWJJWUJuUVlhMjRDYm5VamRTSXFpbVF0UTY2X3Jqc0RtMEdzLTdFNlVuMEQ1LVJ0czd5dVE3MVVGMFRTRENPY0V4bENUVE9RYkZnVXFhZlowc0YtWXdwQld6ZkxGQ1NoZ3lEQzdiOC1EM1N6ajBzbGh2NUxrczNjcnRXbXZrRjJQaDVhSw?oc=5"
         },
         {
-          "title": "Kenan Yıldız'dan iyi haber! Sahalara döndü - Futbol - Spor Haberleri - Milliyet",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT3A1eTRzaWczbEhIdzIza096Z3dLWloyN2thUlk3aDJBS0Q4UjFtODkwWG1NaG1XR2Rabkx5b2RvaFoyV21XbXlQcGpZb2t6R1VYRk01M0VCcDhhem16aWpsQ1B6TmRsUjZ2WjRVUDZhc193YndXY0xlRjFoYUc5c1dJdUdHUHRQRFRV?oc=5"
+          "title": "Globe Soccer Ödülleri’nde Türkiye rüzgarı! Arda Güler ve Kenan Yıldız listede - Yeni Asır",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNzIzQ2RUX2lNTjB3NWpiZ2xXeGtmbTFWMnFIcWM0LTdOMUhRZ2g0eS1JWnFUc0QzZ05vNjRNLUhZNGhZS0NHd0ZrVzM0OEhSc2RsWG1vY19BZEtqdXJlc1ZqOUpXVjBaRXRYT0FKbnpvZ0Z1LW1tb1JBT2xabGhIaFNDem1LTW93RjBZRGN0ZEtFanZfZGNBR3R6Xy1CTTRaUkItVkhPTnJSTkZRN2RmWUpnelJCNHc0U3hV?oc=5"
         },
         {
-          "title": "Kenan Yıldız sakatlıktan döndü mü? Juventus'tan açıklama - A Haber",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaW5zOUt3dmRxa1lLMFpjMWp1Qjdfemc4RFBsSFN4eUIwMHNBVDRQdXpvNTl1Skp0d1RkS3RNOEdZWkNDSmVuVlVnbkpUX1lRNGVvVkh0VUZLWk1KNk41ZjEwUnMxVGliNl9lOUk0b0NlaFJzZ2JqR2VUQ1F5NENxR1JHQ3ltNXl4?oc=5"
+          "title": "Arda Güler ve Kenan Yıldız, 'Yılın Yükselen Oyuncusu' ödülüne aday gösterildi - Evrensel",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSGZHQWZHNWJQWW5uT1lnUXZ6cWxWLUs3R3l6X3N4bG53dnhUNkU5OFEzU3ZEV3RaRWx6NnQxM1E2RVZxNnRDZkF3TDc4MkVmUzhjQ2FrcmVRSnV0aTV1bzM0LXRCREgxYnBEeG9WQnl5MUZFQWlUb2xaVTFfMEYxMldPYi1RZG1HNjVRQjdCeWZ5Z2cwQWpuM3o5ak14SDZkNVFRc1Q4aGp6d2hxalVhaVJzNA?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 36.91,
+      "score": 53.63,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -282,358 +102,140 @@
         {
           "at": "2026-11-18T02:55:00Z",
           "count": 34
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 47
         }
       ],
       "previousRank": 6,
-      "rank": 6,
-      "indexScore": 50.2
+      "rank": 2,
+      "indexScore": 81.8
     },
     {
-      "name": "Alperen Şengün",
-      "category": "Sporcu",
-      "count24h": 31,
-      "previous24h": 30,
-      "headline": "NBA'de Alperen Şengün'ün 23 sayısı galibiyete yetmedi - Anadolu Ajansı",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTGEyS3BWWjFPeFhWdDlxNVd4UjlFYTd0aFZEREpEUjhBUmVlVEpLNC1Ram51TUUwTnBlWnBvdTlqMllzVE1zcThOVEVWaDZSZDdJaXdkM2NGdVdza3lfQzl1VzEzcWh4am9YZWd1akp3cm5kTWRLMkJRWjk2UmFGMmlMQ3dzRnYwcDVDSGRoTTgweUlCckxN?oc=5",
+      "name": "Mustafa Sandal",
+      "category": "Müzisyen",
+      "count24h": 39,
+      "previous24h": 22,
+      "headline": "Mustafa Sandal'ın eşi Melis Sandal iade ettiği parayı açıkladı - Habertürk",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM2NaWnVucEs4VEt3aGoxZ0N6T1lhVkJqYVV3VjN2Zkt6bVhDNlhMc1NMenl6MGV5RzI3QjNkN00wNXVlNmV3R2pUVWZuUnJwR2lnX1oxSEFPYkVkbWJhOENFRXMya2xJUGVMQmxxVHdtTTlaVW83R0dISU9SYUxzTDBObTViOWpvUHktRlJwams4XzlsRXJMVnFR?oc=5",
       "articles": [
         {
-          "title": "NBA'de Alperen Şengün'ün 23 sayısı galibiyete yetmedi - Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTGEyS3BWWjFPeFhWdDlxNVd4UjlFYTd0aFZEREpEUjhBUmVlVEpLNC1Ram51TUUwTnBlWnBvdTlqMllzVE1zcThOVEVWaDZSZDdJaXdkM2NGdVdza3lfQzl1VzEzcWh4am9YZWd1akp3cm5kTWRLMkJRWjk2UmFGMmlMQ3dzRnYwcDVDSGRoTTgweUlCckxN?oc=5"
+          "title": "Mustafa Sandal'ın eşi Melis Sandal iade ettiği parayı açıkladı - Habertürk",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM2NaWnVucEs4VEt3aGoxZ0N6T1lhVkJqYVV3VjN2Zkt6bVhDNlhMc1NMenl6MGV5RzI3QjNkN00wNXVlNmV3R2pUVWZuUnJwR2lnX1oxSEFPYkVkbWJhOENFRXMya2xJUGVMQmxxVHdtTTlaVW83R0dISU9SYUxzTDBObTViOWpvUHktRlJwams4XzlsRXJMVnFR?oc=5"
         },
         {
-          "title": "Alperen Şengün'ün 23 sayısı galibiyete yetmedi! - Hürriyet",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajFjZEk2UnB3WWx4ejR0WkdtbndyWjhpVGgydmRza1NHa3JkYWk1QmlTMnR1YUhubjlPUm5GODAyTnJNOWZWX0lmbXMzM1ZsVzVNUDVzX3BqX09aM054TUVNZ1ZCSkNCQzMyMnBDM19BZ3VzYzdjSFVrdWN1RElfMU9lZHNlS2ZITVZScEZucjFYUmZ1YnZF?oc=5"
+          "title": "Mustafa Sandal’ın eşi 4 milyar lirayı iade etti - Yeni Asır",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQmtDMmRLZE4teFV2TldNVTBUTF9PVkJyS1drRmtIUkJ1M2xYOGxZclNVamVralJweU5UdGR1eTdMS3pGdzlXNGNVZVJZSkt1NlVLMXppeEduRUhZcGkwbXVMUV90OC1PQllRYlpxNG5zQVgwRFNCakM4aWE2Vk0zdnhfbXNjd3lXX0dBSXgyZEcyemxCVmNMMg?oc=5"
         },
         {
-          "title": "Alperen Şengün'ün 23 sayısı Houston Rockets'a yetmedi - Habertürk",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdV8wUzF5bVlPMjItNU8tYm9BSVdwLWtYUXgtMVktTGlwZ3M5UmRnWWdYTmNreTZkamhLTV9zbURsR2M0eFdBcEJXMDRVT2pSN1dMN0RIdmdXQTkzYVFucVNHR1Zic2wwbEFtUWE2aEdPTHpCZm5uSk5LNVdKOVlaTk5MQzhkby1MS3lfaUQ4ZkhuTDFRV1gw?oc=5"
+          "title": "Mustafa Sandal’ın eski çalışanının evi kurşunlandı! Çete üyelerinden skandal tehdit: Patronuna söyle, cezayı versin... - Sabah",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMU0yWVcyby11LWctT2MwR3N5STFCRkh1Z0hIYzdXUWl4eXk0WUdkQ3ZrWXlWUG44UzAyX2Z4S05EeVVTVHoycWpkOE5EWjFnSU5IUHdxSnUxbW45aHF6N0c3aHVXb2FPT215N3A2MGdaelNQNE5MYkVlSEUwR3Y5YUQ3MmRiRlF0QW5oYnZIalVRMDRJTWdMRVBpMDRxOGR6R3p2TnVjMWJMNHYwYkltOUJnYkRTOFE5dDZvYjEzS19KQUpCREdKMnd0SEtwS1Q3Mjl1cU04d0tUMmdyLWYzUnpndlZZZkNZWVc4NENR0gHwAUFVX3lxTE5GbUtfWllJeVlzaGtrUDMycXVQZkZfSVNIaktQcXVTNTJRLVlRVWtHcDVVU040TXcwT2JUV004Nlp2d2ZuTzM5MFdTM0pkaUdtSlE2UGY1bGlDMDV3UmplNERhLUZGazJKcG40TVJOZkpHd2Fsc09tNlVGZW55Smh0c19aTEhpS3ItYnI0cDd5ajRQaEZDUDYyWHh5dGh5S1FnUzQwdVUzVXBMQ3BPVnVkQkctRTF0SjhnemxRa25GYV9DVnBKZENZM1BaZEQ4MUlQemNLNVJmb0NiWHJEc0tqODA5c3BSWUpjNS14cWkweQ?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 31.08,
+      "score": 40.83,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
-          "count": 40
+          "count": 79
         },
         {
           "at": "2026-11-17T17:53:25Z",
-          "count": 30
+          "count": 50
         },
         {
           "at": "2026-11-17T18:08:38Z",
-          "count": 30
+          "count": 52
         },
         {
           "at": "2026-11-18T02:55:00Z",
-          "count": 31
+          "count": 49
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 39
         }
       ],
-      "previousRank": 7,
-      "rank": 7,
-      "indexScore": 42.3
+      "previousRank": 3,
+      "rank": 3,
+      "indexScore": 62.3
     },
     {
-      "name": "Haluk Bilginer",
+      "name": "Ezgi Mola",
       "category": "Oyuncu",
-      "count24h": 21,
-      "previous24h": 38,
-      "headline": "AKP'li Yücel Arzen Hacıoğulları'ndan Haluk Bilginer'e tepki - Odatv",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVHlfYmJzYXh5clBCMEdzeVJhMTN5QmRNdmY5S0FwOFlGWDlGM1lRaGhoV1NCejdnQm1GUWhxOW5mclVhQno2YUJWVXY5X3ZBdVhWa25nSGR0bkl4cEdLeGNiNEZDRWRyTG54TEI0a1B6ZVJ6dWkzS3RsMVc1Q0tXWjhWZ0U1Y2dJRHJwNEJpWTBoX2J2SmFqdnVmQQ?oc=5",
+      "count24h": 36,
+      "previous24h": 33,
+      "headline": "Ezgi Mola, yeni sevgilisi Yaşar Çağlak ile ilk kez görüntülendi - Habertürk",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa2gwaTE0M282cXBkSTdzTUxPQlk0Z285dm9zNGJjbV9vWDJpVUxpNWxCWUdTb0wyRFN6VXV3SU5jUFE4eE0xc3RGUE9iNVI5bnp2djVNQTBfX3cyWlcxMEpEb0hlZlFwdEhybnZDYjBtMDBzajJUbWtKNTB4ajVKVmhLUllfNnB0a01jenU3bWoxMUR6NGo5cDdxSzY1OHZKWGx1NE9FTlJ1RTZ3Rnc?oc=5",
       "articles": [
         {
-          "title": "AKP'li Yücel Arzen Hacıoğulları'ndan Haluk Bilginer'e tepki - Odatv",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVHlfYmJzYXh5clBCMEdzeVJhMTN5QmRNdmY5S0FwOFlGWDlGM1lRaGhoV1NCejdnQm1GUWhxOW5mclVhQno2YUJWVXY5X3ZBdVhWa25nSGR0bkl4cEdLeGNiNEZDRWRyTG54TEI0a1B6ZVJ6dWkzS3RsMVc1Q0tXWjhWZ0U1Y2dJRHJwNEJpWTBoX2J2SmFqdnVmQQ?oc=5"
+          "title": "Ezgi Mola, yeni sevgilisi Yaşar Çağlak ile ilk kez görüntülendi - Habertürk",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa2gwaTE0M282cXBkSTdzTUxPQlk0Z285dm9zNGJjbV9vWDJpVUxpNWxCWUdTb0wyRFN6VXV3SU5jUFE4eE0xc3RGUE9iNVI5bnp2djVNQTBfX3cyWlcxMEpEb0hlZlFwdEhybnZDYjBtMDBzajJUbWtKNTB4ajVKVmhLUllfNnB0a01jenU3bWoxMUR6NGo5cDdxSzY1OHZKWGx1NE9FTlJ1RTZ3Rnc?oc=5"
         },
         {
-          "title": "TBMM'de klaketli Haluk Bilginer tepkisi! - Manşet Haber",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mNTdnWUJiUUxIb1h5NUNUYldNblc5LXd6TUtybXZ1d1hjaTlyRHJCeXZ6RmRSWUFnUHVEOURxRFk1bzlxcTdISzlZaDc4aWh1ZFJ5ZUhqbGFFdng4Ti04bm1OOHhSN1BwTjAxZzZVb1RmbFdqbjBuWQ?oc=5"
+          "title": "YAŞAR ÇAĞLAK KİMDİR? Ezgi Mola'nın Yeni Sevgilisi Yaşar Çağlak Kaç Yaşında, Ne İş Yapıyor? - CNN Türk",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzBNSUluMEk1NEIzTE91Q1hZUUZnalZoMkJLLTY3NzZZNVRnUzJZc0JMYjJLczhMMGlncGw0azhNc09Pc1FIV05pZmlpcUIyUkNHeFpBT2FKb0JOT3FPOXZxalJ1NldyZnJCNFB5MFpRU3dTbXFPNFAwOGV0LVQ0QVFxSEpIRW52ZHNWWHNRcVM0V2RUSzhib281SUUzT3ZSTXVNMWtqVHVJU0RJZEJMMkNLSDJVN09QMXIzT044WHJiZGRl?oc=5"
         },
         {
-          "title": "Haluk Bilginer'e destek: 'Linççi sürüsündekiler kompleksini ifşa etmiş oluyor' - Odatv",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbDc4bHJibGJNZC1xdU5nLTZMUFJpV1lWbFF1OHVBcGIzMDBLNHR0aTUwazFEdjM3M3Y4ZklpeTBpUklPbWlOTjRQb3hvWW9FcWdlcUNrcV9mU0wzY0x2TVhHRmxNei1iQ1V3T1VMZzdZbWtjWERlS2pxVmI4WnZKZXJsVUdHZXk2SnRzVXdCdm1SdXg0UDVWVUdHSVdBa3dhV1N1c2FZZ1BnTkhZX2x3ZnZCOGludTBPbWk0?oc=5"
+          "title": "Ezgi Mola yeni aşka yelken açtı! Yeni sevgilisiyle ilk kez görüntülendi - Posta",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY0pFZWJqWHdNdVR6QldtbHcxRW04X0ZYQ3IxdnBHdzY2NWtzUXQ4ajRZaXBRSXo4dDJrNWtwQVJmV0dzeE1zRUhULUs3dFJFdzNQVHZKdHc5dExVZWhzc1NnTGRMZTJIWDlRN3k0dmZPckxER3VEMUZyUWNWcXVQd09iclAxZkdXTkJLQ0s0N3gyNUZmUGlFTl9yeUoyRjBQelRlYTJ3WS1BaHBwYkNF?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 21.0,
+      "score": 36.26,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
-          "count": 21
+          "count": 52
         },
         {
           "at": "2026-11-17T17:53:25Z",
-          "count": 15
+          "count": 50
         },
         {
           "at": "2026-11-17T18:08:38Z",
-          "count": 14
+          "count": 50
         },
         {
           "at": "2026-11-18T02:55:00Z",
-          "count": 21
+          "count": 50
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 36
         }
       ],
-      "previousRank": 10,
-      "rank": 8,
-      "indexScore": 28.5
-    },
-    {
-      "name": "Berke Özer",
-      "category": "Sporcu",
-      "count24h": 20,
-      "previous24h": 57,
-      "headline": "Fenerbahçe'den Berke Özer planı! Bonservis maddesinden dev kar - Hürriyet",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUDYtTERHWThYaTJVc1pwVmtINjV0OXRyeXhXeG1JdXpJSFBRT3VnTHhaUXl3VVJaVlU0cWRDNDAycmNOZnBpUlg5eDREakgwd1FGaVJWdVQxT1YtU3lmMVd6MFR2ZWpmR1R0TGpSMHhmLTNqbW81Nl8zVk83eXQ5N1gtcDU1QW02c3gtVHhlNnhuclRhWVFNZnphRElXUkpYU1VfakFaYVd0dlE?oc=5",
-      "articles": [
-        {
-          "title": "Fenerbahçe'den Berke Özer planı! Bonservis maddesinden dev kar - Hürriyet",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUDYtTERHWThYaTJVc1pwVmtINjV0OXRyeXhXeG1JdXpJSFBRT3VnTHhaUXl3VVJaVlU0cWRDNDAycmNOZnBpUlg5eDREakgwd1FGaVJWdVQxT1YtU3lmMVd6MFR2ZWpmR1R0TGpSMHhmLTNqbW81Nl8zVk83eXQ5N1gtcDU1QW02c3gtVHhlNnhuclRhWVFNZnphRElXUkpYU1VfakFaYVd0dlE?oc=5"
-        },
-        {
-          "title": "“Görkemli, kusursuz, olağanüstü”: Fransız basını Berke Özer’i konuşuyor - Gazete Oksijen",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU0gycGs2UnlBVFdxdDl4ODNSdG93TnQyRXU3b1BzVkVCbGdDZzRTM3FoNV95bGJlNGFlaEEyb21rYmVBaXhTbTVSVDZIbVQxQ0g2X0hhZE9aOW9WY3RKOU5DYjdvU0E3UG8tbmd1Yk90VEw1WkhCenRQWWNUa2hpSDZnN3pIa29lTXdOWHlFbWdvMjd1dXljLXdjSmZieFpqb095NE9n?oc=5"
-        },
-        {
-          "title": "Fenerbahçe’den Berke Özer hamlesi: 12 milyon Euro’ya geri dönüyor - Bölge Gündemi",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWXMzUHE5X01ub2lLVl9XU1h0OUJENjRnTmhfam5QWWFWVHR3WUNEUWJJbVJLWkNtcmhoZ1lxZGNfcU1rakpKdHRJYjJMYk5CLTd6Mk95ZnhYXzFkdWxVOGFVRGZfWUdTUWJpUGVvcTZUWWhkdE53Q1FVNjFGb1NTeWxCTFpINkRhSFFDRVlJQ1RXMWNTXzg2d2NQaXNRVVdYWVk2ZzdFY3B3aEVP?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 20.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 37
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 24
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 25
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 20
-        }
-      ],
-      "previousRank": 8,
-      "rank": 9,
-      "indexScore": 27.2
-    },
-    {
-      "name": "Kerem Aktürkoğlu",
-      "category": "Sporcu",
-      "count24h": 19,
-      "previous24h": 10,
-      "headline": "Lazio'dan sonra Marsilya: Kerem Aktürkoğlu'na hücum - Fotospor",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUkZmaWZ6Y09DNlRIdV81WmlXWUl2UEI2eUJ5TW81RmdmNTBYNzFMdzRlbGlUTzdZWThaek5fUEFyQmlRaWZfY3d4RGt2Y0F6WHpZMUhqdmRNMTRzeG1HQm92WWMzSS1RT0puc1ItX0Z5RkR0NW9WdFMtdjVCU2huSC1GOEI0NUZyMjRXbnRFRUFFbV9wV2JJa1h3?oc=5",
-      "articles": [
-        {
-          "title": "Lazio'dan sonra Marsilya: Kerem Aktürkoğlu'na hücum - Fotospor",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUkZmaWZ6Y09DNlRIdV81WmlXWUl2UEI2eUJ5TW81RmdmNTBYNzFMdzRlbGlUTzdZWThaek5fUEFyQmlRaWZfY3d4RGt2Y0F6WHpZMUhqdmRNMTRzeG1HQm92WWMzSS1RT0puc1ItX0Z5RkR0NW9WdFMtdjVCU2huSC1GOEI0NUZyMjRXbnRFRUFFbV9wV2JJa1h3?oc=5"
-        },
-        {
-          "title": "Fenerbahçe'de Emre Belözoğlu'ndan yeni taktik! Guendouzi ve Kerem Aktürkoğlu'nun rolleri değişiyor - Milliyet",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWklDdjljaGFKUmlDN0RtUEl4MS1KbXRkb2VEaDAwWlNJTF9kcy1JZVNKUUNsVFlCTGktNkFlTTJGd1hFVVZnYmlJazZsVHJoYlg5dW1LdERnYjJtVjhaaGU0UkJwbTRxTzRJYzFnTUhjbllidWFiQm5EcUVrWDBoNkpFa3Q4V0wyeC1NTlAtZW1VS1VHYWhxWkF5T3lQV2dHbExIM1ZZY3VPdzI4d011VmY3MmV3a1V6bXlLNmF3QUs0WjZBMFY1WjFxZjJCM2Q1VWhZ?oc=5"
-        },
-        {
-          "title": "Emre Belözoğlu, Kerem Aktürkoğlu ile özel görüştü! 'Çok kafana takıyorsun' - Fanatik",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdXFLMXFKSjBWVmxSMmVHSWxaaHBuYXVBRXQycUs4cGhyS2ZGR204ZGwteFU1OGppYlc4WDZHb1R1RGJ6YXpVWWg4QXlwbmp2WHRBRll1UWkyM0tZMUc2bHZEWFBEeUZocVh5dkI4R21uWjdoTWQxOGNxUzNUNzNNRjJMbm1zVWRtd1lOVTdxZm9xd2Q4aEdISTJ4RVVveTg2M29CZ3otQlFrVE5wV01NZzBoMU1YUmFreG1lUFNBYW4?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 19.86,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 25
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 17
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 19
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 19
-        }
-      ],
-      "previousRank": 9,
-      "rank": 10,
-      "indexScore": 27.0
-    },
-    {
-      "name": "Demet Özdemir",
-      "category": "Oyuncu",
-      "count24h": 19,
-      "previous24h": 35,
-      "headline": "Ünlü oyuncular Demet Özdemir ve Kerem Bürsin'den dudak uçuklatan reklam anlaşması - Sözcü Gazetesi",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRlgxenhoc3RhbVJUODI3SjZxQmV2ZU9BdnZJdnl5MFQtenNmMWdXOE5zeWZlMTV2T3FyTE9KcS10bGFrMWhfcnlGQWppTEFRWF9BSVIzOTdyRFIzTmRkcFg5R2RXU1A0U0E4aWlTUWVGZ09mU3hiUjhrT3VHSTFHVlNZRlNmSUFna3h5M3BISDhGTzBRQV9BYk5MaVhfU2Q3Y1lfc3RxZ0tUMmtWZkM4LU1QUFM?oc=5",
-      "articles": [
-        {
-          "title": "Ünlü oyuncular Demet Özdemir ve Kerem Bürsin'den dudak uçuklatan reklam anlaşması - Sözcü Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRlgxenhoc3RhbVJUODI3SjZxQmV2ZU9BdnZJdnl5MFQtenNmMWdXOE5zeWZlMTV2T3FyTE9KcS10bGFrMWhfcnlGQWppTEFRWF9BSVIzOTdyRFIzTmRkcFg5R2RXU1A0U0E4aWlTUWVGZ09mU3hiUjhrT3VHSTFHVlNZRlNmSUFna3h5M3BISDhGTzBRQV9BYk5MaVhfU2Q3Y1lfc3RxZ0tUMmtWZkM4LU1QUFM?oc=5"
-        },
-        {
-          "title": "Eşref Tek dizisinde yer almamıştı! Eşref Rüya'nın Nisan'ı Demet Özdemir sessizliğini bozdu - gunes.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWV9GNHYwV1JIN3A4ZkpydXRxQmc4NjdjSVpSeHhQQ3JldFBFSlE2S1pTcU5xTnBBaDhoLTFIX05fRlZZc3MxcktVQUVEMEpRTGFoOXNTV2FrTFJRY3F5QXQ3eGxOTkZ6Zld0OWt1YUdOa1h0VHVwRXNxRnZVQUZWSFdSUWw1S0piVDN4Rm1mdFdscXFDaGZod2hlcWh0NWQxZ3A3SzhoWk9oRkdqMFNsV29XWUg3YWppaFViVHB2SU9sbXc?oc=5"
-        },
-        {
-          "title": "54 bin liralık tişörtü gündem oldu: Demet Özdemir'den 'soğan' yanıtı - Odatv",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcDBuRHdOTVExUm1ERndkQ2lTa2ZGYkwzRzNCNjl1TTBjQWNRMFRwYldWSWtHMDZwNUFrcllOcWlJeF9YTjh6Z21fbkJHemF6U3hPSkNJbTJOazVfLXdYWjJGb1lwanFPR1ZwLVozZEE3b0w0cW8yUUV1VmNrb2NBdjJwVl9lR21NUTU2N1lXTUhHbGlySzhtVGJqMzlrcXhncDFCMmZWYw?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 19.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 24
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 12
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 12
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 19
-        }
-      ],
-      "previousRank": 11,
-      "rank": 11,
-      "indexScore": 25.8
-    },
-    {
-      "name": "Acun Ilıcalı",
-      "category": "Televizyoncu",
-      "count24h": 9,
-      "previous24h": 2,
-      "headline": "Acun Ilıcalı'nın Hull City itirafı: \"Bu ticaret değil\" - NTVSpor",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0k0eEFuZjZmY1NDNk1BQ2NrSU9za2ZYZjUwMHYyMjY1TEk2Q1h5VlAxb1hBZ2VWUUhhYWpZemhpRWNUczROcTZ1M0lFRHZFenF5V2FPS0RmeGRvZFBoZy1teHcxOW5HTkFoNUg0VDFqQ0xYVkx6WjY2NnJvWDVmTEl5dUJiMFdvR1hjRlRpSF9RTml4dTU5Nkdja9IBoAFBVV95cUxNajJya1BfU1R6OWFMSWtNbTJlTDJMNkVVV2dsWUNmOFJzZXRTbEl4cllmTFVKTFJtTFRQeFZsM3BIOS0yY0FtV0dhYnN0cmxUbkRYS2cyXzBoa3A1Vm44NGF0YjBqVEE1cUpYcE44VHJTSlhNYVVHSy14bXlyTzNfN3B4WDdrb3pXYUU2aDRTZ0prQ3ItM3hpbGs1VTRNSEt0?oc=5",
-      "articles": [
-        {
-          "title": "Acun Ilıcalı'nın Hull City itirafı: \"Bu ticaret değil\" - NTVSpor",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd0k0eEFuZjZmY1NDNk1BQ2NrSU9za2ZYZjUwMHYyMjY1TEk2Q1h5VlAxb1hBZ2VWUUhhYWpZemhpRWNUczROcTZ1M0lFRHZFenF5V2FPS0RmeGRvZFBoZy1teHcxOW5HTkFoNUg0VDFqQ0xYVkx6WjY2NnJvWDVmTEl5dUJiMFdvR1hjRlRpSF9RTml4dTU5Nkdja9IBoAFBVV95cUxNajJya1BfU1R6OWFMSWtNbTJlTDJMNkVVV2dsWUNmOFJzZXRTbEl4cllmTFVKTFJtTFRQeFZsM3BIOS0yY0FtV0dhYnN0cmxUbkRYS2cyXzBoa3A1Vm44NGF0YjBqVEE1cUpYcE44VHJTSlhNYVVHSy14bXlyTzNfN3B4WDdrb3pXYUU2aDRTZ0prQ3ItM3hpbGs1VTRNSEt0?oc=5"
-        },
-        {
-          "title": "Acun Ilıcalı 5. kez baba mı oluyor? Çağla Altunkaya Ilıcalı'nın hamile olduğu iddia edildi - TGRT Haber",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObjVURl9lOFJzTVQzUVhhaXNvdGU0MFYtLV9zMmhWbWxXMDRPcWFxdnRYY0kzOEhFSFZrVkVRQXYzRjQ3dkUxN2Zuam1XeG1KcXlrTUpLYm5fUWpMLVZQSklXcFYzSkQxdlF1dzM4TW9BVVFjLTI5OUF0WEozSHhvLU1hUkoyZHp4dFNNWVpFMjNwM0w1UGxSOFRtVTJDcUd5LUJfRWpST3A2Xy04aDB5b2M5aTFIbVJZSFFSU0Q4N1U5YVE?oc=5"
-        },
-        {
-          "title": "Acun Ilıcalı minnet duyduğu isimleri açıkladı: Kötü günlerim de oldu ama tek kötü söz söylemediler - Son Dakika",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTjZuc0RySFRsM0o3YnZTSlU5R2h4ZmpvajBqMDdpWVp0M2RMN1hLYU5VVl9CZ3FkRE1UazZXaktzZlpvZ1JnbVdLRWNweV9NSWdtcW9DT294X0Zla0tTZEJTNlhMcUx3UE5WYmUxTk9KVzF3VEhtSmp3WEp6cHNOYThXOHVvdU9tbmRMeHpTUldCWnFFTlE00gGWAUFVX3lxTE9ZWjBoWXJOdkE1dWxTU3hPckNhRXVoM1E2ZXZMT0JLa1hVZGttRVpDYlBrNlpiWWtwRWlidHV1QkMyaEE3TkRiYXQySmtmUjJiVWtmUzBzVV94TF9yZnM2a1g5R3ZKWTlBR2VKamZJQ1J5NDBZQ1dIQnFZZkxGMXY4T3JnVkRndUFnUExoRFJkdVlfTVJ3UQ?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 9.6,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 9
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 6
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 6
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 9
-        }
-      ],
-      "previousRank": 13,
-      "rank": 12,
-      "indexScore": 13.1
-    },
-    {
-      "name": "Çağatay Ulusoy",
-      "category": "Oyuncu",
-      "count24h": 9,
-      "previous24h": 2,
-      "headline": "Devam Etmek İstemediği Konuşulmuştu: Çağatay Ulusoy'un Eşref Tek Kaygısı Ortaya Çıktı - Onedio",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLXBoWXU1ZnN6Njc5NUFoYW5QZElUaU5sejJqV0FxU1ZQR3h3ZlRoRVVHd3hJVF9BSWpBV3dCaEREWTd4ckMwT0hlYVNKMFNBTFdtRHBJUmMxNU5leE0teEw5dlBDNFFRSUFhclYtOFlnTE9LZ2xxSWk4eVY3bzA2ZDlmU29IR21tblBUU0dLSUdjYmZ6b2tDS3lzd3V2amNwUERiekZSOXdXb0JrVDMwU2dyOUFiRkVh?oc=5",
-      "articles": [
-        {
-          "title": "Devam Etmek İstemediği Konuşulmuştu: Çağatay Ulusoy'un Eşref Tek Kaygısı Ortaya Çıktı - Onedio",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLXBoWXU1ZnN6Njc5NUFoYW5QZElUaU5sejJqV0FxU1ZQR3h3ZlRoRVVHd3hJVF9BSWpBV3dCaEREWTd4ckMwT0hlYVNKMFNBTFdtRHBJUmMxNU5leE0teEw5dlBDNFFRSUFhclYtOFlnTE9LZ2xxSWk4eVY3bzA2ZDlmU29IR21tblBUU0dLSUdjYmZ6b2tDS3lzd3V2amNwUERiekZSOXdXb0JrVDMwU2dyOUFiRkVh?oc=5"
-        },
-        {
-          "title": "EŞREF TEK NE ZAMAN BAŞLIYOR, HANGİ PLATFORMDA YAYINLANACAK? İŞTE ÇAĞATAY ULUSOY'UN YENİ DİZİSİ - Posta",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQVRiYW56OEh2RGZKZmhzcWJNZVJCWnZGQ1kxeURHQTU2TDVQeHcxZGJOcEVvSGFpcTkxbTRycm5hNklhdF9UXzExNUNKMHN1Z25kbUNQVkRoN1FDazFPQnpaU2dIVEZUeEY4SmpaNmNvNm5aZU1FTVJiX2RPUGFPZWZ3XzJ6LUhzbk5Od3BvVmhoYWpFSTh3SXpOajNFWUJhRTBBdjcwbVZwWWx4OXpMUlFESWNVYkpfZ1lUS05hT0VfemhsOUJTSThvZw?oc=5"
-        },
-        {
-          "title": "Eşref Tek setinden görüntüler sızdı! Çağatay Ulusoy ve Aybüke Pusat'ın sahnesi gündem oldu - Bursada Bugün",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLTdLSTB0R19tMWZpVnFoWFQ5NFhjWXhKQXI0bkZDMnpZNWo5MjZwYlQwZWFFM0R3Rk9WUHZDUld2RDlVSjZXZ1R2RGsxLXBpSE15Q29WNVBQS0dKTDUyYV9QVDFCR2tMa05XLW5vbjVyR3ZtZncyZi01d3owREs2bVFTZWhUa3RCUlNIRW9qUG1vS0hIdEhFdTJRRXdMT0ZTVzA0dURaV0NaejZWS1FwWFdVYUI4UnE3cHl2V21Kem44QXg1QWVod0pxSFkxVGt5MTRr0gHWAUFVX3lxTE9hMGxhRXFsa1Z4N2JmTGFRbU9NRC1FZXhUaE9NX3VGWHpNT0M3TFBRM0FRV29FQUxwaVpJNkwweGhWWUV4UVVQS2tiblc0Mi0tYXB5b3lwMjM4NDF4VmJwaUxNSDBsdHgzYlVKY0RfSk5xR0FNYmJiV1I0RXlGQ1VFX2xDWE5HMDgtcVI2aHpzQWV0VWlaVDhqS2J4clZOdjlwMXRHUDg3QkM1LTVfWWtPSWRYdWtvUDlnR1lMTS1XSnE3clk4ZnktcnJRUFZkY2xWLXZHSXc?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 9.6,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 26
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 8
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 8
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 9
-        }
-      ],
-      "previousRank": 12,
-      "rank": 13,
-      "indexScore": 13.1
+      "previousRank": 2,
+      "rank": 4,
+      "indexScore": 55.3
     },
     {
       "name": "Hakan Çalhanoğlu",
       "category": "Sporcu",
-      "count24h": 9,
-      "previous24h": 9,
-      "headline": "Fenerbahçe Hakan Çalhanoğlu'nu yoklayacak: Ama ısrarcı olmayacaklar - Fotospor",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU3YtNGMzaUNjSnJYUWVVWU5NZEl2Uno5NnRvdzZRZDVqQnNjTUM3UWRwOUlCTXZSMDFSb3hLTGZqVmZfVmtxR0VEMDFVUlRsNDFPcVRnTzJ1UkFoSjhFYlJFUmxPQmp4ZDV5SjFhOENHemVtYVYzNHNfeEpyUWVzZmRKc2NSU2I3elgxR0RjNlVPZ3RER0RRTVk5Nzl0M21iU3FxbzFVRm5WeGR3OS1HSA?oc=5",
+      "count24h": 31,
+      "previous24h": 13,
+      "headline": "Hakan Çalhanoğlu, başkan ile görüştü! Anadolu yolcusu - Hürriyet",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdURQVlhoc21JV1hjUFFrUHJyMzdGTGFZSkg1WmZVeTc4MUhPcUgzLXlpX3R2dnh4ajNQSFpGY0lFRUZpWU1hV3RmcEUzckt5ekVsTUNWMFEtaVYwWVQ5STZ3a3R2VDVhQ3h6b1RicGVLN1A2M25scndJSmxNY052d1otX21kNGRiOWZmTm10WGcxQk1wRGpMS0l3RjM2VzNi?oc=5",
       "articles": [
         {
-          "title": "Fenerbahçe Hakan Çalhanoğlu'nu yoklayacak: Ama ısrarcı olmayacaklar - Fotospor",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU3YtNGMzaUNjSnJYUWVVWU5NZEl2Uno5NnRvdzZRZDVqQnNjTUM3UWRwOUlCTXZSMDFSb3hLTGZqVmZfVmtxR0VEMDFVUlRsNDFPcVRnTzJ1UkFoSjhFYlJFUmxPQmp4ZDV5SjFhOENHemVtYVYzNHNfeEpyUWVzZmRKc2NSU2I3elgxR0RjNlVPZ3RER0RRTVk5Nzl0M21iU3FxbzFVRm5WeGR3OS1HSA?oc=5"
+          "title": "Hakan Çalhanoğlu, başkan ile görüştü! Anadolu yolcusu - Hürriyet",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdURQVlhoc21JV1hjUFFrUHJyMzdGTGFZSkg1WmZVeTc4MUhPcUgzLXlpX3R2dnh4ajNQSFpGY0lFRUZpWU1hV3RmcEUzckt5ekVsTUNWMFEtaVYwWVQ5STZ3a3R2VDVhQ3h6b1RicGVLN1A2M25scndJSmxNY052d1otX21kNGRiOWZmTm10WGcxQk1wRGpMS0l3RjM2VzNi?oc=5"
         },
         {
-          "title": "Hakan Çalhanoğlu Fenerbahçe’ye Mi Geliyor? | Transfer Operasyonunda Son Durum Ne? - Aspor - A Spor",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVTkwQ3NuTGlzcEdzRm5rZnZYSElSdzcxTU5qNU9Qb3RaZ0ZVRFpMcks4ekZuZmlrc09Ib2NMRFQ4R096MEpfcWFmWUpMcGFTWVRhWFhDN2ZmZmU3T3ZEckN6TU0tVUZfTzE1TVFySmlaRFNqRGJINkg5Wk1TZHQwUzY3WjliNk5GTWJRT2FNSDNUVnV1UE9lcWM1aG5zLV95ZE0ycHJDMVlnOGl6Vnc1d21xNWpVTmU1VHpEdTU1VExKeE3SAcMBQVVfeXFMTlU5MENzbkxpc3BHc0Zua2Z2WEhJUnc3MU1OajVPUG90WmdGVURaTHJLOHpGbmZpa3NPSG9jTERUOEdPejBKX3FhZllKTHBhU1lUYVhYQzdmZmZlN092RHJDek1NLVVGX08xNU1RckppWkRTakRiSDZIOVpNU2R0MFM2N1o5YjZORk1iUU9hTUgzVFZ1dVBPZXFjNWhucy1feWRNMnByQzFZZzhpelZ3NXdtcTVqVU5lNVR6RHU1NVRMSnhN?oc=5"
+          "title": "Ne Fenerbahçe ne Galatasaray: Trabzonspordan Hakan Çalhanoğlu iddiası - Spor Haberleri - CNN Türk",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM3U4VFN0ZnhvdDNsLXJ6dVlOam5iUjE5NW1tQ1pjRTFIR3F4V2RCTHZKZmVNMGN2REV1aWFXQWxGanI2RlJtQzcyWVczOHpOTTNUeFAtVDFOLThqWDlobmVwUmRyR3hxRVJtazZLVFdYOGFmRkdaZDhCdndpaVJiU1h3SlNSWW4xaFpZbTZtSjNhbDV5T3c5UHRUejB3N2pjU3NKaU1tMzlfVjlueW1vRWVOaTM1SVlvQXJv?oc=5"
         },
         {
-          "title": "Hakan Çalhanoğlu’ndan 2,5 milyon TL’lik dava! Kripto şirketi gündemde - Takvim",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUTE4c3o5RnVGcnZsMFVvZ1pWQXNqTFdMWHpydDV0YXh5U2ZlU3dYNmVzYXZLeWwxbm43UXMxX0o5WXppX3RXeWhrZ3NlUE1GQ25xNlBhRjJrdUQybXZMQ2NwNDBzS2V6NGdwX1pNLUtqczR3TGFjdHo2S2o5Y1F6Smp2LTFCRERuV2ZVVzNMUEE4eWQwYm4tc3JSV0Jqd0ZFV1FJMkZMRkY?oc=5"
+          "title": "Hakan Çalhanoğlu'ndan kripto platformuna 2,5 milyon TL'lik dava - Ekonomim",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRk5RWGJOQXYtMHhIYUY2bHJzcXQ3QURzT0k1Wk5JTFprajJ3eG9GMWJyNlV0d0FFdm96ejZGdUJ6MkplNzRjTUdVTjhqSlZUbk5HaGJUb2pxV01LZE1WZUVpejJUQUdCSUVNRDFUWl9wY19xUmo3cHNlandVVmdTd0hXUW5JWjI5S3hxNzVCMWhMX3g0ZFBIMUN0S0FpcGoyM1JvenhrT2s1dw?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 9.0,
+      "score": 33.07,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -650,36 +252,604 @@
         {
           "at": "2026-11-18T02:55:00Z",
           "count": 9
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 31
         }
       ],
-      "previousRank": 15,
+      "previousRank": 14,
+      "rank": 5,
+      "indexScore": 50.5
+    },
+    {
+      "name": "Acun Ilıcalı",
+      "category": "Televizyoncu",
+      "count24h": 27,
+      "previous24h": 1,
+      "headline": "Acun Ilıcalı'dan Süper Lig yayın ihalesi açıklaması: 'Talip olabilirim' - Cumhuriyet",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOGk2aFo1TFRlbFFyMmVXNHk1TkZkZmVKcVN2NEVtWW9DdkctYnY4djJ2cGE2bFBUWmxLeTlsNzFocTc0cEltSThPOHh2MGg0bl85TmtCVmdERWNENlkxRTBqTnplaEo4MnZON0EwV19RRkMyU0k1MlNReE5PTG1RX2F5UWlJNUxxY1JRamRFc0RHWERUdVdjU2VsZDBsdjRZazhTN1otYWlVdmFhUTRBQQ?oc=5",
+      "articles": [
+        {
+          "title": "Acun Ilıcalı'dan Süper Lig yayın ihalesi açıklaması: 'Talip olabilirim' - Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOGk2aFo1TFRlbFFyMmVXNHk1TkZkZmVKcVN2NEVtWW9DdkctYnY4djJ2cGE2bFBUWmxLeTlsNzFocTc0cEltSThPOHh2MGg0bl85TmtCVmdERWNENlkxRTBqTnplaEo4MnZON0EwV19RRkMyU0k1MlNReE5PTG1RX2F5UWlJNUxxY1JRamRFc0RHWERUdVdjU2VsZDBsdjRZazhTN1otYWlVdmFhUTRBQQ?oc=5"
+        },
+        {
+          "title": "Acun Ilıcalı cephesinde bebek iddiası! 5. kez baba mı oluyor? - Sabah",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFFDR3JPZldMYUxHRHJoZlc0anBLbnlkbEYzZlRqVmpIT0FFQnU5X3VkdXNwc01GVzZzdEVWREdoN3NmZjJzQzVWVjV3UnNyLTBpb1BhcmQ4dFVxUjRTM2dXczJyX09nbHVBczR0bFp1d1hNcUpzaHA3TGhUOUkyalBJekUybzV4b01mV2dQaUhVYkdoQ1p2RnJjMVNxWHBzdUFFX3BQWdIBqgFBVV95cUxNbzFRSjhZVU9fdGNoVFZBczF4UTlPcS1ZaTJxNmo0WmFrWXhWNEhGZ3l2cHp1LWk1bm1ZQlZjbVJlcFJNdDlQM3M2eHc0blVYNDZUbGdFaGVBRlFHbXZ2STZfdHN0b3J6TjNqWXBPM3NOT3NrdkxtcmhjOFNjRDdDblFkLXBfLURBYllDa0NfNkZrWkFQWU5NZk5ETXVGVnNwUzY3bW9iWktaZw?oc=5"
+        },
+        {
+          "title": "Acun Ilıcalı Exxen Fiyatı İçin İpucu Verdi: \"İki Big Mac Menüsü Parası Çok Gelmez\" - Onedio",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMmEtZ1FCVy1SM3RHUHlWVm5XM0FmUTNrN19hOFpYRTNuY0pIYVYtT2VzZWpKMDZGaUltdWwyb0g5MHdudnh2SUR0dEg2RkhBYnNPZzVUWndVZ3VCWGJVRU1KX010U2ZDOGp0TEdDaVhEYWNrVFdER3B0OFRpTHRPZnRSUlQ3YmJwdG5lcXZjU2E2TW1OMmdZS2pZbm9OcmVHSVd1T215VjJxZ0FHMms1X0ZR?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 31.35,
+      "history": [
+        {
+          "at": "2026-11-17T17:42:45Z",
+          "count": 9
+        },
+        {
+          "at": "2026-11-17T17:53:25Z",
+          "count": 6
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 6
+        },
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 9
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 27
+        }
+      ],
+      "previousRank": 12,
+      "rank": 6,
+      "indexScore": 47.8
+    },
+    {
+      "name": "Haluk Bilginer",
+      "category": "Oyuncu",
+      "count24h": 25,
+      "previous24h": 16,
+      "headline": "Haluk Bilginer'in 'Türkiye sineması' tartışması: Hamdi Alkan'dan dikkat çeken yanıt - Odatv",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUTgxaWo3YlVfWUtaaU5uMzZVQ0c5MkFlY2paTjA0SndWVVVFaFMtd2NjTGVjVzNqNGotRHpsNTNBanB5Q2lSTTJPbVZZMUNKZmd6X0ZIQUFGc2szcWlZOEp3dHBHV2FNLTFCdU0xTm5LQlBOdlN3d2ZxemxQazZ5T29HaUpDcWNCTXNnWkl2VGlfejdEQUNEbE1RU0h4ZzNUaGV2SUU2Y0twX1FHN0Zyc1NZMURLS3dHdk5pWHd3?oc=5",
+      "articles": [
+        {
+          "title": "Haluk Bilginer'in 'Türkiye sineması' tartışması: Hamdi Alkan'dan dikkat çeken yanıt - Odatv",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUTgxaWo3YlVfWUtaaU5uMzZVQ0c5MkFlY2paTjA0SndWVVVFaFMtd2NjTGVjVzNqNGotRHpsNTNBanB5Q2lSTTJPbVZZMUNKZmd6X0ZIQUFGc2szcWlZOEp3dHBHV2FNLTFCdU0xTm5LQlBOdlN3d2ZxemxQazZ5T29HaUpDcWNCTXNnWkl2VGlfejdEQUNEbE1RU0h4ZzNUaGV2SUU2Y0twX1FHN0Zyc1NZMURLS3dHdk5pWHd3?oc=5"
+        },
+        {
+          "title": "Hamdi Alkan'dan Haluk Bilginer'in sözlerine yanıt! - Posta",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNN2xfckNmU3FyalBhdExpNW5yZUc3X3I4WWdYb1N1U2hoU2pfT3BwOUNFakdYYlNRRDdKZVpWQzFlY0ZlcmpMTnl2bkw1R3pxdGNnNUtYREZCa3BaZVJaVEJrRkE0RmJPV3FxcUJiczNNejZiWlFiR05TbnJzUWNDZnI1dzBSaXMxNi1ZdWViYUs?oc=5"
+        },
+        {
+          "title": "HALUK BİLGİNER’E SORUYORUM: 29 YILDA NE DEĞİŞTİ DE TÜRK SİNEMASI, TÜRKİYE SİNEMASI OLDU? - Magazinci.com",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOS2dYd3lRdHZ4WWI5aDVJYlN3Tk1kMmZvMVFZSUdubmpDTS02MXhONDQ1Smk3LWM0ZERzZlNhMkVYZmpWX2R6MTZhbmxON2lOelRmNnJua3BWZGR0SWFqQzZnSTZ4cmVTUWhmVzNlSmpkZGhxRC1NaU1zV3dLcHNQNDZlQ0RuVXFQV3JOWW9DMDU5OWUta3R1VjJoZVBmZ1gwMWpIM05kMjB6dXNTclJCbjZHM1BlR25Jb0VKUzBuc3QyQjNqVHcxdzBxbmlSdGNCVFdEd1JTblY4UXlrSVItNjdHOU83XzZpS0dZalZ5aWdsbmI1SVFLWA?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 25.86,
+      "history": [
+        {
+          "at": "2026-11-17T17:42:45Z",
+          "count": 21
+        },
+        {
+          "at": "2026-11-17T17:53:25Z",
+          "count": 15
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 14
+        },
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 21
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 25
+        }
+      ],
+      "previousRank": 8,
+      "rank": 7,
+      "indexScore": 39.5
+    },
+    {
+      "name": "Demet Özdemir",
+      "category": "Oyuncu",
+      "count24h": 24,
+      "previous24h": 18,
+      "headline": "Ünlü oyuncular Demet Özdemir ve Kerem Bürsin'den dudak uçuklatan reklam anlaşması - Sözcü Gazetesi",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRlgxenhoc3RhbVJUODI3SjZxQmV2ZU9BdnZJdnl5MFQtenNmMWdXOE5zeWZlMTV2T3FyTE9KcS10bGFrMWhfcnlGQWppTEFRWF9BSVIzOTdyRFIzTmRkcFg5R2RXU1A0U0E4aWlTUWVGZ09mU3hiUjhrT3VHSTFHVlNZRlNmSUFna3h5M3BISDhGTzBRQV9BYk5MaVhfU2Q3Y1lfc3RxZ0tUMmtWZkM4LU1QUFM?oc=5",
+      "articles": [
+        {
+          "title": "Ünlü oyuncular Demet Özdemir ve Kerem Bürsin'den dudak uçuklatan reklam anlaşması - Sözcü Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRlgxenhoc3RhbVJUODI3SjZxQmV2ZU9BdnZJdnl5MFQtenNmMWdXOE5zeWZlMTV2T3FyTE9KcS10bGFrMWhfcnlGQWppTEFRWF9BSVIzOTdyRFIzTmRkcFg5R2RXU1A0U0E4aWlTUWVGZ09mU3hiUjhrT3VHSTFHVlNZRlNmSUFna3h5M3BISDhGTzBRQV9BYk5MaVhfU2Q3Y1lfc3RxZ0tUMmtWZkM4LU1QUFM?oc=5"
+        },
+        {
+          "title": "Çağatay Ulusoy, Aniden Biten Eşref Rüya'nın Ardından Demet Özdemir'le Sorun İddialarına İlk Kez Yanıt Verdi - Onedio",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYTBWcmFvZDg2M21RaDJzYmpWYzZuTGY3MThXU0g1dG1jVldHdUpIQl9UU0JjQVdYdHJwYjdROFZRdGJBeHpYNUdzSVZGU19UOWd4THJvOWtuRnJRZU1YQ0JBdjRSSG1CZUtJTmJhZ3Z2YlJEV2IzSVNFOFpXUmczSlNBRUotU3F4c0VSLUhWWTR1b2N2b3lGY2lKRDl3c2hBSE9zT2RXb0VKcmZQSFNXVC1kNjE4c0ZRTFdFMTlKTXR3S2g4Y19QLXNhSWQtTmd4V2NWX053?oc=5"
+        },
+        {
+          "title": "Aybüke Pusat sürprizi sonrası Demet Özdemir'den olay yaratan itiraf! - https://www.manisahaber.com/",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLWJyS2xDbGVhMVhqWjNVcG1BSWtYVHI3S3RmRXNLeDU1c0owV0Y5RjRta0dKZFpaQ3dmTGJkOVJEcWNtVW9lajVxVEtoN19hMlN6SkVmOV9iOFFYQWZuRU1XQWFsdERIWWFyNEN1Y2FvSWZ5MWt5ajdMendrUkpMN0NJbHZCRWZnemtJOHRRS2xBaGQ3WjVsQ053?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 24.54,
+      "history": [
+        {
+          "at": "2026-11-17T17:42:45Z",
+          "count": 24
+        },
+        {
+          "at": "2026-11-17T17:53:25Z",
+          "count": 12
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 12
+        },
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 19
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 24
+        }
+      ],
+      "previousRank": 11,
+      "rank": 8,
+      "indexScore": 37.4
+    },
+    {
+      "name": "Cem Yılmaz",
+      "category": "Komedyen",
+      "count24h": 17,
+      "previous24h": 0,
+      "headline": "Cem Yılmaz Farklı Bir Veli: Biz Daçkalıyız - Basketfaul",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPU1hQQkZtbm96d1RyZ19ab3FUX2ltYzByU1NyUUtScV9kUzA0S2dodFY3NjJlSUt0U3dvT0Q0UVlhTVRsbEhTakxpdnBINFVKMWZPR1Z3bDFFa3NEdFcxTTg3dFpKcF9mY1cyYlNmVENSX1c5d24wa3RDOXJ2N1QxT2FZNHdQMDg?oc=5",
+      "articles": [
+        {
+          "title": "Cem Yılmaz Farklı Bir Veli: Biz Daçkalıyız - Basketfaul",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPU1hQQkZtbm96d1RyZ19ab3FUX2ltYzByU1NyUUtScV9kUzA0S2dodFY3NjJlSUt0U3dvT0Q0UVlhTVRsbEhTakxpdnBINFVKMWZPR1Z3bDFFa3NEdFcxTTg3dFpKcF9mY1cyYlNmVENSX1c5d24wa3RDOXJ2N1QxT2FZNHdQMDg?oc=5"
+        },
+        {
+          "title": "Darüşşafaka'nın kampanyasına Cem Yılmaz desteği - Sözcü Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdWpuZG94VHlnVHMtb1dNcko0d3AxWmZ2ZjdMOXhKd3QycklhUTV3ZF9NUkU3NWNLUk15R2VKRm5nZHdPbndqWlZ5Y2VxRzUxYlhaZnJVOXFNM3NwQnpLelY2WG1xMFdtLVFva0NLdVpNVHhCTms4bWJNaE96eWwtZG0tWi1TS1E?oc=5"
+        },
+        {
+          "title": "Cem Yılmaz'dan Darüşşafaka'ya destek - Notbir",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QVkczcEppeDRMLXZmdTBoYmQxd2JRSVRxWVE3cmVxNXA2SVU0bm91MjhVVU5PdmhwZG9nMko0S0U3Tnh1aFZRSmhMZExKTWZqaE1mc2tyOVlIb2FFSmtQMnRHQ3hhYUhjc2ROU09JSXNrYzQ?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 19.42,
+      "history": [
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 2
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 17
+        }
+      ],
+      "previousRank": 17,
+      "rank": 9,
+      "indexScore": 29.6
+    },
+    {
+      "name": "Türkan Şoray",
+      "category": "Oyuncu",
+      "count24h": 17,
+      "previous24h": 37,
+      "headline": "Türkan Şoray: Karavanım hiç olmadı - Hürriyet",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWkp3eFFLWHRNcHZEajk3WW9SVTFwWm1zRldVWWRSLUJhNDhNUjZXY2VENjBtOTZIeU11UkJtcmtHVDlpYm45dW1uakxPWDFNN1JLZW5PTHNUVGpRYWJfVmlpZXpBVTZQYlZrMUtRa004UmE4cGRMM2NrOHRHYmVZdHMzbFhieTU3eUhDV3pn?oc=5",
+      "articles": [
+        {
+          "title": "Türkan Şoray: Karavanım hiç olmadı - Hürriyet",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWkp3eFFLWHRNcHZEajk3WW9SVTFwWm1zRldVWWRSLUJhNDhNUjZXY2VENjBtOTZIeU11UkJtcmtHVDlpYm45dW1uakxPWDFNN1JLZW5PTHNUVGpRYWJfVmlpZXpBVTZQYlZrMUtRa004UmE4cGRMM2NrOHRHYmVZdHMzbFhieTU3eUhDV3pn?oc=5"
+        },
+        {
+          "title": "Türkan Şoray'dan Yeşilçam anıları: Yokluk mücadeleyi doğurdu - Notbir",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOWFuN0lvLXB6QnpPSGVkU2hHM1c1WXZ0cWRVNDJCellJTUE3SlJXLXY1QlJEVXhVMXFTeFhyWGZYc0ctM2FCUENUNzZ1ZEc5SzVJMF9rMS1fektOVFc2TWZkTTVLX210SEpYSTF2OVNibk1SNFQwYVEzQUNNdzNoUFpHanZSemJjMmcycWgyNUJPQQ?oc=5"
+        },
+        {
+          "title": "Türkan Şoray etkinlikte müstakbel damadıyla selamlaştı! İşte o anlar! - Sabah",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVW54eGFYUDJmdW53WXVqQ2NrdEI5UnhPSlBCY2EwczVKaEhQcVBPaW51bG5GVGEtTk9BQ1VsbW1RYlZneVI5amwtY0R4cEszbnlsc1NwN3FqOXFCRFlUc3NaaTI3NnVvMXdJZXVxNllYbzdXUVFKRU85SUMxdkRfNGZzSDd3Wmh0WXhfaXFUVi1td3JRNTFTbGQ4VWdKWEFSQTU2RzRsMmwyS2ptVEE2dGFDUdIBtgFBVV95cUxOeVpIblQxdnRZQkszRHluSmMzd28wN3F4QkdNTDJ3X3R5TTVlb0hObUNVb2VsaWZLQlA3Nk5UYk43QlZOYWZVY2Vrd2VmUTB5WGwxdkFpNTQ4S3lnMlN6NDNoZ3hramJmbTNjdl91YWVXb1BCNzllZ01yNGxheURSTW9mdGJxem53ZzJ2YkQ5S2hsV1IxVDNnWlJTY0hxN2VnUWdkTm53VzJPdmhsVzFLZTJMbVp5dw?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 17.0,
+      "history": [
+        {
+          "at": "2026-11-17T17:42:45Z",
+          "count": 44
+        },
+        {
+          "at": "2026-11-17T17:53:25Z",
+          "count": 39
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 39
+        },
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 36
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 17
+        }
+      ],
+      "previousRank": 4,
+      "rank": 10,
+      "indexScore": 25.9
+    },
+    {
+      "name": "Uğurcan Çakır",
+      "category": "Sporcu",
+      "count24h": 17,
+      "previous24h": 54,
+      "headline": "Sallai, Batrakov ve Uğurcan Çakır'ın ardından... Galatasaray'a bir kötü haber de Davinson Sanchez'den - Cumhuriyet",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQWxBdm82TlB5UWN5dkNHdGtyYVpnczZFQjZkWVNicEV1aC1kUkc0bVFaV1NpUENQc0xQRjNPS0hlaHBqZjhFbjROMkR3ZzNaSlBxYWwxbGNQQWdnZng4YjR1UGNQdUxfYkZpMWNyRmFQdERCNlNRVjdwZWw1bWd5YVhqVS1PNTk3a1I4X29OSVc1LUU5dnNjVElvaklGRi1rd2I4cHpUUVJNR1FSQkpGVHFBNHByS0hZSFVFOThNNlJlakFYT0ZkOUJUcFM4SDNUU1ZweVVRaw?oc=5",
+      "articles": [
+        {
+          "title": "Sallai, Batrakov ve Uğurcan Çakır'ın ardından... Galatasaray'a bir kötü haber de Davinson Sanchez'den - Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQWxBdm82TlB5UWN5dkNHdGtyYVpnczZFQjZkWVNicEV1aC1kUkc0bVFaV1NpUENQc0xQRjNPS0hlaHBqZjhFbjROMkR3ZzNaSlBxYWwxbGNQQWdnZng4YjR1UGNQdUxfYkZpMWNyRmFQdERCNlNRVjdwZWw1bWd5YVhqVS1PNTk3a1I4X29OSVc1LUU5dnNjVElvaklGRi1rd2I4cHpUUVJNR1FSQkpGVHFBNHByS0hZSFVFOThNNlJlakFYT0ZkOUJUcFM4SDNUU1ZweVVRaw?oc=5"
+        },
+        {
+          "title": "Aslan’da Uğurcan Çakır gelişmesi: Eldivenler Jankat Yılmaz’a! - Bölge Gündemi",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRS0xN2Fpc0taZEg1WGFvd1lmaTFLR3F4ZWdpbGNJVmk5R0J5Mk54MjgxNS1zUGNpSnVTdDhvbjhZbkZncURTV24tM29CVlU2R1FmaU1nTWowWUt4UThzZ3RkT2JwNjBKZ3VwaUpBaDhfdmRReVgtaWNWM0UzTGRrM1lzY0ZTM0FWcENKbWE3MmZ1Zlo5d1pmZkVQbDM0ZFFDVHhudGdGOWVWSUJkVWpFc1k1VVJTZw?oc=5"
+        },
+        {
+          "title": "Eldivenler Jankat’a yakın; Galatasaray'da Uğurcan Çakır belirsizliği - Fanatik",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaGwybmdIeWRjQm5Dc1Q4c0JIYmYwakNNUWh0Yk1CaXV5X0syeEpodEhIMjNXQ01sNDFKaGFRbE9OQWtIRjZtTHVpbzlmV19DNFhNQ0FXN2U5ekRLbFlTMmdEVWJtLXU5VmVQbGRmUHNZaWk2cGxubnBZV1ZuUVJDMFNIWEpKZTRGblVCdXlSTndSYThmeTNITkZWS3p0b0V4c0EtSHM2V3plWWh0dFQtR2x3?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 17.0,
+      "history": [
+        {
+          "at": "2026-11-17T17:42:45Z",
+          "count": 37
+        },
+        {
+          "at": "2026-11-17T17:53:25Z",
+          "count": 36
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 36
+        },
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 37
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 17
+        }
+      ],
+      "previousRank": 5,
+      "rank": 11,
+      "indexScore": 25.9
+    },
+    {
+      "name": "Kerem Aktürkoğlu",
+      "category": "Sporcu",
+      "count24h": 13,
+      "previous24h": 21,
+      "headline": "Emre Belözoğlu, Kerem Aktürkoğlu İle Görüştü - N Gazete",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY0pVSnl5MWs5QTNpQ2tBYTZTbzh3c1hCenpEX2Z6cmVuNmcyUFBZRmxzTVZrdUlhZjFRXzBVbEpyN3d1VjNjdFdYc0VHNXhhU3FZeWphSW5XYVdmYTczVk4yWU5Pbl9QSVA4UjRKOTBrOGNINkRqZmlycm1UekxQMjF0SFl4UjkxbTU3dktubV9LYkwtQ1HSAZYBQVVfeXFMT2NKVUp5eTFrOUEzaUNrQWE2U284d3NYQnp6RF9menJlbjZnMlBQWUZsc01Wa3VJYWYxUV8wVWxKcjd3dVYzY3RXWHNFRzV4YVNxWXlqYUluV2FXZmE3M1ZOMllOT25fUElQOFI0SjkwazhjSDZEamZpcnJtVHpMUDIxdEhZeFI5MW01N3ZLbm1fS2JMLUNR?oc=5",
+      "articles": [
+        {
+          "title": "Emre Belözoğlu, Kerem Aktürkoğlu İle Görüştü - N Gazete",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY0pVSnl5MWs5QTNpQ2tBYTZTbzh3c1hCenpEX2Z6cmVuNmcyUFBZRmxzTVZrdUlhZjFRXzBVbEpyN3d1VjNjdFdYc0VHNXhhU3FZeWphSW5XYVdmYTczVk4yWU5Pbl9QSVA4UjRKOTBrOGNINkRqZmlycm1UekxQMjF0SFl4UjkxbTU3dktubV9LYkwtQ1HSAZYBQVVfeXFMT2NKVUp5eTFrOUEzaUNrQWE2U284d3NYQnp6RF9menJlbjZnMlBQWUZsc01Wa3VJYWYxUV8wVWxKcjd3dVYzY3RXWHNFRzV4YVNxWXlqYUluV2FXZmE3M1ZOMllOT25fUElQOFI0SjkwazhjSDZEamZpcnJtVHpMUDIxdEhZeFI5MW01N3ZLbm1fS2JMLUNR?oc=5"
+        },
+        {
+          "title": "Emre Belözoğlu'ndan Kerem Aktürkoğlu'na özel ilgi! - A Spor",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMWdjR1dHUG9waXNpVGtQTWtldmVzWkw5NmFBRllWT2czYU5heFZkWlAyTXM5cTA5WVhQUS1lZ3ZEWGh6MVR4OTV5QmVIaFg0Yi16SWhmazhSVU4zdVBqUWRfSGsyRHFqTl9ySnZ4S1NYOG9lY1RCMV9qUEZqZFg0UGpBaUpRaWp2SVlCSEdlR1VsMTJjcEpjd0Fn0gGfAUFVX3lxTE1PYXRSVmIxdlcxb1RoNG1TN3NURlFVdVFzVE5tejA2REFVQU9XMTJmc054cGh5SHdKQi15Zk53eHpmbTZIYUdDNnRybTN2d19IV1k3M1JTM3dHZmdQVVUtN2cxd0Y3OTFFc29CTVpfbDNxNGt3dEZyUTRqMUtCeWpHZlI1RnQ0TEYyQ2ZIZ01OM2M5SEZvOElrdl92NmhWcw?oc=5"
+        },
+        {
+          "title": "Lazio'dan sonra Marsilya: Kerem Aktürkoğlu'na hücum - Fotospor",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUkZmaWZ6Y09DNlRIdV81WmlXWUl2UEI2eUJ5TW81RmdmNTBYNzFMdzRlbGlUTzdZWThaek5fUEFyQmlRaWZfY3d4RGt2Y0F6WHpZMUhqdmRNMTRzeG1HQm92WWMzSS1RT0puc1ItX0Z5RkR0NW9WdFMtdjVCU2huSC1GOEI0NUZyMjRXbnRFRUFFbV9wV2JJa1h3?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 13.0,
+      "history": [
+        {
+          "at": "2026-11-17T17:42:45Z",
+          "count": 25
+        },
+        {
+          "at": "2026-11-17T17:53:25Z",
+          "count": 17
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 19
+        },
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 19
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 13
+        }
+      ],
+      "previousRank": 10,
+      "rank": 12,
+      "indexScore": 19.8
+    },
+    {
+      "name": "Çağatay Ulusoy",
+      "category": "Oyuncu",
+      "count24h": 12,
+      "previous24h": 7,
+      "headline": "Çağatay Ulusoy sevgilisi Aslıhan Malbora ile akşam yemeğinde görüntülendi - Sözcü Gazetesi",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTjRtTkdQcFd2bExIMmQzSTZfNkZUTF9Hc0Q1Z2Y2SFhBTzFtTTJIZDhscmNhdnlhNHdFVkR0Ti1kaUlmOXVLY1BEX2FTM0x1bE0tbU5vQU13VFU2SlU2NEhSNFV2bTFtbXBwOWI1VTJzQm16aXlxRHBVN0tCazR0VnRob0dJU2FSRnZiclV6YjZ2U1hHd2labkJSSHRUSmNOT1JWV0tNZU9vUQ?oc=5",
+      "articles": [
+        {
+          "title": "Çağatay Ulusoy sevgilisi Aslıhan Malbora ile akşam yemeğinde görüntülendi - Sözcü Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTjRtTkdQcFd2bExIMmQzSTZfNkZUTF9Hc0Q1Z2Y2SFhBTzFtTTJIZDhscmNhdnlhNHdFVkR0Ti1kaUlmOXVLY1BEX2FTM0x1bE0tbU5vQU13VFU2SlU2NEhSNFV2bTFtbXBwOWI1VTJzQm16aXlxRHBVN0tCazR0VnRob0dJU2FSRnZiclV6YjZ2U1hHd2labkJSSHRUSmNOT1JWV0tNZU9vUQ?oc=5"
+        },
+        {
+          "title": "Çağatay Ulusoy ile Aslıhan Malbora akşam yemeğinde buluştu - Habertürk",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVHR0eHdhV1ZXRHVhYjZPbG5nOWlIMjlBOWk5QTU1azNWU0xpS0xCZ0JOLUVObXVZMlFHX0REX2xyamhJUjMwQXhqYkd1MTk1emVfYVgyUURrLUVKX3lGdDlkVDI4M3ZWNW1tUkVJUWRIX0kxVGszRnc3SlY3d09ReUItMnh2VVdxM0xmRkthM2RUaTB0c1BscFVGMmtSaU5mcWc?oc=5"
+        },
+        {
+          "title": "Çağatay Ulusoy, Aniden Biten Eşref Rüya'nın Ardından Demet Özdemir'le Sorun İddialarına İlk Kez Yanıt Verdi - Onedio",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYTBWcmFvZDg2M21RaDJzYmpWYzZuTGY3MThXU0g1dG1jVldHdUpIQl9UU0JjQVdYdHJwYjdROFZRdGJBeHpYNUdzSVZGU19UOWd4THJvOWtuRnJRZU1YQ0JBdjRSSG1CZUtJTmJhZ3Z2YlJEV2IzSVNFOFpXUmczSlNBRUotU3F4c0VSLUhWWTR1b2N2b3lGY2lKRDl3c2hBSE9zT2RXb0VKcmZQSFNXVC1kNjE4c0ZRTFdFMTlKTXR3S2g4Y19QLXNhSWQtTmd4V2NWX053?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 12.4,
+      "history": [
+        {
+          "at": "2026-11-17T17:42:45Z",
+          "count": 26
+        },
+        {
+          "at": "2026-11-17T17:53:25Z",
+          "count": 8
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 8
+        },
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 9
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 12
+        }
+      ],
+      "previousRank": 13,
+      "rank": 13,
+      "indexScore": 18.9
+    },
+    {
+      "name": "İrfan Can Kahveci",
+      "category": "Sporcu",
+      "count24h": 8,
+      "previous24h": 2,
+      "headline": "Fenerbahçe’de Mert Müldür ve İrfan Can Kahveci için yeni sözleşme planı - BirGün Gazetesi",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZzhQdzlJcVEwYXBhT3RWclNpX1pxajhWWWg4cXAyWmUzQ1RVbE5VYnlPdTk2c1RSM01NNzZoendVM3poamdpZ0duVFV4c0E0R1M1aFRVbE1VelF2bTNWTDB3ODRGODBYUVRiTDcyVjZzYnF2aE1ENDlUbG9venJCZVVxaGtfOUpKbndvRDdjbmFheGNIeDdfTDZmRnprT0tkQ1hDQjFKaXVWUQ?oc=5",
+      "articles": [
+        {
+          "title": "Fenerbahçe’de Mert Müldür ve İrfan Can Kahveci için yeni sözleşme planı - BirGün Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZzhQdzlJcVEwYXBhT3RWclNpX1pxajhWWWg4cXAyWmUzQ1RVbE5VYnlPdTk2c1RSM01NNzZoendVM3poamdpZ0duVFV4c0E0R1M1aFRVbE1VelF2bTNWTDB3ODRGODBYUVRiTDcyVjZzYnF2aE1ENDlUbG9venJCZVVxaGtfOUpKbndvRDdjbmFheGNIeDdfTDZmRnprT0tkQ1hDQjFKaXVWUQ?oc=5"
+        },
+        {
+          "title": "Fenerbahçe'de İrfan Can Kahveci ve Mert Müldür kararı! Sözleşme süreleri belli oldu - Milliyet",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOWRuTkJqZXYxeFdxaWhMeDVIS2pWQ25Md0lsVHJKTmQ1cjZiYzVDSFc0WFNfN2xlUGgySDhJQTFTMEN0Z3Vud0xBZnZ3YXV1QzFJTmV0TUs0Yjg4ODZuWHBkMjkzdDlRbERPUlBzREhIb3ltOVlJMmZ1TEc3SmllU2lSLWstMmE1SWNtRkR1Rjd1c0Y1VElXLWVtZ3lOeHMzWjl2dU1UcXpsUFNHVzBXeUVtZVRMUklBTzhJT0UxRGRBZw?oc=5"
+        },
+        {
+          "title": "Fenerbahçe'de İrfan Can Kahveci ve Mert Müldür gelişmesi - T24",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSDBoU0xuRWU3NzVYakVwQXF6bHhTakQ4NE16TUh4MFpKVjRCNU40UlBhOHBMYTNIdTBmVGNIUTJEWlJKZVJDbk13OUdNWkFLQTVYUFZwczJyN180N0w5aGVSWThSeFkwYjJDb0lKSGxpTWpRVnYwU1hkMnZpSVJ3UDA2alBjWlBDSnhfdENpVzA?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 8.48,
+      "history": [
+        {
+          "at": "2026-11-17T17:42:45Z",
+          "count": 6
+        },
+        {
+          "at": "2026-11-17T17:53:25Z",
+          "count": 2
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 1
+        },
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 1
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 8
+        }
+      ],
+      "previousRank": 23,
       "rank": 14,
+      "indexScore": 12.9
+    },
+    {
+      "name": "Berke Özer",
+      "category": "Sporcu",
+      "count24h": 8,
+      "previous24h": 44,
+      "headline": "Şampiyonlar Ligi’nin en iyi kalecileri! Uğurcan Çakır ve Berke Özer... - Galeri - Trend Spor - Sabah",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSlZ6X3Njc1VxU1IzN0EyY2NHMFB6WkJjYTdMeWFhQTFiUFA1MlU3UjZFVGVFZ0cxT1Fpd3daLWtOMDdUclllS2FacXYzS09tdVd2a080R2o0cW9TX1pHRHprb0liellib3NrdDBuUzN4N1FiSVAtYmx1YngtY1BhVVpRQVFnUDk1cDRQdWlaNlBoaTJHd1JfM3pxUE12b1I2UFhzNXp6WDFHSmZu?oc=5",
+      "articles": [
+        {
+          "title": "Şampiyonlar Ligi’nin en iyi kalecileri! Uğurcan Çakır ve Berke Özer... - Galeri - Trend Spor - Sabah",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSlZ6X3Njc1VxU1IzN0EyY2NHMFB6WkJjYTdMeWFhQTFiUFA1MlU3UjZFVGVFZ0cxT1Fpd3daLWtOMDdUclllS2FacXYzS09tdVd2a080R2o0cW9TX1pHRHprb0liellib3NrdDBuUzN4N1FiSVAtYmx1YngtY1BhVVpRQVFnUDk1cDRQdWlaNlBoaTJHd1JfM3pxUE12b1I2UFhzNXp6WDFHSmZu?oc=5"
+        },
+        {
+          "title": "Cem Dizdar'dan Berke Özer yaklaşımı: 7 kurtarış yapan kaleci gerçekten \"kurtarıcı\" mı? - Habertürk",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLXZSWUhOYkhXaGRoaG5NTkFuaUNEVHo3UWs1WkxNOUxBbHNLRXdBVHk4eFp1VUgzUDhXZE5LX2hZdHNva2pIU0gtaUVCUE5DZEt4MWFSQ3ZIWDRvRmNBT3RuRW9Ec2FZZXlRM25XOFNNcURDR3JUbzRhb0ZWR2lOd0ZseWc4OV9qaUpfVWNUQm1XaEhhQ0VYTkVBbWkzU3RvcTRBdS0xQmJoQkxESG9iN2ZLSGZQR2FEbmh2U3NCSTVnQlpuNllxT3lDNGM3bWtr?oc=5"
+        },
+        {
+          "title": "Berke Özer Fenerbahçe'nin hayallerini suya düşürdü - Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON3kycXlzbl91dGVBVTJTcWc2UWZfajIxbkFKdWNvamVuYndNVElHTy1HU2FmZmUxSmxJOW5sLVE2NFllTGQ5UTNQaWlsRmU0d2VnYkwta0lxNzhBUnd6UHB5Tm54b3dsbW9zN3JXSjF3d2ZTeV91MG1XaHhXR1JocmlaWGtDY2RaeTV4Nnk3WDE3SkZ2OHRZZXVMd9IBmwFBVV95cUxON3kycXlzbl91dGVBVTJTcWc2UWZfajIxbkFKdWNvamVuYndNVElHTy1HU2FmZmUxSmxJOW5sLVE2NFllTGQ5UTNQaWlsRmU0d2VnYkwta0lxNzhBUnd6UHB5Tm54b3dsbW9zN3JXSjF3d2ZTeV91MG1XaHhXR1JocmlaWGtDY2RaeTV4Nnk3WDE3SkZ2OHRZZXVMdw?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 8.0,
+      "history": [
+        {
+          "at": "2026-11-17T17:42:45Z",
+          "count": 37
+        },
+        {
+          "at": "2026-11-17T17:53:25Z",
+          "count": 24
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 25
+        },
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 20
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 8
+        }
+      ],
+      "previousRank": 9,
+      "rank": 15,
       "indexScore": 12.2
+    },
+    {
+      "name": "Simge Sağın",
+      "category": "Müzisyen",
+      "count24h": 5,
+      "previous24h": 0,
+      "headline": "Menderes Mandalina Festivali'nde Simge Sağın rüzgarı esecek! - İlkses Gazetesi",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcDQxam9VNlFuNHZNSVR5d0luYlRnUjZwXzV5X0F2Z2hNRDZrNHlHOURueWxic2lyODVibHg5OF81VlcwYzA3OFFJajg4bV9pR3B3TDBXS21VMUhQRWV3QlRqdXJwNXU1V29ZWFZqS0U1VnNfNmtjWFBtSzR2Y3RaVnNEUGZmYVRiUmhUc1h2UkcycWpvSEptd2pn0gGfAUFVX3lxTE9mQzh6TnBUR1ItZGN5enhvc002Ql9uam5OUDZKOTJndm9OaUpzWmZIa09NUjk1c1RZQ3F1ZFc4Ty16Qk9ab2Y3dFpPdmxQb2E0TWxjdVU2Xzh3bDdpZk5IMUpEa1BMRF9WTlZkeFNpUFZndEZhWkpKclEyOW95ZXV4QVU5NGZXOHZIMnNERUpETllkSEV2QUlGWEdLY1htdw?oc=5",
+      "articles": [
+        {
+          "title": "Menderes Mandalina Festivali'nde Simge Sağın rüzgarı esecek! - İlkses Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcDQxam9VNlFuNHZNSVR5d0luYlRnUjZwXzV5X0F2Z2hNRDZrNHlHOURueWxic2lyODVibHg5OF81VlcwYzA3OFFJajg4bV9pR3B3TDBXS21VMUhQRWV3QlRqdXJwNXU1V29ZWFZqS0U1VnNfNmtjWFBtSzR2Y3RaVnNEUGZmYVRiUmhUc1h2UkcycWpvSEptd2pn0gGfAUFVX3lxTE9mQzh6TnBUR1ItZGN5enhvc002Ql9uam5OUDZKOTJndm9OaUpzWmZIa09NUjk1c1RZQ3F1ZFc4Ty16Qk9ab2Y3dFpPdmxQb2E0TWxjdVU2Xzh3bDdpZk5IMUpEa1BMRF9WTlZkeFNpUFZndEZhWkpKclEyOW95ZXV4QVU5NGZXOHZIMnNERUpETllkSEV2QUlGWEdLY1htdw?oc=5"
+        },
+        {
+          "title": "Menderes'te Mandalina Festivali heyecanı başlıyor! Simge Sağın sahne alacak - Yenigün Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbm9GbWFoTEYzMVVYdVpVbFBseko4Q2RldTR3eE5ndUYxa0h3c2lTNi1YdGxjcHlZOUp5RE8xMmg1d1dxaTNZR0JBTExnbGxQUEZNcjhCdEVyMlZLamdJWFd6TTJhRzNmOFExd2tCbTNXMTRubHNFakY3SVpKLXl2NXFGbGxsTGtmeHNiRzdDRUZJT2lIZUxUNGFEaFBiNDM3SjZYb1cxUkhpN1NoWnZDTXlVS0ZxUWY2VlhEVndB?oc=5"
+        },
+        {
+          "title": "Menderes'te Mandalina Festivali heyecanı! Simge Sağın sahne alacak - İzmir’de Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdG9CazZybVdfUzV1elRNb1hXUVg3Q2FtWVF3Uk9CMmdhRWhDTjN3eUZrMXNkSW9meEpkWlV6VjZIMlJzbjBUblBRNUhvdFdXcUwyUWM4ejVVVUNCSkxYdy04d0dtTVY4M2d5ZTViVjNCTVd6MjI1a1h2YVRLejFFNFNhQlk2bG4yTHZVMnVHTTFyWE1yLWNlVVZmdUJRaTVvN3c?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 5.33,
+      "history": [
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 5
+        }
+      ],
+      "previousRank": null,
+      "rank": 16,
+      "indexScore": 8.1
+    },
+    {
+      "name": "Alperen Şengün",
+      "category": "Sporcu",
+      "count24h": 2,
+      "previous24h": 30,
+      "headline": "Alperen Şengün 23 sayı attı, Rockets kaybetti - Hey Haber",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNy1jdzFpODJfUlNBQVVnTjRGNU54OHBnaS1ENkRmNGVDV2RwOGF1NnpFcFo5aXIyN08ydXlVdlRHckFQUG5xLXlNdEJTM2ZWbEVEVnVETTQ0b2hyVGNwd3BnTUNKZWRRSHJkM1l2V283MFJhd2ZTLWNXRHY0MEVLYXRkZTJMWWVpT284c1h1RzQweGs?oc=5",
+      "articles": [
+        {
+          "title": "Alperen Şengün 23 sayı attı, Rockets kaybetti - Hey Haber",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNy1jdzFpODJfUlNBQVVnTjRGNU54OHBnaS1ENkRmNGVDV2RwOGF1NnpFcFo5aXIyN08ydXlVdlRHckFQUG5xLXlNdEJTM2ZWbEVEVnVETTQ0b2hyVGNwd3BnTUNKZWRRSHJkM1l2V283MFJhd2ZTLWNXRHY0MEVLYXRkZTJMWWVpT284c1h1RzQweGs?oc=5"
+        },
+        {
+          "title": "NBA'de yoluna dolu dizgin devam eden Alperen Şengün ve arkadaşlarına Miami Heat dur dedi! - Son Mühür",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdTQ0TWJObVpRVy1PTGZGczlXTEdQa2JvdVFpOE1EV0lUb1JLSTFRcExGSXlwbEppd0VDeFNhamdGN1ozeFpPN2lQU3Y1V2VPMTY3NnNKZkFZdnhkUXZRUkNFMG8tbmUySjg3VjRUUGtBRGN3N0lXaVR2eU1DdTRwMVdKSDJaM1RodUUzZGdkZGNEMHVaRDNjZWs5YmhiblVTZG1qblM3c1VjeHpKb0R4Y0dB?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 2.0,
+      "history": [
+        {
+          "at": "2026-11-17T17:42:45Z",
+          "count": 40
+        },
+        {
+          "at": "2026-11-17T17:53:25Z",
+          "count": 30
+        },
+        {
+          "at": "2026-11-17T18:08:38Z",
+          "count": 30
+        },
+        {
+          "at": "2026-11-18T02:55:00Z",
+          "count": 31
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 2
+        }
+      ],
+      "previousRank": 7,
+      "rank": 17,
+      "indexScore": 3.1
     },
     {
       "name": "Mert Ramazan Demir",
       "category": "Oyuncu",
-      "count24h": 6,
-      "previous24h": 3,
-      "headline": "Mert Ramazan Demir ve Lizge Cömert aynı dizide! Afişi yayınlandı - A Gazete",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdy1wNFpydl85d2R0c1FZa0tiZWt6djdhdTRYem9iQ0FGNWR2T2pETUtsZDc3ZC1qeGJWb3lwb0Z5UnUyWFNDQ2lCTnlSWFp1aUlhZm00cGgzeHk2RGY5bC00bWtWVlFPVWVZeUd4UUh1c0dlWjVlV0xPdDhSdDR5YlZUaXBWamJHQzdiMEI3dWg4T1dzdGhoODJsb3NBN09GV2cyOHZFME8?oc=5",
+      "count24h": 2,
+      "previous24h": 6,
+      "headline": "Susuz Yaz Dizisinden İlk Kareler Geldi! Mert Ramazan Demir ve Lizge Cömert'li Afiş Sosyal Medyayı Salladı! - Haberler Ankara",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2FUN0JibUJJV19Vck0wcmhmR0xOdUkyUGxFSTNEX09LMmhtSUVLYVI1Z0JmNlJqS25kcnNLTWdKU3h3aW8tR0lBS3JQaG04djdKOGxLdFRMam5xSVdJbTRPeGF1Qm9lNjRVRm1Sa0RUWi1yUXd3TXh0cXVwcnZQRHlLa3lQUVdZcWJVSm9Na0ppZVRkekF3LWRUZmZOUHhJZWJxSFBTeDBKMlRhRkE1VWJwVzM1eHBjdmFjRWNqUHAzRDVZUVRpOU5B?oc=5",
       "articles": [
-        {
-          "title": "Mert Ramazan Demir ve Lizge Cömert aynı dizide! Afişi yayınlandı - A Gazete",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdy1wNFpydl85d2R0c1FZa0tiZWt6djdhdTRYem9iQ0FGNWR2T2pETUtsZDc3ZC1qeGJWb3lwb0Z5UnUyWFNDQ2lCTnlSWFp1aUlhZm00cGgzeHk2RGY5bC00bWtWVlFPVWVZeUd4UUh1c0dlWjVlV0xPdDhSdDR5YlZUaXBWamJHQzdiMEI3dWg4T1dzdGhoODJsb3NBN09GV2cyOHZFME8?oc=5"
-        },
         {
           "title": "Susuz Yaz Dizisinden İlk Kareler Geldi! Mert Ramazan Demir ve Lizge Cömert'li Afiş Sosyal Medyayı Salladı! - Haberler Ankara",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2FUN0JibUJJV19Vck0wcmhmR0xOdUkyUGxFSTNEX09LMmhtSUVLYVI1Z0JmNlJqS25kcnNLTWdKU3h3aW8tR0lBS3JQaG04djdKOGxLdFRMam5xSVdJbTRPeGF1Qm9lNjRVRm1Sa0RUWi1yUXd3TXh0cXVwcnZQRHlLa3lQUVdZcWJVSm9Na0ppZVRkekF3LWRUZmZOUHhJZWJxSFBTeDBKMlRhRkE1VWJwVzM1eHBjdmFjRWNqUHAzRDVZUVRpOU5B?oc=5"
         },
         {
-          "title": "Mert Ramazan Demir ve Lizge Cömert'in yeni dizisi Susuz Yaz'dan ilk afiş geldi - GZT",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGdMb2xncExIcnp2Z0lqcDh4YXFoUGRuUDhYWGxpaG5LX3pBNkstX2NGQUlPdEl3SFVidzBHZjRwZ2FZTTRzYjhOdU5tWUtiWmFoc041dnpqUE5EVjFBUjh5U0hOWUFjRWVDZkJDcTNTaEZVdlpTOG80cVFDRVI5blJMZ2hub2lZUWstbGM0aGR4TXo2by1lWDZ6ODdXaXBlWjFfZjhWV3VDNXR2X3R3?oc=5"
+          "title": "Susuz Yaz Dizisinin Afişi Yayınlandı: Pamuk Tarlasında Mert Ramazan Demir ve Lizge Cömert - Televizyon Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNm5BdUdiaW1lT09nQUlJT0V3c01vMEs3TmlFMnZQY01OUUQ3RFY1VEhrbGtTUW1qLTVjRHNoazk5MmVOekFRa2xhZkJCakRld3BRRl91VmNVSUxvYmpWZWNTTURrNVB6Sjg0cTJSUV9qZzM5UTlYOHBqenV4YmJjRldDZ1h6R0xFNU9JUlpxWndWT1dSdkVyTV94T0loZW9BMmN0T18wbUVFbVZVemFyT2dRNUV4ZmtndWp5dmRSUFFSZnFl?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 6.18,
+      "score": 2.0,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -696,36 +866,136 @@
         {
           "at": "2026-11-18T02:55:00Z",
           "count": 6
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 2
         }
       ],
-      "previousRank": 14,
-      "rank": 15,
-      "indexScore": 8.4
+      "previousRank": 15,
+      "rank": 18,
+      "indexScore": 3.1
     },
     {
-      "name": "Tarkan",
+      "name": "Hadise",
       "category": "Müzisyen",
-      "count24h": 3,
+      "count24h": 1,
       "previous24h": 0,
-      "headline": "Reynmen Paylaştı: Tarkan’a Benzeyen Vatandaş Şaşırttı! - Onedio",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOEIyb3hDQzJfVFpHNTkycENVLVAxMUhFamVXMzRVbk10VGJGVzF1dDVzU0pkdUstWTFkdG93WTJZVkRKZVdvUXBBVC1KZXIzQUVVV1dpSFFkU205NHF1T291WU4wNnNkTEhndll2SmhZN3JOaXNFWVpIOXB1R0NyWHBQa2J2WXJRY1hFMnR3?oc=5",
+      "headline": "Luka Doncic'in 'Hadise'si: Aşkı depreşti, bir kez daha paylaştı - Fanatik",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnNhYUJqSy1INlJKN1hCNWt4eFZLckFkR3ZVWXZOOWFyOEVaYno5V3pWaHRrQUlSRDlaVU9HdE84eU84TXZMLUJ5SkxPSmJXZ1dvSHZJdFBXV0RqUmVsNjJ5Tk8xQmlNNEJwcV9EQ1NkYU9hbjNCak00MnpZSTVuWE5DdE5jTTRlN0JtLXFiRWdqWW5GbkswVDNYM2JEWkhFVUozRWNmZW1xUGszcl9scEdfOA?oc=5",
       "articles": [
         {
-          "title": "Reynmen Paylaştı: Tarkan’a Benzeyen Vatandaş Şaşırttı! - Onedio",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOEIyb3hDQzJfVFpHNTkycENVLVAxMUhFamVXMzRVbk10VGJGVzF1dDVzU0pkdUstWTFkdG93WTJZVkRKZVdvUXBBVC1KZXIzQUVVV1dpSFFkU205NHF1T291WU4wNnNkTEhndll2SmhZN3JOaXNFWVpIOXB1R0NyWHBQa2J2WXJRY1hFMnR3?oc=5"
-        },
-        {
-          "title": "Reynmen Tarkan'a benzeyen rakibini görünce Megastar'ın şarkısını söyledi - Yeniçağ Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZlB1UDh3VThlSV9ObUxIb2dJTmpvcWlocUtraF9DVVk1ak9LRzdEWFAxWGk3Rm5OdzZvYXJQWW8ycjU5SkhocEhCN1hwWW5YQVlRTnhQcTlDYVltSUNzODdLVkJLcWZheGdnSTlySXRWNjFRY0pCMlZtajlZTFhHSjVDcjl4N3lNTGRDdnMtWjdhcGY3T3J1SE9nWFZsX3ZnNU51MlRyX24yX3BJMXdlUjVxNkRGdw?oc=5"
-        },
-        {
-          "title": "Serdar Ortaç: “Bir numara benim, sonra Tarkan” - Habererk.com",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMVlnRmpSa29TYmwybjNTakU2aDhNeVpoODhJSi1KUW9JRUVEREZzSXg5VGI0OGlFMm1tbUREYVB6SW1lTEZJNVZPejU1QVRsQzk4Z0dtakFnR0ZFVWlQVUhuai1xWTg1R3VpT3A3T1NhZXdFWWkwMmEwQXlxd295MEt5dTllYVdZ?oc=5"
+          "title": "Luka Doncic'in 'Hadise'si: Aşkı depreşti, bir kez daha paylaştı - Fanatik",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnNhYUJqSy1INlJKN1hCNWt4eFZLckFkR3ZVWXZOOWFyOEVaYno5V3pWaHRrQUlSRDlaVU9HdE84eU84TXZMLUJ5SkxPSmJXZ1dvSHZJdFBXV0RqUmVsNjJ5Tk8xQmlNNEJwcV9EQ1NkYU9hbjNCak00MnpZSTVuWE5DdE5jTTRlN0JtLXFiRWdqWW5GbkswVDNYM2JEWkhFVUozRWNmZW1xUGszcl9scEdfOA?oc=5"
         }
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 3.14,
+      "score": 1.02,
+      "history": [
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 1
+        }
+      ],
+      "previousRank": null,
+      "rank": 19,
+      "indexScore": 1.6
+    },
+    {
+      "name": "Uraz Kaygılaroğlu",
+      "category": "Oyuncu",
+      "count24h": 1,
+      "previous24h": 0,
+      "headline": "STILL STANDING – Uraz Kaygılaroğlu - Passo",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaE5WQms0R0pQanhnRWdQQmg5d01OVWRxcmM4NmVZb0RWMUJBUHIyXzRSYlBrTEtXRlkzSmRrVTdZTjRWeUUzc3BNTl82VF8xRG80Y2lsRUFrejFNckpwbEkxVHFzREhRV1A0WFRFX1hoZnhJbThQVFlhUDF3T0dlUFp6NElHM3Jlb1lmTUtHUTQwWmpnRERfZWtoSk9rVkNnQUFUU0NHcw?oc=5",
+      "articles": [
+        {
+          "title": "STILL STANDING – Uraz Kaygılaroğlu - Passo",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaE5WQms0R0pQanhnRWdQQmg5d01OVWRxcmM4NmVZb0RWMUJBUHIyXzRSYlBrTEtXRlkzSmRrVTdZTjRWeUUzc3BNTl82VF8xRG80Y2lsRUFrejFNckpwbEkxVHFzREhRV1A0WFRFX1hoZnhJbThQVFlhUDF3T0dlUFp6NElHM3Jlb1lmTUtHUTQwWmpnRERfZWtoSk9rVkNnQUFUU0NHcw?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 1.02,
+      "history": [
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 1
+        }
+      ],
+      "previousRank": null,
+      "rank": 20,
+      "indexScore": 1.6
+    },
+    {
+      "name": "Ajda Pekkan",
+      "category": "Müzisyen",
+      "count24h": 1,
+      "previous24h": 2,
+      "headline": "Ajda Pekkan ya da Tarkan değil... NASA gerçek yıldızların sesini yayınladı - Nefes Gazetesi",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGFmdHZKSl9pdWZzbUNkUDRrR0FObC1BbWw0ODlxaVE4UlFlTGdjdnctRUlKa0FwSjNPcTZaMlhKMEZMZk1OZzJuZTBOeVNWbkVsbGpHTFlhMkU5X1YtYXcyS1JldHA0VHhGcExNSjE1S1htZmVuUVNiZmZBTHQtU1p0ek11dGNqSk1wSXNpRVJKMzZvOXFJb05YVWo5UXJxY3VQNG9B?oc=5",
+      "articles": [
+        {
+          "title": "Ajda Pekkan ya da Tarkan değil... NASA gerçek yıldızların sesini yayınladı - Nefes Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGFmdHZKSl9pdWZzbUNkUDRrR0FObC1BbWw0ODlxaVE4UlFlTGdjdnctRUlKa0FwSjNPcTZaMlhKMEZMZk1OZzJuZTBOeVNWbkVsbGpHTFlhMkU5X1YtYXcyS1JldHA0VHhGcExNSjE1S1htZmVuUVNiZmZBTHQtU1p0ek11dGNqSk1wSXNpRVJKMzZvOXFJb05YVWo5UXJxY3VQNG9B?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 1.0,
+      "history": [
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 1
+        }
+      ],
+      "previousRank": null,
+      "rank": 21,
+      "indexScore": 1.5
+    },
+    {
+      "name": "Serenay Sarıkaya",
+      "category": "Oyuncu",
+      "count24h": 1,
+      "previous24h": 3,
+      "headline": "Serenay Sarıkaya Kemalpaşa'ya Gelin Gideceğini Yazan Hesabı Esprili Bir Paylaşımla Tiye Aldı - Onedio",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcl9GNERkVV9ZaUJsVE83eWZVU2hzNjhwWmtCeElVVUFpZHZMWE4wWHE5bzJ0OWFGQS1idHpqeGl3bFEyZmE3N0I5RWlkeFZBX291MVhpdFVGa0lreEVhYmNCdW9fUWZVQ280bS14VURBbTVUaTlzVUpmdWw5bHNrcEMzNUlHMVB5MVBMNl9pRnZlVFB6LUpKYjZWN3pfUEdlTjVReTBtTzZmWHFqVVB6NkxWQ2xjVHQ1TUVLY1d1dEUyaFU?oc=5",
+      "articles": [
+        {
+          "title": "Serenay Sarıkaya Kemalpaşa'ya Gelin Gideceğini Yazan Hesabı Esprili Bir Paylaşımla Tiye Aldı - Onedio",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcl9GNERkVV9ZaUJsVE83eWZVU2hzNjhwWmtCeElVVUFpZHZMWE4wWHE5bzJ0OWFGQS1idHpqeGl3bFEyZmE3N0I5RWlkeFZBX291MVhpdFVGa0lreEVhYmNCdW9fUWZVQ280bS14VURBbTVUaTlzVUpmdWw5bHNrcEMzNUlHMVB5MVBMNl9pRnZlVFB6LUpKYjZWN3pfUEdlTjVReTBtTzZmWHFqVVB6NkxWQ2xjVHQ1TUVLY1d1dEUyaFU?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 1.0,
+      "history": [
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 1
+        }
+      ],
+      "previousRank": null,
+      "rank": 22,
+      "indexScore": 1.5
+    },
+    {
+      "name": "Tarkan",
+      "category": "Müzisyen",
+      "count24h": 1,
+      "previous24h": 2,
+      "headline": "Reynmen Tarkan'a benzeyen rakibini görünce Megastar'ın şarkısını söyledi - Yeniçağ Gazetesi",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZlB1UDh3VThlSV9ObUxIb2dJTmpvcWlocUtraF9DVVk1ak9LRzdEWFAxWGk3Rm5OdzZvYXJQWW8ycjU5SkhocEhCN1hwWW5YQVlRTnhQcTlDYVltSUNzODdLVkJLcWZheGdnSTlySXRWNjFRY0pCMlZtajlZTFhHSjVDcjl4N3lNTGRDdnMtWjdhcGY3T3J1SE9nWFZsX3ZnNU51MlRyX24yX3BJMXdlUjVxNkRGdw?oc=5",
+      "articles": [
+        {
+          "title": "Reynmen Tarkan'a benzeyen rakibini görünce Megastar'ın şarkısını söyledi - Yeniçağ Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZlB1UDh3VThlSV9ObUxIb2dJTmpvcWlocUtraF9DVVk1ak9LRzdEWFAxWGk3Rm5OdzZvYXJQWW8ycjU5SkhocEhCN1hwWW5YQVlRTnhQcTlDYVltSUNzODdLVkJLcWZheGdnSTlySXRWNjFRY0pCMlZtajlZTFhHSjVDcjl4N3lNTGRDdnMtWjdhcGY3T3J1SE9nWFZsX3ZnNU51MlRyX24yX3BJMXdlUjVxNkRGdw?oc=5"
+        }
+      ],
+      "discovered": false,
+      "googleTrending": false,
+      "score": 1.0,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -742,54 +1012,24 @@
         {
           "at": "2026-11-18T02:55:00Z",
           "count": 3
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 1
         }
       ],
       "previousRank": 16,
-      "rank": 16,
-      "indexScore": 4.3
-    },
-    {
-      "name": "Cem Yılmaz",
-      "category": "Komedyen",
-      "count24h": 2,
-      "previous24h": 0,
-      "headline": "Cem Yılmaz'dan Darüşşafaka'ya destek - Notbir",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QVkczcEppeDRMLXZmdTBoYmQxd2JRSVRxWVE3cmVxNXA2SVU0bm91MjhVVU5PdmhwZG9nMko0S0U3Tnh1aFZRSmhMZExKTWZqaE1mc2tyOVlIb2FFSmtQMnRHQ3hhYUhjc2ROU09JSXNrYzQ?oc=5",
-      "articles": [
-        {
-          "title": "Cem Yılmaz'dan Darüşşafaka'ya destek - Notbir",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QVkczcEppeDRMLXZmdTBoYmQxd2JRSVRxWVE3cmVxNXA2SVU0bm91MjhVVU5PdmhwZG9nMko0S0U3Tnh1aFZRSmhMZExKTWZqaE1mc2tyOVlIb2FFSmtQMnRHQ3hhYUhjc2ROU09JSXNrYzQ?oc=5"
-        },
-        {
-          "title": "Ünlü komedyen Cem Yılmaz'dan Darüşşafaka Spor Kulübü'ne bağış kampanyasına destek çağrısı - Patronlar Dünyası",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWZUREk0WWQtZF9YZWZUR3hncVdoemRsRUoxQ2hMNUxBX09RLWE2cDkzclFFckJCRW9lOUVOaDFmV0R3ZC0tVUhvS1lMTmpILTVpaFdZMUZuTy1XMjRUQTJPM3JTWnBGSkVuNlpmUy13TFBHeHRDRTB5b2x6bVZDUDBYQlQtdUF2UW50TC1TWV9yalBRekpvMjE4SjFSR2FjdmdqTEdhYkVZb0RTaGlHTXZGaWF4UmhLNUNpcg?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 2.06,
-      "history": [
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 2
-        }
-      ],
-      "previousRank": null,
-      "rank": 17,
-      "indexScore": 2.8
+      "rank": 23,
+      "indexScore": 1.5
     },
     {
       "name": "Özcan Deniz",
       "category": "Oyuncu",
-      "count24h": 2,
+      "count24h": 1,
       "previous24h": 2,
-      "headline": "ÖZCAN DENİZ'DEN KIBRIS'TA ÇİFTE KUTLAMA! - Kıbrıs Türk Haber",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwejdlYVRrd0dEajBudWJTblVGTk00MnVfbUVXN0QxV2VSeTBBOVVpM1Y4eE5RZWNNQTBtbGFBLTBQZ1RPZElnaGU4V1FwQmdydG1OQTl0OEV0aEVVcDlzcFpYbFFwZnh2bS1VcnRoOVVZUQ?oc=5",
+      "headline": "Özcan Deniz ve Öykü Karayel'li Son Yemek İçin Geri Sayım! Yayın Tarihi Belli Oldu - Medya Tilkisi",
+      "headlineUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWi1sczh5SEozRjZkcGh4NUFYcl9URlRJVHc5WmNLYWNzVzJwcmF2U3NXWDJraWtWNEhpVGZKRDJ1cmVhS0h0aGF2NTRxbU1RWVY2Sm1waVFiSzhTMzhzdlhmY1c0OUJDN2xKcDdjeGtqQ0hYRExjaklkOG9FbVllLWtXalNDTnd3MC00dXNnS0NZNWgwZ2Myc3FJaG5tcTFub1lhZmtoODZ4SzNaVVRSMw?oc=5",
       "articles": [
-        {
-          "title": "ÖZCAN DENİZ'DEN KIBRIS'TA ÇİFTE KUTLAMA! - Kıbrıs Türk Haber",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwejdlYVRrd0dEajBudWJTblVGTk00MnVfbUVXN0QxV2VSeTBBOVVpM1Y4eE5RZWNNQTBtbGFBLTBQZ1RPZElnaGU4V1FwQmdydG1OQTl0OEV0aEVVcDlzcFpYbFFwZnh2bS1VcnRoOVVZUQ?oc=5"
-        },
         {
           "title": "Özcan Deniz ve Öykü Karayel'li Son Yemek İçin Geri Sayım! Yayın Tarihi Belli Oldu - Medya Tilkisi",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWi1sczh5SEozRjZkcGh4NUFYcl9URlRJVHc5WmNLYWNzVzJwcmF2U3NXWDJraWtWNEhpVGZKRDJ1cmVhS0h0aGF2NTRxbU1RWVY2Sm1waVFiSzhTMzhzdlhmY1c0OUJDN2xKcDdjeGtqQ0hYRExjaklkOG9FbVllLWtXalNDTnd3MC00dXNnS0NZNWgwZ2Myc3FJaG5tcTFub1lhZmtoODZ4SzNaVVRSMw?oc=5"
@@ -797,7 +1037,7 @@
       ],
       "discovered": false,
       "googleTrending": false,
-      "score": 2.0,
+      "score": 1.0,
       "history": [
         {
           "at": "2026-11-17T17:42:45Z",
@@ -814,205 +1054,15 @@
         {
           "at": "2026-11-18T02:55:00Z",
           "count": 2
+        },
+        {
+          "at": "2026-11-18T11:46:10Z",
+          "count": 1
         }
       ],
       "previousRank": 18,
-      "rank": 18,
-      "indexScore": 2.7
-    },
-    {
-      "name": "İbrahim Tatlıses",
-      "category": "Müzisyen",
-      "count24h": 2,
-      "previous24h": 8,
-      "headline": "İbrahim Tatlıses'in Gözlerden Uzakta Büyüttüğü Torunu Ortaya Çıktı! - Memurlar.Net",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVmlfdUlUa20wQ1pLT1lqQjQta0swbjI0MEZSYlJTdmN2TlNXNGpCQ0U4SnJ5WHNDQmNPSmdVdVNqUEgxN1NJTGFON1FXalB5aEVlR2ZRVW51cHRnYnZIM3lWcXBWUXgzMVV1TW1mYjlyYzA2dE4xemh6aUhHR1lYSVdMb2I1NVpZcjBIRVRNVnFGSUQ0U3dPWHBqdWFqVDRZWVdNODNWVzRzdncw?oc=5",
-      "articles": [
-        {
-          "title": "İbrahim Tatlıses'in Gözlerden Uzakta Büyüttüğü Torunu Ortaya Çıktı! - Memurlar.Net",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVmlfdUlUa20wQ1pLT1lqQjQta0swbjI0MEZSYlJTdmN2TlNXNGpCQ0U4SnJ5WHNDQmNPSmdVdVNqUEgxN1NJTGFON1FXalB5aEVlR2ZRVW51cHRnYnZIM3lWcXBWUXgzMVV1TW1mYjlyYzA2dE4xemh6aUhHR1lYSVdMb2I1NVpZcjBIRVRNVnFGSUQ0U3dPWHBqdWFqVDRZWVdNODNWVzRzdncw?oc=5"
-        },
-        {
-          "title": "İbrahim Tatlıses’in Torunu Berfin’in Doğum Günü Karesi Gündem Oldu - Afyon Türkeli Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa3RMdFQyX2Ntb2VBaTJROW9VbS1VNzZ2LUJpa2hLdFpxVlc3RTJfcExDSFhQdndMclNQQWdSZHJfUGJVdy1UeFhhZ1hqb19uX1RxNFdIeEh2Q1hSa2p5aU1EMUtkWU94NnJPVk1OYllsNjhyNmtmcnlmQ3NpRk92ZTZrM2o5YTZrY3dhU3M3QS11WEh6Zm83QVBMRmlQcW40dC1uRGF0UVlBSXhO?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 2.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 6
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 3
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 3
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 2
-        }
-      ],
-      "previousRank": 17,
-      "rank": 19,
-      "indexScore": 2.7
-    },
-    {
-      "name": "Aras Bulut İynemli",
-      "category": "Oyuncu",
-      "count24h": 1,
-      "previous24h": 0,
-      "headline": "Aras Bulut İynemli’nin Hayatını Değiştiren Mete Rolünü Aslında Başka Bir Oyuncu Reddetmiş! - Gecce Magazin Haberleri",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQTRLa3UyWmdXODVLMlV4cjd3dE9GVFdSbzdRM2JtYzd4dTFGeXMzNFpaVThTWkRtcjdRQjJOdjdNMGZuSWdvVVQ1RVF0NkI1VnlNdnlGSU5YeGdwenNMRzFaV2NoNTc4V1AxZ18yQlpCd1lLWnNhVXFJbTMxQzNQZUZ6VFVic3BqNlBrOElQOWdkeWlUb1RXQkFkWjUwREVrR1RHWW1yalFNd0xrZlZwZVpyUWpBbWlsNUNDNE9UN1A3ajkyZnVLcjFnZ9IB0AFBVV95cUxPaEhnM2Izd3FrdXNNeHpIODhUQk5wNVM3U0ZwRW01czJHQm5TMDF3R2lua1V5aVdJMWphclJ6Vm5LcGRQWVF3TW5xaVJkRGZ6Snk1Q3hQM0IwOEhQSHotWm1zcWRfdjZtX1JzVzZva2xsTDFxcDJEaXVDVVRZY3N4SWtaZF9ybFJvR0MtemJKdHNkUlhDdlk5dEk2VGx0bTlZZW1tSGtySkx2SjdlQmZ3MEFHZU9TeDdCV2RMMkFNaUZkbjJWcS1Mb2RmeTFjVXFQ?oc=5",
-      "articles": [
-        {
-          "title": "Aras Bulut İynemli’nin Hayatını Değiştiren Mete Rolünü Aslında Başka Bir Oyuncu Reddetmiş! - Gecce Magazin Haberleri",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQTRLa3UyWmdXODVLMlV4cjd3dE9GVFdSbzdRM2JtYzd4dTFGeXMzNFpaVThTWkRtcjdRQjJOdjdNMGZuSWdvVVQ1RVF0NkI1VnlNdnlGSU5YeGdwenNMRzFaV2NoNTc4V1AxZ18yQlpCd1lLWnNhVXFJbTMxQzNQZUZ6VFVic3BqNlBrOElQOWdkeWlUb1RXQkFkWjUwREVrR1RHWW1yalFNd0xrZlZwZVpyUWpBbWlsNUNDNE9UN1A3ajkyZnVLcjFnZ9IB0AFBVV95cUxPaEhnM2Izd3FrdXNNeHpIODhUQk5wNVM3U0ZwRW01czJHQm5TMDF3R2lua1V5aVdJMWphclJ6Vm5LcGRQWVF3TW5xaVJkRGZ6Snk1Q3hQM0IwOEhQSHotWm1zcWRfdjZtX1JzVzZva2xsTDFxcDJEaXVDVVRZY3N4SWtaZF9ybFJvR0MtemJKdHNkUlhDdlk5dEk2VGx0bTlZZW1tSGtySkx2SjdlQmZ3MEFHZU9TeDdCV2RMMkFNaUZkbjJWcS1Mb2RmeTFjVXFQ?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 1.02,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 6
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 1
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 1
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 1
-        }
-      ],
-      "previousRank": 19,
-      "rank": 20,
-      "indexScore": 1.4
-    },
-    {
-      "name": "Melis Sezen",
-      "category": "Oyuncu",
-      "count24h": 1,
-      "previous24h": 0,
-      "headline": "Melis Sezen'den Newyork'ta paten şov - SacitAslan.com",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUUl6ZDNFNVVTeFRTZEpTWF9saHBlczU4VEdpQlNaOWp2TmtzbExZamRhTGNwY0hGWEMweDduYnB0Y2xvYi16SDBYNXMzTGt3b3AxaVBLb04yTkprdnRzbnlGTFZ1NjdlOURIQkNXT1BWY3d6Q0NVQjltalRRbkRsMNIBhgFBVV95cUxPcVBHVG10Wk5ScjR6Tlh4Qnlyc3l3WEtsbWl6MlNIZmNrbHRwNXVYLU4yczE0UHEtNjExdDFtN193eTRaQXVGcEh6bnpYUHpiM013cWVJd3VNRVVqLWQtYTZjUkRDNVdENGh0Wjh4T0tXUUtfWmNWV3pJUWVlUFU2M0RFNXVNdw?oc=5",
-      "articles": [
-        {
-          "title": "Melis Sezen'den Newyork'ta paten şov - SacitAslan.com",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUUl6ZDNFNVVTeFRTZEpTWF9saHBlczU4VEdpQlNaOWp2TmtzbExZamRhTGNwY0hGWEMweDduYnB0Y2xvYi16SDBYNXMzTGt3b3AxaVBLb04yTkprdnRzbnlGTFZ1NjdlOURIQkNXT1BWY3d6Q0NVQjltalRRbkRsMNIBhgFBVV95cUxPcVBHVG10Wk5ScjR6Tlh4Qnlyc3l3WEtsbWl6MlNIZmNrbHRwNXVYLU4yczE0UHEtNjExdDFtN193eTRaQXVGcEh6bnpYUHpiM013cWVJd3VNRVVqLWQtYTZjUkRDNVdENGh0Wjh4T0tXUUtfWmNWV3pJUWVlUFU2M0RFNXVNdw?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 1.02,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 3
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 1
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 1
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 1
-        }
-      ],
-      "previousRank": 21,
-      "rank": 21,
-      "indexScore": 1.4
-    },
-    {
-      "name": "Yılmaz Erdoğan",
-      "category": "Oyuncu",
-      "count24h": 1,
-      "previous24h": 0,
-      "headline": "Rotadaki Şehir’de bu hafta Hakkarili Yılmaz Erdoğan’ın hikayesi - hakkariilsesigazetesi.com",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ1dGT3dfTFhjYUlRb0lKX1haUEtvQ21kUEw5QkZyMThCdVJLcTduak1PMVhJanNwLXBIT1MzcG5RWlJhTVdNOFZHeXZwajB5Y055OWFDVWFVSExIUHZETjRpbDdMUzRSVWtnMEt6eFNsNXZsWm5oU2oxVzZqQ2pNV3Q2M2txMTBfMHlJX2VTbnFfS19uZERQLWtJT2g1Z21k?oc=5",
-      "articles": [
-        {
-          "title": "Rotadaki Şehir’de bu hafta Hakkarili Yılmaz Erdoğan’ın hikayesi - hakkariilsesigazetesi.com",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ1dGT3dfTFhjYUlRb0lKX1haUEtvQ21kUEw5QkZyMThCdVJLcTduak1PMVhJanNwLXBIT1MzcG5RWlJhTVdNOFZHeXZwajB5Y055OWFDVWFVSExIUHZETjRpbDdMUzRSVWtnMEt6eFNsNXZsWm5oU2oxVzZqQ2pNV3Q2M2txMTBfMHlJX2VTbnFfS19uZERQLWtJT2g1Z21k?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 1.02,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 6
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 1
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 1
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 1
-        }
-      ],
-      "previousRank": 22,
-      "rank": 22,
-      "indexScore": 1.4
-    },
-    {
-      "name": "İrfan Can Kahveci",
-      "category": "Sporcu",
-      "count24h": 1,
-      "previous24h": 1,
-      "headline": "Emre Belözoğlu'ndan Kerem Aktürkoğlu ile İrfan Can Kahveci kararı - Ensonhaber",
-      "headlineUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmtKRTI0dFdPWUY4RjR4cklyeXpzNjJTOS00OHdxNjdZRUo4OVkyX0JKOHlfc3g0Wndsc1BuNjNETmwwZkhNTlRMNHpqUjZzbXVUbndXUldsSF9WZDRyb19IZzBiakVkREZIZW5VRmVHV0liaHVKb3RYdVpfNVZ6NHBjcm03dVFoVG1tcWFRMnVMbzJGQVhIel9yWkl2SS0yR0E?oc=5",
-      "articles": [
-        {
-          "title": "Emre Belözoğlu'ndan Kerem Aktürkoğlu ile İrfan Can Kahveci kararı - Ensonhaber",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmtKRTI0dFdPWUY4RjR4cklyeXpzNjJTOS00OHdxNjdZRUo4OVkyX0JKOHlfc3g0Wndsc1BuNjNETmwwZkhNTlRMNHpqUjZzbXVUbndXUldsSF9WZDRyb19IZzBiakVkREZIZW5VRmVHV0liaHVKb3RYdVpfNVZ6NHBjcm03dVFoVG1tcWFRMnVMbzJGQVhIel9yWkl2SS0yR0E?oc=5"
-        }
-      ],
-      "discovered": false,
-      "googleTrending": false,
-      "score": 1.0,
-      "history": [
-        {
-          "at": "2026-11-17T17:42:45Z",
-          "count": 6
-        },
-        {
-          "at": "2026-11-17T17:53:25Z",
-          "count": 2
-        },
-        {
-          "at": "2026-11-17T18:08:38Z",
-          "count": 1
-        },
-        {
-          "at": "2026-11-18T02:55:00Z",
-          "count": 1
-        }
-      ],
-      "previousRank": 24,
-      "rank": 23,
-      "indexScore": 1.4
+      "rank": 24,
+      "indexScore": 1.5
     }
   ]
 }
